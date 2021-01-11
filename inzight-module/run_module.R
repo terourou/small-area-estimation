@@ -13,5 +13,7 @@ library(iNZight)
 ui <- iNZGUI$new()
 wd <- getwd()
 
+ui$initializeGui(addonDir = wd)
+
 nzincome <- demdata::nz.income
 ui$initializeGui(nzincome, addonDir = wd)
