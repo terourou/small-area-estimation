@@ -7,6 +7,7 @@
 # remotes::install_github("iNZightVIT/iNZight@dev")
 # remotes::install_github("iNZightVIT/iNZightModules@dev")
 
+# devtools::load_all("~/iNZight/iNZight")
 library(iNZight)
 
 # try(ui$close(), TRUE)
