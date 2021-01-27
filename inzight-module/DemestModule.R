@@ -9,7 +9,7 @@ DemestModule <- setRefClass(
         fields = list(
             GUI = "ANY", data = "data.frame",
             g_response = "ANY", g_vars = "ANY", g_model = "ANY",
-            g_fit = "ANY", g_res = "ANY",
+            g_fit = "ANY", g_res = "ANY", g_plot = "ANY",
             varnames = "character", vartypes = "character",
             model_types = "list",
             # -- response
@@ -26,6 +26,8 @@ DemestModule <- setRefClass(
             variables = "character", dim_info = "list",
             var_table = "data.frame",
             variables_confirmed = "logical", variables_conf_btn = "ANY",
+            # -- plot stuff
+            plotvars_x = "ANY", plotvars_c = "ANY",
             # -- model info
             demarray = "ANY", altarray = "ANY",
             model_lbl_likelihood = "ANY",
@@ -238,6 +240,33 @@ DemestModule <- setRefClass(
             add(g_var_btns, variables_conf_btn)
             # tbl_vars[ii, 2:3, expand = TRUE] <- variables_conf_btn
             # ii <- ii + 1L
+
+            ### -------------------------------------- Override some plot features
+            g_plot <<- gexpandgroup("Plot modifications", container = mainGrp)
+            visible(g_plot) <<- FALSE
+            font(g_plot) <<- list(weight = "bold")
+            g_plot$set_borderwidth(5)
+
+            tbl_plot <- glayout(container = g_plot, expand = TRUE)
+            ii <- 1L
+
+            lbl <- glabel("X Variable :")
+            plotvars_x <<- gcombobox(names(data)[sapply(data, iNZightTools::is_cat)],
+                selected = 0)
+            tbl_plot[ii, 1L, expand = TRUE, anchor = c(1, 0)] <- lbl
+            tbl_plot[ii, 2L, expand = TRUE, fill = TRUE] <- plotvars_x
+            ii <- ii + 1L
+
+            lbl <- glabel("Colour Variable :")
+            plotvars_c <<- gcombobox(names(data)[sapply(data, iNZightTools::is_cat)],
+                selected = 0)
+            tbl_plot[ii, 1L, expand = TRUE, anchor = c(1, 0)] <- lbl
+            tbl_plot[ii, 2L, expand = TRUE, fill = TRUE] <- plotvars_c
+            ii <- ii + 1L
+
+            tbl_plot[ii, 2L, expand = TRUE, fill = TRUE] <-
+                gbutton("Update plot",
+                    handler = function(h, ...) updatePlot())
 
 
             ### -------------------------------------- Model specification
@@ -675,25 +704,35 @@ DemestModule <- setRefClass(
 
 
             # first figure out the x-axis: usually age
-            x_var <- NA_character_
-            if (any(vt$Type == "time")) {
-                x_var <- vt$Variable[vt$Type == "time"]
-            } else if (any(vt$Type == "age")) {
-                x_var <- vt$Variable[vt$Type == "age"]
-            } else if (any(vt$Scale == "Intervals")) {
-                x_var <- vt$Variable[vt$Scale == "Intervals"]
+            if (plotvars_x$get_index() == 0L) {
+                x_var <- NA_character_
+                if (any(vt$Type == "time")) {
+                    x_var <- vt$Variable[vt$Type == "time"]
+                } else if (any(vt$Type == "age")) {
+                    x_var <- vt$Variable[vt$Type == "age"]
+                } else if (any(vt$Scale == "Intervals")) {
+                    x_var <- vt$Variable[vt$Scale == "Intervals"]
+                } else {
+                    stop("No continuous variable to use as x-variable")
+                }
+                x_var <- x_var[1L] # in case length > 1L
+                svalue(plotvars_x) <<- x_var
             } else {
-                stop("No continuous variable to use as x-variable")
+                x_var <- svalue(plotvars_x)
             }
-            x_var <- x_var[1L] # in case length > 1L
 
             # now the colour variable: default gender
-            c_var <- NA_character_
-            if (any(vt$Type == "sex")) {
-                c_var <- vt$Variable[vt$Type == "sex"]
+            if (plotvars_c$get_index() == 0L) {
+                c_var <- NA_character_
+                if (any(vt$Type == "sex")) {
+                    c_var <- vt$Variable[vt$Type == "sex"]
+                    svalue(plotvars_c) <<- c_var
+                } else {
+                    # we should use the first categorical variable ...
+                    message("No colour variable (sex) detected")
+                }
             } else {
-                # we should use the first categorical variable ...
-                message("No colour variable (sex) detected")
+                c_var <- svalue(plotvars_c)
             }
 
             # finally, subsetting variables
@@ -906,7 +945,7 @@ DemestModule <- setRefClass(
 
             del <- capture.output(
                 model_params <<-
-                    demest::listContents(ui$activeModule$model_file)
+                    demest::listContents(ui$activeModule$model_file)$model
             )
             rm(del)
 

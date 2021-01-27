@@ -1,4 +1,4 @@
-- [ ] change order of variables on plot axes
+- [x] change order of variables on plot axes
 - [x] merge existing datasets (iNZight#340)
 - [ ] form class intervals -> add format option
 - [ ] add some type-specific results (e.g., life expectancy for death data)
