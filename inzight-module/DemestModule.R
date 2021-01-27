@@ -558,12 +558,14 @@ DemestModule <- setRefClass(
             dtypes <- dembase:::inferDimtypes(vars)
             dim_info <<- sapply(seq_along(vars),
                 function(i) {
+                    print(as.character(unique(data[[i]])))
                     t <- try(dembase::inferDimScale(dtypes[i],
                         labels = as.character(unique(data[[i]])),
                         name = vars[i]
                     ), silent = TRUE)
                     if (!inherits(t, "try-error")) return(t)
                     chk <- "could have dimscale \"Intervals\" or dimscale \"Points\""
+                    print(t)
                     if (!grepl(chk, as.character(t))) return(NA)
                     dembase::inferDimScale(dtypes[i],
                         dimscale = "Intervals",

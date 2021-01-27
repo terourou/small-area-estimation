@@ -26,5 +26,3 @@ popn <- read_csv("data/MAN02001.csv",
 
 saveRDS(popn,
         file = "out/popn.rds")
-
-
