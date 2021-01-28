@@ -429,7 +429,7 @@ DemestModule <- setRefClass(
 
             ### -------------------------------------- Prediction & forecasting
             g_pred <<- gexpandgroup("Prediction / forecasting",
-                container = mainGrp
+                container = mainGrp,
             )
             visible(g_pred) <<- FALSE
             font(g_pred) <<- list(weight = "bold")
@@ -448,8 +448,8 @@ DemestModule <- setRefClass(
                 Deaths = "Life expectancy"
             )
             lbl <- glabel("Forecast type :")
-            tbl_pred[ii, 1L, anchor = c(1, 0)] <- lbl
-            tbl_pred[ii, 2:3, fill = TRUE, expand = TRUE] <- forecast_methods
+            tbl_pred[ii, 1L, anchor = c(1, 0), expand = TRUE] <- lbl
+            tbl_pred[ii, 2:3, expand = TRUE] <- forecast_methods
             ii <- ii + 1L
 
 

@@ -24,7 +24,7 @@ ui$initializeGui(nzincome, addonDir = wd)
 library(iNZightTools)
 
 deaths <- iNZightTools::smart_read('../vignettes/mortality/data/MAN05221.csv') %>%
-    dplyr::mutate(Age = ifelse(grepl("1st", Age), 0, Age)) %>%
+    dplyr::mutate(Age = ifelse(grepl("1st", as.character(Age)), 0, as.character(Age))) %>%
     dplyr::mutate(Age = gsub("[^0-9]", "", Age)) %>%
     dplyr::mutate(Age = cut(
         as.integer(Age),
@@ -37,7 +37,7 @@ deaths <- iNZightTools::smart_read('../vignettes/mortality/data/MAN05221.csv') %
     dplyr::mutate(Age = as.factor(gsub(",", "-", Age, fixed = TRUE)))
 
 pop <- iNZightTools::smart_read("../vignettes/mortality/data/MAN02001.csv") %>%
-    dplyr::mutate(Age = ifelse(grepl("1st", Age), 0, Age)) %>%
+    dplyr::mutate(Age = ifelse(grepl("1st", as.character(Age)), 0, as.character(Age))) %>%
     dplyr::mutate(Age = gsub("[^0-9]", "", Age)) %>%
     dplyr::mutate(Age = cut(
         as.integer(Age),
