@@ -9,7 +9,7 @@ DemestModule <- setRefClass(
         fields = list(
             GUI = "ANY", data = "data.frame",
             g_response = "ANY", g_vars = "ANY", g_model = "ANY",
-            g_fit = "ANY", g_res = "ANY", g_plot = "ANY",
+            g_fit = "ANY", g_res = "ANY", g_plot = "ANY", g_pred = "ANY",
             varnames = "character", vartypes = "character",
             model_types = "list",
             # -- response
@@ -44,7 +44,10 @@ DemestModule <- setRefClass(
             model_file = "character",
             fit_model_btn = "ANY",
             model_exists = "logical",
-            model_params = "list", model_param_tree = "ANY"
+            model_params = "list", model_param_tree = "ANY",
+            # -- forecasting
+            forecast_methods = "ANY", forecast_options = "list",
+            forecast_data = "ANY"
             # tab_data = "ANY",
             # exposure = "ANY",
             # used_vars = "ANY",
@@ -424,6 +427,31 @@ DemestModule <- setRefClass(
             size(model_param_tree) <<- c(-1, 150)
 
 
+            ### -------------------------------------- Prediction & forecasting
+            g_pred <<- gexpandgroup("Prediction / forecasting",
+                container = mainGrp
+            )
+            visible(g_pred) <<- FALSE
+            font(g_pred) <<- list(weight = "bold")
+            g_pred$set_borderwidth(5)
+
+            tbl_pred <- glayout(container = g_pred, expand = TRUE)
+            ii <- 1L
+
+            forecast_methods <<- gcombobox(" - None -",
+                handler = function(h, ...) {
+                    if (svalue(h$obj) == " - None - ") return()
+                    forecast(svalue(h$obj))
+                }
+            )
+            forecast_options <<- list(
+                Deaths = "Life expectancy"
+            )
+            lbl <- glabel("Forecast type :")
+            tbl_pred[ii, 1L, anchor = c(1, 0)] <- lbl
+            tbl_pred[ii, 2:3, fill = TRUE, expand = TRUE] <- forecast_methods
+            ii <- ii + 1L
+
 
             ## --------- initialize signals for when things change:
             addResponseObserver(function() {
@@ -445,6 +473,9 @@ DemestModule <- setRefClass(
                 enabled(model_box) <<- !is.na(response)
             })
             addModelObserver(function() {
+                blockHandler(forecast_methods)
+                on.exit(unblockHandlers(forecast_methods))
+                forecast_methods$set_items(" - None -")
                 if (is.na(model)) {
                     # disable things
                     enabled(model_fw_box) <<- FALSE
@@ -468,6 +499,10 @@ DemestModule <- setRefClass(
 
                     unblockHandlers(model_fw_box)
                     model_fw_box$invoke_change_handler()
+
+                    if (model %in% names(forecast_options)) {
+                        forecast_methods$set_items(c(" - None - ", forecast_options[[model]]))
+                    }
                 }
 
             })
@@ -587,14 +622,12 @@ DemestModule <- setRefClass(
             dtypes <- dembase:::inferDimtypes(vars)
             dim_info <<- sapply(seq_along(vars),
                 function(i) {
-                    print(as.character(unique(data[[i]])))
                     t <- try(dembase::inferDimScale(dtypes[i],
                         labels = as.character(unique(data[[i]])),
                         name = vars[i]
                     ), silent = TRUE)
                     if (!inherits(t, "try-error")) return(t)
                     chk <- "could have dimscale \"Intervals\" or dimscale \"Points\""
-                    print(t)
                     if (!grepl(chk, as.character(t))) return(NA)
                     dembase::inferDimScale(dtypes[i],
                         dimscale = "Intervals",
@@ -846,7 +879,7 @@ DemestModule <- setRefClass(
         },
         plot_parameter = function(par) {
             # extract MCMC
-            mcmc <- demest::fetchMCMC(model_file, par)
+            mcmc <- demest::fetchMCMC(model_file, c("model", par))
             # 'coda' is imported by 'demest'
             n <- rownames(summary(mcmc)[[1]])
             exp <- "tidybayes::gather_draws(mcmc, %s)"
@@ -933,6 +966,7 @@ DemestModule <- setRefClass(
                 nThin = {fit_nthin},
                 nCore = {fit_ncore}
             )")
+            print(exp)
 
             eval(parse(text = exp))
 
@@ -953,6 +987,33 @@ DemestModule <- setRefClass(
             visible(g_res) <<- TRUE
 
             updatePlot()
+        },
+        forecast = function(type) {
+            switch(type,
+                "Life expectancy" = {
+                    forecast_data <<- demest::fetch(model_file, where = c("model", "likelihood", "rate")) %>%
+                        demlife::LifeTable() %>%
+                        demlife::lifeExpectancy() %>%
+                        dembase::collapseIterations(prob = c(0.025, 0.5, 0.975)) %>%
+                        as.data.frame()
+                    cnames <- colnames(forecast_data)
+                    cnames <- cnames[cnames %notin% c("quantile", "value")]
+                    d <- tidyr::pivot_wider(forecast_data,
+                        id_cols = cnames,
+                        names_from = quantile
+                    )
+                    p <- ggplot2::ggplot(d, ggplot2::aes_string(x = cnames[1])) +
+                        ggplot2::facet_wrap(ggplot2::vars(.data[[cnames[2]]])) +
+                        ggplot2::geom_ribbon(
+                            ggplot2::aes(ymin = `2.5%`, ymax = `97.5%`),
+                            fill = "lightblue"
+                        ) +
+                        ggplot2::geom_line(ggplot2::aes(y = `50%`), col = "darkblue") +
+                        ggplot2::xlab("Year") +
+                        ggplot2::ylab("Life expectancy at birth (years)")
+                    print(p)
+                }
+            )
         },
         close = function() {
             # any module-specific clean up?
