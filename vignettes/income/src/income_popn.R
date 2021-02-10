@@ -12,7 +12,7 @@ filename <- "out/model.est"
 income_popn <- fetch(filename, where = c("model", "likelihood", "mean")) %>%
     ## converting back to original units - can be omitted
     ## if difficult to do with current interface
-    exp() %>% 
+    exp() %>%
     collapseIterations(prob = c(0.025, 0.5, 0.975)) %>%
     as.data.frame(midpoints = "age", stringsAsFactors = TRUE)
 
