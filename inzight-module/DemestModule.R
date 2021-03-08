@@ -1090,8 +1090,10 @@ DemestModule <- setRefClass(
                         id_cols = cnames,
                         names_from = quantile
                     )
-                    p <- ggplot2::ggplot(d, ggplot2::aes_string(x = cnames[1])) +
-                        ggplot2::facet_wrap(ggplot2::vars(.data[[cnames[2]]])) +
+                    num_vars <- cnames[sapply(forecast_data[cnames], iNZightTools::is_num)]
+                    cat_vars <- cnames[sapply(forecast_data[cnames], iNZightTools::is_cat)]
+                    p <- ggplot2::ggplot(d, ggplot2::aes_string(x = num_vars[1])) +
+                        ggplot2::facet_wrap(ggplot2::vars(.data[[cat_vars[1]]])) +
                         ggplot2::geom_ribbon(
                             ggplot2::aes(ymin = `2.5%`, ymax = `97.5%`),
                             fill = "lightblue"

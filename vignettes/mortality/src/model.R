@@ -25,11 +25,3 @@ estimateModel(model = model,
               nChain = 4,
               nThin = 40)
 fetchSummary(filename, nSample = 100)
-
-
-
-                                  
-                    
-
-
-
