@@ -1,6 +1,6 @@
 - [x] change order of variables on plot axes
 - [x] merge existing datasets (iNZight#340)
-- [ ] form class intervals -> add format option
+- [x] form class intervals -> add format option
 - [x] add some type-specific results
     - [x] life expectancy
     - [x] (inverse) transformations
