@@ -28,11 +28,15 @@ DemestModule <- setRefClass(
             variables_confirmed = "logical", variables_conf_btn = "ANY",
             # -- plot stuff
             plotvars_x = "ANY", plotvars_c = "ANY",
+            response_transform = "ANY",
             # -- model info
             demarray = "ANY", altarray = "ANY",
             model_lbl_likelihood = "ANY",
             model_lbl_mean = "ANY", model_lbl_var = "ANY",
             model_fmla = "character", model_fmla_box = "ANY",
+            model_var = "numeric", model_var_box = "ANY", model_var_box_g = "ANY",
+            weights_chk = "ANY", weights_var = "character",
+            weights_lbl = "ANY", weights_var_box = "ANY",
             model_confirmed = "logical", model_confirmed_btn = "ANY",
             # -- fit specs
             fit_niter = "integer", fit_niter_spec = "ANY",
@@ -70,6 +74,7 @@ DemestModule <- setRefClass(
                 Scale = factor(levels = c("Categories", "Intervals", "Points", "Sexes"))
             ),
             variables_confirmed = FALSE,
+            weights_var = NA_character_,
             model_confirmed = FALSE,
             fit_niter = 1e2L, fit_nburn = 1e2L,
             fit_nthin = 2L, fit_nchain = 4L, fit_ncore = 1L,
@@ -206,9 +211,6 @@ DemestModule <- setRefClass(
             font(g_vars) <<- list(weight = "bold")
 
             g_vars$set_borderwidth(5)
-            # tbl_vars <- glayout(container = g_vars,
-            #     expand = TRUE)
-            # ii <- 1L
 
             variable_df <<- gdf(var_table)
             add(g_vars, variable_df, expand = TRUE)
@@ -267,6 +269,15 @@ DemestModule <- setRefClass(
             tbl_plot[ii, 2L, expand = TRUE, fill = TRUE] <- plotvars_c
             ii <- ii + 1L
 
+            lbl <- glabel("Response transformation :")
+            response_transform <<- gcombobox(
+                c("", "exp")
+            )
+            tbl_plot[ii, 1L, expand = TRUE, anchor = c(1, 0)] <- lbl
+            tbl_plot[ii, 2L, expand = TRUE, fill = TRUE] <- response_transform
+            ii <- ii + 1L
+
+
             tbl_plot[ii, 2L, expand = TRUE, fill = TRUE] <-
                 gbutton("Update plot",
                     handler = function(h, ...) updatePlot())
@@ -298,7 +309,35 @@ DemestModule <- setRefClass(
             ii <- ii + 1L
 
             # only for Normal models ... usually just going to be fixed..?
-            model_lbl_var <<- glabel("")
+            model_lbl_var <<- glabel("\U03C3 = ")
+            model_var_box <<- gedit("")
+            model_var_box_g <<- ggroup(expand = TRUE, fill = TRUE)
+            add(model_var_box_g, model_var_box, expand = TRUE, fill = TRUE)
+            visible(model_var_box_g) <<- FALSE
+            visible(model_lbl_var) <<- FALSE
+            tbl_likelihood[ii, 1L, expand = TRUE, anchor = c(1, 0)] <- model_lbl_var
+            tbl_likelihood[ii, 2:3, expand = TRUE, fill = TRUE] <- model_var_box_g
+            ii <- ii + 1L
+
+            # weights: e.g., if observations are estimates with standard errors
+            weights_chk <<- gcheckbox("Observations have known errors",
+                checked = FALSE,
+                handler = function(h, ...) {
+                    visible(weights_lbl) <<- svalue(weights_chk)
+                    visible(weights_var_box) <<- svalue(weights_chk)
+                }
+            )
+            tbl_likelihood[ii,  2:3,expand = TRUE] <- weights_chk
+            ii <- ii + 1L
+
+            weights_var_box <<- gcombobox("",
+                handler = function(h, ...) weights_var <<- svalue(h$obj))
+            weights_lbl <<- glabel("Error variable :")
+            visible(weights_var_box) <<- FALSE
+            visible(weights_lbl) <<- FALSE
+            tbl_likelihood[ii, 1L, expand = TRUE, anchor = c(1, 0)] <- weights_lbl
+            tbl_likelihood[ii, 2:3, expand = TRUE, fill = TRUE] <- weights_var_box
+            ii <- ii + 1L
 
             model_confirmed_btn <<- gbutton("Save",
                 handler = function(h, ...) {
@@ -585,10 +624,15 @@ DemestModule <- setRefClass(
                         var_table$Variable[var_table$Use],
                         collapse = " + "
                     )
+                    extra_vars <- var_table$Variable[!var_table$Use]
+                    weights_var_box$set_items(c("", extra_vars))
                 }
                 enabled(variable_df) <<- !variables_confirmed
                 visible(g_vars) <<- !variables_confirmed
                 visible(g_model) <<- variables_confirmed
+
+
+
 
                 if (variables_confirmed)
                     make_arrays()
@@ -596,6 +640,9 @@ DemestModule <- setRefClass(
 
             addModelConfirmedObserver(function() {
                 enabled(model_fmla_box) <<- !model_confirmed
+                enabled(model_var_box) <<- !model_confirmed
+                enabled(weights_chk) <<- !model_confirmed
+                enabled(weights_var_box) <<- !model_confirmed
                 visible(g_model) <<- !model_confirmed
                 visible(g_fit) <<- model_confirmed
 
@@ -802,6 +849,16 @@ DemestModule <- setRefClass(
             cname <- names(df)[ncol(df)]
             print(cname)
             print(head(df))
+
+            # transform y
+            if (svalue(response_transform) != "") {
+                df[[cname]] <- switch(
+                    svalue(response_transform),
+                    "exp" = exp(df[[cname]]),
+                    df[[cname]]
+                )
+            }
+
             p <- ggplot2::ggplot(df,
                     ggplot2::aes_(
                         x = as.name(x_var),
@@ -819,6 +876,11 @@ DemestModule <- setRefClass(
                 )
                 fitted_y <- demest::fetch(model_file,
                     where = c("model", "likelihood", v)
+                )
+                fitted_y <- switch(
+                    svalue(response_transform),
+                    "exp" = exp(fitted_y),
+                    fitted_y
                 )
                 alpha <- 0.95
                 a <- 1 - alpha
@@ -930,11 +992,20 @@ DemestModule <- setRefClass(
                 var_table$Variable[var_table$Use],
                 collapse = " + "
             )
+
+            visible(model_lbl_var) <<- Model == "Normal"
+            visible(model_var_box_g) <<- Model == "Normal"
         },
         save_model = function() {
             args <- ""
             if (model_fw == "Poisson") {
                 args <- glue::glue("{args}, useExpose = {!is.na(secondaryvar)}")
+            }
+            if (model_fw == "Normal") {
+                m_sd <- as.numeric(svalue(model_var_box))
+                if (!is.na(m_sd)) {
+                    args <- glue::glue("{args}, sd = {m_sd}")
+                }
             }
             model_expr <- glue::glue(
                 "demest::Model(
@@ -955,10 +1026,27 @@ DemestModule <- setRefClass(
             exp_expr <- ifelse(is.na(secondaryvar), "",
                 "exposure = altarray,"
             )
+            wts_expr <- ""
+            if (svalue(weights_chk)) {
+                vars <- var_table$Variable[var_table$Use]
+                vtypes <- as.character(var_table$Type[var_table$Use])
+                vscales <- as.character(var_table$Scale[var_table$Use])
+                names(vtypes) <- names(vscales) <- vars
+                wtarray <- make_dem_array(
+                    data,
+                    weights_var,
+                    vars,
+                    "Counts",
+                    vtypes,
+                    vscales
+                )
+                wts <- dembase::Counts(1 / wtarray^2)
+                wts_expr <- "weights = wts,"
+            }
             exp <- glue::glue("demest::estimateModel(
                 model = model_object,
                 y = demarray,
-                {exp_expr}
+                {exp_expr}{wts_expr}
                 filename = '{model_file}',
                 nBurnin = {fit_nburn},
                 nSim = {fit_niter},
@@ -1002,8 +1090,10 @@ DemestModule <- setRefClass(
                         id_cols = cnames,
                         names_from = quantile
                     )
-                    p <- ggplot2::ggplot(d, ggplot2::aes_string(x = cnames[1])) +
-                        ggplot2::facet_wrap(ggplot2::vars(.data[[cnames[2]]])) +
+                    num_vars <- cnames[sapply(forecast_data[cnames], iNZightTools::is_num)]
+                    cat_vars <- cnames[sapply(forecast_data[cnames], iNZightTools::is_cat)]
+                    p <- ggplot2::ggplot(d, ggplot2::aes_string(x = num_vars[1])) +
+                        ggplot2::facet_wrap(ggplot2::vars(.data[[cat_vars[1]]])) +
                         ggplot2::geom_ribbon(
                             ggplot2::aes(ymin = `2.5%`, ymax = `97.5%`),
                             fill = "lightblue"
