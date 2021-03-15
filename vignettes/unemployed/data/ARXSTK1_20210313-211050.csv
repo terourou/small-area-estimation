@@ -1,0 +1,3602 @@
+#"The labour force among permanent residents aged 18-65 years by time, quarter, district, place of residence, age and gender <em>[ARESTK1]</em> "
+"time","district","age","gender","Labour force in average per month","Unemployment in average per month"
+"2010","Nanortalik","18-19 years","Men",14,5
+"2010","Nanortalik","18-19 years","Women",16,5
+"2010","Nanortalik","20-24 years","Men",53,17
+"2010","Nanortalik","20-24 years","Women",42,15
+"2010","Nanortalik","25-29 years","Men",55,15
+"2010","Nanortalik","25-29 years","Women",40,8
+"2010","Nanortalik","30-34 years","Men",42,12
+"2010","Nanortalik","30-34 years","Women",43,8
+"2010","Nanortalik","35-39 years","Men",42,8
+"2010","Nanortalik","35-39 years","Women",26,6
+"2010","Nanortalik","40-44 years","Men",59,17
+"2010","Nanortalik","40-44 years","Women",65,11
+"2010","Nanortalik","45-49 years","Men",58,9
+"2010","Nanortalik","45-49 years","Women",60,6
+"2010","Nanortalik","50-54 years","Men",60,9
+"2010","Nanortalik","50-54 years","Women",38,6
+"2010","Nanortalik","55-59 years","Men",49,8
+"2010","Nanortalik","55-59 years","Women",28,4
+"2010","Nanortalik","Over 60 years","Men",35,5
+"2010","Nanortalik","Over 60 years","Women",12,0
+"2010","Qaqortoq","18-19 years","Men",23,3
+"2010","Qaqortoq","18-19 years","Women",26,4
+"2010","Qaqortoq","20-24 years","Men",101,14
+"2010","Qaqortoq","20-24 years","Women",85,16
+"2010","Qaqortoq","25-29 years","Men",84,11
+"2010","Qaqortoq","25-29 years","Women",68,9
+"2010","Qaqortoq","30-34 years","Men",77,8
+"2010","Qaqortoq","30-34 years","Women",56,9
+"2010","Qaqortoq","35-39 years","Men",61,6
+"2010","Qaqortoq","35-39 years","Women",59,6
+"2010","Qaqortoq","40-44 years","Men",116,10
+"2010","Qaqortoq","40-44 years","Women",98,9
+"2010","Qaqortoq","45-49 years","Men",139,17
+"2010","Qaqortoq","45-49 years","Women",136,10
+"2010","Qaqortoq","50-54 years","Men",122,13
+"2010","Qaqortoq","50-54 years","Women",96,6
+"2010","Qaqortoq","55-59 years","Men",87,11
+"2010","Qaqortoq","55-59 years","Women",68,6
+"2010","Qaqortoq","Over 60 years","Men",63,10
+"2010","Qaqortoq","Over 60 years","Women",38,1
+"2010","Narsaq","18-19 years","Men",14,4
+"2010","Narsaq","18-19 years","Women",11,1
+"2010","Narsaq","20-24 years","Men",44,10
+"2010","Narsaq","20-24 years","Women",35,7
+"2010","Narsaq","25-29 years","Men",38,6
+"2010","Narsaq","25-29 years","Women",38,9
+"2010","Narsaq","30-34 years","Men",30,7
+"2010","Narsaq","30-34 years","Women",27,5
+"2010","Narsaq","35-39 years","Men",21,3
+"2010","Narsaq","35-39 years","Women",29,1
+"2010","Narsaq","40-44 years","Men",58,10
+"2010","Narsaq","40-44 years","Women",49,6
+"2010","Narsaq","45-49 years","Men",89,10
+"2010","Narsaq","45-49 years","Women",78,7
+"2010","Narsaq","50-54 years","Men",72,12
+"2010","Narsaq","50-54 years","Women",59,7
+"2010","Narsaq","55-59 years","Men",50,9
+"2010","Narsaq","55-59 years","Women",39,2
+"2010","Narsaq","Over 60 years","Men",45,5
+"2010","Narsaq","Over 60 years","Women",23,0
+"2010","Ivittuut","18-19 years","Men",0,0
+"2010","Ivittuut","18-19 years","Women",0,0
+"2010","Ivittuut","20-24 years","Men",1,0
+"2010","Ivittuut","20-24 years","Women",3,0
+"2010","Ivittuut","25-29 years","Men",8,0
+"2010","Ivittuut","25-29 years","Women",4,0
+"2010","Ivittuut","30-34 years","Men",8,0
+"2010","Ivittuut","30-34 years","Women",1,0
+"2010","Ivittuut","35-39 years","Men",9,0
+"2010","Ivittuut","35-39 years","Women",5,0
+"2010","Ivittuut","40-44 years","Men",14,0
+"2010","Ivittuut","40-44 years","Women",2,0
+"2010","Ivittuut","45-49 years","Men",12,0
+"2010","Ivittuut","45-49 years","Women",0,0
+"2010","Ivittuut","50-54 years","Men",8,0
+"2010","Ivittuut","50-54 years","Women",1,0
+"2010","Ivittuut","55-59 years","Men",6,0
+"2010","Ivittuut","55-59 years","Women",1,0
+"2010","Ivittuut","Over 60 years","Men",3,0
+"2010","Ivittuut","Over 60 years","Women",3,0
+"2010","Paamiut","18-19 years","Men",12,4
+"2010","Paamiut","18-19 years","Women",9,1
+"2010","Paamiut","20-24 years","Men",44,9
+"2010","Paamiut","20-24 years","Women",32,7
+"2010","Paamiut","25-29 years","Men",56,12
+"2010","Paamiut","25-29 years","Women",39,6
+"2010","Paamiut","30-34 years","Men",44,5
+"2010","Paamiut","30-34 years","Women",23,3
+"2010","Paamiut","35-39 years","Men",25,5
+"2010","Paamiut","35-39 years","Women",23,3
+"2010","Paamiut","40-44 years","Men",56,5
+"2010","Paamiut","40-44 years","Women",44,2
+"2010","Paamiut","45-49 years","Men",77,12
+"2010","Paamiut","45-49 years","Women",54,4
+"2010","Paamiut","50-54 years","Men",62,8
+"2010","Paamiut","50-54 years","Women",38,2
+"2010","Paamiut","55-59 years","Men",48,4
+"2010","Paamiut","55-59 years","Women",25,3
+"2010","Paamiut","Over 60 years","Men",34,3
+"2010","Paamiut","Over 60 years","Women",19,2
+"2010","Nuuk","18-19 years","Men",119,13
+"2010","Nuuk","18-19 years","Women",114,6
+"2010","Nuuk","20-24 years","Men",398,26
+"2010","Nuuk","20-24 years","Women",365,20
+"2010","Nuuk","25-29 years","Men",445,23
+"2010","Nuuk","25-29 years","Women",417,16
+"2010","Nuuk","30-34 years","Men",515,22
+"2010","Nuuk","30-34 years","Women",437,13
+"2010","Nuuk","35-39 years","Men",491,13
+"2010","Nuuk","35-39 years","Women",380,12
+"2010","Nuuk","40-44 years","Men",621,32
+"2010","Nuuk","40-44 years","Women",572,27
+"2010","Nuuk","45-49 years","Men",713,38
+"2010","Nuuk","45-49 years","Women",618,32
+"2010","Nuuk","50-54 years","Men",629,31
+"2010","Nuuk","50-54 years","Women",467,21
+"2010","Nuuk","55-59 years","Men",401,17
+"2010","Nuuk","55-59 years","Women",318,6
+"2010","Nuuk","Over 60 years","Men",253,6
+"2010","Nuuk","Over 60 years","Women",148,4
+"2010","Maniitsoq","18-19 years","Men",30,4
+"2010","Maniitsoq","18-19 years","Women",20,4
+"2010","Maniitsoq","20-24 years","Men",83,14
+"2010","Maniitsoq","20-24 years","Women",76,16
+"2010","Maniitsoq","25-29 years","Men",86,8
+"2010","Maniitsoq","25-29 years","Women",71,10
+"2010","Maniitsoq","30-34 years","Men",90,8
+"2010","Maniitsoq","30-34 years","Women",63,6
+"2010","Maniitsoq","35-39 years","Men",77,6
+"2010","Maniitsoq","35-39 years","Women",62,2
+"2010","Maniitsoq","40-44 years","Men",119,10
+"2010","Maniitsoq","40-44 years","Women",87,7
+"2010","Maniitsoq","45-49 years","Men",140,11
+"2010","Maniitsoq","45-49 years","Women",128,7
+"2010","Maniitsoq","50-54 years","Men",122,11
+"2010","Maniitsoq","50-54 years","Women",83,4
+"2010","Maniitsoq","55-59 years","Men",87,5
+"2010","Maniitsoq","55-59 years","Women",55,4
+"2010","Maniitsoq","Over 60 years","Men",59,5
+"2010","Maniitsoq","Over 60 years","Women",39,1
+"2010","Sisimiut","18-19 years","Men",64,5
+"2010","Sisimiut","18-19 years","Women",62,8
+"2010","Sisimiut","20-24 years","Men",209,10
+"2010","Sisimiut","20-24 years","Women",146,15
+"2010","Sisimiut","25-29 years","Men",169,10
+"2010","Sisimiut","25-29 years","Women",137,11
+"2010","Sisimiut","30-34 years","Men",156,6
+"2010","Sisimiut","30-34 years","Women",130,8
+"2010","Sisimiut","35-39 years","Men",147,6
+"2010","Sisimiut","35-39 years","Women",146,6
+"2010","Sisimiut","40-44 years","Men",263,10
+"2010","Sisimiut","40-44 years","Women",217,11
+"2010","Sisimiut","45-49 years","Men",224,7
+"2010","Sisimiut","45-49 years","Women",232,8
+"2010","Sisimiut","50-54 years","Men",216,7
+"2010","Sisimiut","50-54 years","Women",167,4
+"2010","Sisimiut","55-59 years","Men",146,4
+"2010","Sisimiut","55-59 years","Women",103,3
+"2010","Sisimiut","Over 60 years","Men",113,3
+"2010","Sisimiut","Over 60 years","Women",47,1
+"2010","Kangaatsiaq","18-19 years","Men",12,5
+"2010","Kangaatsiaq","18-19 years","Women",11,6
+"2010","Kangaatsiaq","20-24 years","Men",43,12
+"2010","Kangaatsiaq","20-24 years","Women",30,13
+"2010","Kangaatsiaq","25-29 years","Men",38,10
+"2010","Kangaatsiaq","25-29 years","Women",23,10
+"2010","Kangaatsiaq","30-34 years","Men",17,3
+"2010","Kangaatsiaq","30-34 years","Women",26,6
+"2010","Kangaatsiaq","35-39 years","Men",22,5
+"2010","Kangaatsiaq","35-39 years","Women",21,2
+"2010","Kangaatsiaq","40-44 years","Men",36,5
+"2010","Kangaatsiaq","40-44 years","Women",32,5
+"2010","Kangaatsiaq","45-49 years","Men",43,4
+"2010","Kangaatsiaq","45-49 years","Women",41,5
+"2010","Kangaatsiaq","50-54 years","Men",44,5
+"2010","Kangaatsiaq","50-54 years","Women",31,4
+"2010","Kangaatsiaq","55-59 years","Men",24,2
+"2010","Kangaatsiaq","55-59 years","Women",11,1
+"2010","Kangaatsiaq","Over 60 years","Men",8,1
+"2010","Kangaatsiaq","Over 60 years","Women",2,0
+"2010","Aasiaat","18-19 years","Men",40,3
+"2010","Aasiaat","18-19 years","Women",25,3
+"2010","Aasiaat","20-24 years","Men",84,10
+"2010","Aasiaat","20-24 years","Women",76,10
+"2010","Aasiaat","25-29 years","Men",95,9
+"2010","Aasiaat","25-29 years","Women",64,9
+"2010","Aasiaat","30-34 years","Men",49,4
+"2010","Aasiaat","30-34 years","Women",55,5
+"2010","Aasiaat","35-39 years","Men",77,3
+"2010","Aasiaat","35-39 years","Women",56,5
+"2010","Aasiaat","40-44 years","Men",125,13
+"2010","Aasiaat","40-44 years","Women",108,10
+"2010","Aasiaat","45-49 years","Men",144,14
+"2010","Aasiaat","45-49 years","Women",105,7
+"2010","Aasiaat","50-54 years","Men",104,9
+"2010","Aasiaat","50-54 years","Women",57,3
+"2010","Aasiaat","55-59 years","Men",67,5
+"2010","Aasiaat","55-59 years","Women",51,2
+"2010","Aasiaat","Over 60 years","Men",56,2
+"2010","Aasiaat","Over 60 years","Women",35,1
+"2010","Qasigiannguit","18-19 years","Men",13,2
+"2010","Qasigiannguit","18-19 years","Women",11,2
+"2010","Qasigiannguit","20-24 years","Men",40,2
+"2010","Qasigiannguit","20-24 years","Women",32,4
+"2010","Qasigiannguit","25-29 years","Men",32,2
+"2010","Qasigiannguit","25-29 years","Women",28,2
+"2010","Qasigiannguit","30-34 years","Men",39,4
+"2010","Qasigiannguit","30-34 years","Women",23,1
+"2010","Qasigiannguit","35-39 years","Men",38,3
+"2010","Qasigiannguit","35-39 years","Women",38,3
+"2010","Qasigiannguit","40-44 years","Men",53,2
+"2010","Qasigiannguit","40-44 years","Women",41,2
+"2010","Qasigiannguit","45-49 years","Men",43,3
+"2010","Qasigiannguit","45-49 years","Women",45,2
+"2010","Qasigiannguit","50-54 years","Men",33,3
+"2010","Qasigiannguit","50-54 years","Women",30,1
+"2010","Qasigiannguit","55-59 years","Men",33,3
+"2010","Qasigiannguit","55-59 years","Women",23,1
+"2010","Qasigiannguit","Over 60 years","Men",24,3
+"2010","Qasigiannguit","Over 60 years","Women",17,0
+"2010","Ilulissat","18-19 years","Men",36,6
+"2010","Ilulissat","18-19 years","Women",36,7
+"2010","Ilulissat","20-24 years","Men",130,10
+"2010","Ilulissat","20-24 years","Women",105,14
+"2010","Ilulissat","25-29 years","Men",116,9
+"2010","Ilulissat","25-29 years","Women",122,14
+"2010","Ilulissat","30-34 years","Men",132,6
+"2010","Ilulissat","30-34 years","Women",129,9
+"2010","Ilulissat","35-39 years","Men",143,7
+"2010","Ilulissat","35-39 years","Women",120,7
+"2010","Ilulissat","40-44 years","Men",200,6
+"2010","Ilulissat","40-44 years","Women",176,8
+"2010","Ilulissat","45-49 years","Men",207,8
+"2010","Ilulissat","45-49 years","Women",173,6
+"2010","Ilulissat","50-54 years","Men",145,6
+"2010","Ilulissat","50-54 years","Women",121,4
+"2010","Ilulissat","55-59 years","Men",104,5
+"2010","Ilulissat","55-59 years","Women",69,4
+"2010","Ilulissat","Over 60 years","Men",66,4
+"2010","Ilulissat","Over 60 years","Women",45,2
+"2010","Qeqertarsuaq","18-19 years","Men",2,1
+"2010","Qeqertarsuaq","18-19 years","Women",5,1
+"2010","Qeqertarsuaq","20-24 years","Men",25,6
+"2010","Qeqertarsuaq","20-24 years","Women",15,1
+"2010","Qeqertarsuaq","25-29 years","Men",15,2
+"2010","Qeqertarsuaq","25-29 years","Women",15,2
+"2010","Qeqertarsuaq","30-34 years","Men",17,1
+"2010","Qeqertarsuaq","30-34 years","Women",21,2
+"2010","Qeqertarsuaq","35-39 years","Men",24,2
+"2010","Qeqertarsuaq","35-39 years","Women",10,0
+"2010","Qeqertarsuaq","40-44 years","Men",21,2
+"2010","Qeqertarsuaq","40-44 years","Women",35,2
+"2010","Qeqertarsuaq","45-49 years","Men",43,4
+"2010","Qeqertarsuaq","45-49 years","Women",33,3
+"2010","Qeqertarsuaq","50-54 years","Men",31,2
+"2010","Qeqertarsuaq","50-54 years","Women",27,0
+"2010","Qeqertarsuaq","55-59 years","Men",16,0
+"2010","Qeqertarsuaq","55-59 years","Women",13,1
+"2010","Qeqertarsuaq","Over 60 years","Men",15,1
+"2010","Qeqertarsuaq","Over 60 years","Women",7,0
+"2010","Uummannaq","18-19 years","Men",24,2
+"2010","Uummannaq","18-19 years","Women",16,2
+"2010","Uummannaq","20-24 years","Men",71,6
+"2010","Uummannaq","20-24 years","Women",55,6
+"2010","Uummannaq","25-29 years","Men",62,4
+"2010","Uummannaq","25-29 years","Women",50,4
+"2010","Uummannaq","30-34 years","Men",47,2
+"2010","Uummannaq","30-34 years","Women",41,2
+"2010","Uummannaq","35-39 years","Men",54,3
+"2010","Uummannaq","35-39 years","Women",49,4
+"2010","Uummannaq","40-44 years","Men",89,4
+"2010","Uummannaq","40-44 years","Women",73,6
+"2010","Uummannaq","45-49 years","Men",115,5
+"2010","Uummannaq","45-49 years","Women",84,3
+"2010","Uummannaq","50-54 years","Men",78,5
+"2010","Uummannaq","50-54 years","Women",52,2
+"2010","Uummannaq","55-59 years","Men",53,4
+"2010","Uummannaq","55-59 years","Women",28,2
+"2010","Uummannaq","Over 60 years","Men",36,3
+"2010","Uummannaq","Over 60 years","Women",24,1
+"2010","Upernavik","18-19 years","Men",34,6
+"2010","Upernavik","18-19 years","Women",20,7
+"2010","Upernavik","20-24 years","Men",66,7
+"2010","Upernavik","20-24 years","Women",49,12
+"2010","Upernavik","25-29 years","Men",87,7
+"2010","Upernavik","25-29 years","Women",47,6
+"2010","Upernavik","30-34 years","Men",73,3
+"2010","Upernavik","30-34 years","Women",56,6
+"2010","Upernavik","35-39 years","Men",78,5
+"2010","Upernavik","35-39 years","Women",60,5
+"2010","Upernavik","40-44 years","Men",101,5
+"2010","Upernavik","40-44 years","Women",71,5
+"2010","Upernavik","45-49 years","Men",107,4
+"2010","Upernavik","45-49 years","Women",71,6
+"2010","Upernavik","50-54 years","Men",81,5
+"2010","Upernavik","50-54 years","Women",45,3
+"2010","Upernavik","55-59 years","Men",54,5
+"2010","Upernavik","55-59 years","Women",26,1
+"2010","Upernavik","Over 60 years","Men",18,0
+"2010","Upernavik","Over 60 years","Women",8,1
+"2010","Qaanaaq","18-19 years","Men",1,0
+"2010","Qaanaaq","18-19 years","Women",5,1
+"2010","Qaanaaq","20-24 years","Men",24,4
+"2010","Qaanaaq","20-24 years","Women",15,5
+"2010","Qaanaaq","25-29 years","Men",21,2
+"2010","Qaanaaq","25-29 years","Women",13,4
+"2010","Qaanaaq","30-34 years","Men",13,2
+"2010","Qaanaaq","30-34 years","Women",9,1
+"2010","Qaanaaq","35-39 years","Men",16,2
+"2010","Qaanaaq","35-39 years","Women",12,2
+"2010","Qaanaaq","40-44 years","Men",24,4
+"2010","Qaanaaq","40-44 years","Women",21,3
+"2010","Qaanaaq","45-49 years","Men",23,2
+"2010","Qaanaaq","45-49 years","Women",27,2
+"2010","Qaanaaq","50-54 years","Men",26,1
+"2010","Qaanaaq","50-54 years","Women",20,1
+"2010","Qaanaaq","55-59 years","Men",9,0
+"2010","Qaanaaq","55-59 years","Women",6,0
+"2010","Qaanaaq","Over 60 years","Men",10,0
+"2010","Qaanaaq","Over 60 years","Women",3,0
+"2010","Tasiilaq","18-19 years","Men",13,3
+"2010","Tasiilaq","18-19 years","Women",18,6
+"2010","Tasiilaq","20-24 years","Men",66,13
+"2010","Tasiilaq","20-24 years","Women",54,13
+"2010","Tasiilaq","25-29 years","Men",75,15
+"2010","Tasiilaq","25-29 years","Women",60,11
+"2010","Tasiilaq","30-34 years","Men",64,8
+"2010","Tasiilaq","30-34 years","Women",47,7
+"2010","Tasiilaq","35-39 years","Men",67,5
+"2010","Tasiilaq","35-39 years","Women",45,5
+"2010","Tasiilaq","40-44 years","Men",74,6
+"2010","Tasiilaq","40-44 years","Women",80,9
+"2010","Tasiilaq","45-49 years","Men",78,7
+"2010","Tasiilaq","45-49 years","Women",51,5
+"2010","Tasiilaq","50-54 years","Men",59,8
+"2010","Tasiilaq","50-54 years","Women",50,6
+"2010","Tasiilaq","55-59 years","Men",44,3
+"2010","Tasiilaq","55-59 years","Women",30,2
+"2010","Tasiilaq","Over 60 years","Men",28,0
+"2010","Tasiilaq","Over 60 years","Women",15,1
+"2010","Ittoqqortoormiit","18-19 years","Men",5,2
+"2010","Ittoqqortoormiit","18-19 years","Women",3,0
+"2010","Ittoqqortoormiit","20-24 years","Men",17,3
+"2010","Ittoqqortoormiit","20-24 years","Women",14,3
+"2010","Ittoqqortoormiit","25-29 years","Men",13,3
+"2010","Ittoqqortoormiit","25-29 years","Women",11,2
+"2010","Ittoqqortoormiit","30-34 years","Men",6,1
+"2010","Ittoqqortoormiit","30-34 years","Women",14,2
+"2010","Ittoqqortoormiit","35-39 years","Men",14,2
+"2010","Ittoqqortoormiit","35-39 years","Women",9,2
+"2010","Ittoqqortoormiit","40-44 years","Men",10,3
+"2010","Ittoqqortoormiit","40-44 years","Women",11,3
+"2010","Ittoqqortoormiit","45-49 years","Men",10,2
+"2010","Ittoqqortoormiit","45-49 years","Women",19,2
+"2010","Ittoqqortoormiit","50-54 years","Men",18,4
+"2010","Ittoqqortoormiit","50-54 years","Women",5,0
+"2010","Ittoqqortoormiit","55-59 years","Men",6,1
+"2010","Ittoqqortoormiit","55-59 years","Women",3,1
+"2010","Ittoqqortoormiit","Over 60 years","Men",5,0
+"2010","Ittoqqortoormiit","Over 60 years","Women",3,2
+"2011","Nanortalik","18-19 years","Men",21,7
+"2011","Nanortalik","18-19 years","Women",13,7
+"2011","Nanortalik","20-24 years","Men",46,17
+"2011","Nanortalik","20-24 years","Women",41,14
+"2011","Nanortalik","25-29 years","Men",50,12
+"2011","Nanortalik","25-29 years","Women",40,9
+"2011","Nanortalik","30-34 years","Men",42,11
+"2011","Nanortalik","30-34 years","Women",42,7
+"2011","Nanortalik","35-39 years","Men",42,9
+"2011","Nanortalik","35-39 years","Women",28,3
+"2011","Nanortalik","40-44 years","Men",46,10
+"2011","Nanortalik","40-44 years","Women",48,7
+"2011","Nanortalik","45-49 years","Men",61,10
+"2011","Nanortalik","45-49 years","Women",64,9
+"2011","Nanortalik","50-54 years","Men",62,8
+"2011","Nanortalik","50-54 years","Women",39,6
+"2011","Nanortalik","55-59 years","Men",53,7
+"2011","Nanortalik","55-59 years","Women",24,3
+"2011","Nanortalik","Over 60 years","Men",32,6
+"2011","Nanortalik","Over 60 years","Women",15,1
+"2011","Qaqortoq","18-19 years","Men",26,6
+"2011","Qaqortoq","18-19 years","Women",25,3
+"2011","Qaqortoq","20-24 years","Men",97,18
+"2011","Qaqortoq","20-24 years","Women",94,18
+"2011","Qaqortoq","25-29 years","Men",89,13
+"2011","Qaqortoq","25-29 years","Women",70,9
+"2011","Qaqortoq","30-34 years","Men",74,10
+"2011","Qaqortoq","30-34 years","Women",61,8
+"2011","Qaqortoq","35-39 years","Men",60,3
+"2011","Qaqortoq","35-39 years","Women",61,5
+"2011","Qaqortoq","40-44 years","Men",106,15
+"2011","Qaqortoq","40-44 years","Women",97,12
+"2011","Qaqortoq","45-49 years","Men",138,14
+"2011","Qaqortoq","45-49 years","Women",130,9
+"2011","Qaqortoq","50-54 years","Men",123,18
+"2011","Qaqortoq","50-54 years","Women",102,6
+"2011","Qaqortoq","55-59 years","Men",91,10
+"2011","Qaqortoq","55-59 years","Women",82,7
+"2011","Qaqortoq","Over 60 years","Men",62,6
+"2011","Qaqortoq","Over 60 years","Women",34,2
+"2011","Narsaq","18-19 years","Men",16,4
+"2011","Narsaq","18-19 years","Women",11,2
+"2011","Narsaq","20-24 years","Men",47,11
+"2011","Narsaq","20-24 years","Women",35,9
+"2011","Narsaq","25-29 years","Men",38,5
+"2011","Narsaq","25-29 years","Women",39,5
+"2011","Narsaq","30-34 years","Men",35,6
+"2011","Narsaq","30-34 years","Women",34,4
+"2011","Narsaq","35-39 years","Men",26,3
+"2011","Narsaq","35-39 years","Women",29,2
+"2011","Narsaq","40-44 years","Men",36,6
+"2011","Narsaq","40-44 years","Women",48,5
+"2011","Narsaq","45-49 years","Men",92,14
+"2011","Narsaq","45-49 years","Women",66,7
+"2011","Narsaq","50-54 years","Men",73,9
+"2011","Narsaq","50-54 years","Women",63,6
+"2011","Narsaq","55-59 years","Men",51,8
+"2011","Narsaq","55-59 years","Women",42,1
+"2011","Narsaq","Over 60 years","Men",44,7
+"2011","Narsaq","Over 60 years","Women",22,0
+"2011","Ivittuut","18-19 years","Men",0,0
+"2011","Ivittuut","18-19 years","Women",0,0
+"2011","Ivittuut","20-24 years","Men",4,0
+"2011","Ivittuut","20-24 years","Women",1,0
+"2011","Ivittuut","25-29 years","Men",8,0
+"2011","Ivittuut","25-29 years","Women",1,0
+"2011","Ivittuut","30-34 years","Men",8,0
+"2011","Ivittuut","30-34 years","Women",4,0
+"2011","Ivittuut","35-39 years","Men",12,0
+"2011","Ivittuut","35-39 years","Women",3,0
+"2011","Ivittuut","40-44 years","Men",11,0
+"2011","Ivittuut","40-44 years","Women",3,0
+"2011","Ivittuut","45-49 years","Men",11,0
+"2011","Ivittuut","45-49 years","Women",0,0
+"2011","Ivittuut","50-54 years","Men",10,0
+"2011","Ivittuut","50-54 years","Women",0,0
+"2011","Ivittuut","55-59 years","Men",7,0
+"2011","Ivittuut","55-59 years","Women",1,0
+"2011","Ivittuut","Over 60 years","Men",1,0
+"2011","Ivittuut","Over 60 years","Women",1,0
+"2011","Paamiut","18-19 years","Men",14,5
+"2011","Paamiut","18-19 years","Women",8,2
+"2011","Paamiut","20-24 years","Men",39,10
+"2011","Paamiut","20-24 years","Women",35,7
+"2011","Paamiut","25-29 years","Men",43,7
+"2011","Paamiut","25-29 years","Women",41,6
+"2011","Paamiut","30-34 years","Men",43,7
+"2011","Paamiut","30-34 years","Women",25,3
+"2011","Paamiut","35-39 years","Men",29,5
+"2011","Paamiut","35-39 years","Women",25,3
+"2011","Paamiut","40-44 years","Men",51,7
+"2011","Paamiut","40-44 years","Women",35,1
+"2011","Paamiut","45-49 years","Men",70,15
+"2011","Paamiut","45-49 years","Women",49,4
+"2011","Paamiut","50-54 years","Men",56,9
+"2011","Paamiut","50-54 years","Women",40,5
+"2011","Paamiut","55-59 years","Men",51,4
+"2011","Paamiut","55-59 years","Women",28,3
+"2011","Paamiut","Over 60 years","Men",33,1
+"2011","Paamiut","Over 60 years","Women",19,1
+"2011","Nuuk","18-19 years","Men",106,11
+"2011","Nuuk","18-19 years","Women",104,8
+"2011","Nuuk","20-24 years","Men",443,38
+"2011","Nuuk","20-24 years","Women",381,30
+"2011","Nuuk","25-29 years","Men",449,26
+"2011","Nuuk","25-29 years","Women",416,16
+"2011","Nuuk","30-34 years","Men",536,24
+"2011","Nuuk","30-34 years","Women",499,20
+"2011","Nuuk","35-39 years","Men",487,16
+"2011","Nuuk","35-39 years","Women",396,18
+"2011","Nuuk","40-44 years","Men",571,34
+"2011","Nuuk","40-44 years","Women",488,26
+"2011","Nuuk","45-49 years","Men",713,45
+"2011","Nuuk","45-49 years","Women",660,33
+"2011","Nuuk","50-54 years","Men",643,37
+"2011","Nuuk","50-54 years","Women",504,25
+"2011","Nuuk","55-59 years","Men",439,24
+"2011","Nuuk","55-59 years","Women",345,10
+"2011","Nuuk","Over 60 years","Men",273,12
+"2011","Nuuk","Over 60 years","Women",166,6
+"2011","Maniitsoq","18-19 years","Men",38,3
+"2011","Maniitsoq","18-19 years","Women",16,4
+"2011","Maniitsoq","20-24 years","Men",93,13
+"2011","Maniitsoq","20-24 years","Women",65,15
+"2011","Maniitsoq","25-29 years","Men",79,7
+"2011","Maniitsoq","25-29 years","Women",72,8
+"2011","Maniitsoq","30-34 years","Men",90,6
+"2011","Maniitsoq","30-34 years","Women",69,10
+"2011","Maniitsoq","35-39 years","Men",78,5
+"2011","Maniitsoq","35-39 years","Women",55,3
+"2011","Maniitsoq","40-44 years","Men",102,10
+"2011","Maniitsoq","40-44 years","Women",78,4
+"2011","Maniitsoq","45-49 years","Men",136,8
+"2011","Maniitsoq","45-49 years","Women",122,6
+"2011","Maniitsoq","50-54 years","Men",118,10
+"2011","Maniitsoq","50-54 years","Women",104,6
+"2011","Maniitsoq","55-59 years","Men",95,4
+"2011","Maniitsoq","55-59 years","Women",54,4
+"2011","Maniitsoq","Over 60 years","Men",61,2
+"2011","Maniitsoq","Over 60 years","Women",45,2
+"2011","Sisimiut","18-19 years","Men",58,5
+"2011","Sisimiut","18-19 years","Women",63,13
+"2011","Sisimiut","20-24 years","Men",199,16
+"2011","Sisimiut","20-24 years","Women",162,26
+"2011","Sisimiut","25-29 years","Men",183,14
+"2011","Sisimiut","25-29 years","Women",135,14
+"2011","Sisimiut","30-34 years","Men",143,11
+"2011","Sisimiut","30-34 years","Women",131,10
+"2011","Sisimiut","35-39 years","Men",135,10
+"2011","Sisimiut","35-39 years","Women",138,7
+"2011","Sisimiut","40-44 years","Men",252,22
+"2011","Sisimiut","40-44 years","Women",202,13
+"2011","Sisimiut","45-49 years","Men",224,15
+"2011","Sisimiut","45-49 years","Women",227,16
+"2011","Sisimiut","50-54 years","Men",222,12
+"2011","Sisimiut","50-54 years","Women",173,8
+"2011","Sisimiut","55-59 years","Men",153,7
+"2011","Sisimiut","55-59 years","Women",107,5
+"2011","Sisimiut","Over 60 years","Men",101,5
+"2011","Sisimiut","Over 60 years","Women",56,5
+"2011","Kangaatsiaq","18-19 years","Men",13,6
+"2011","Kangaatsiaq","18-19 years","Women",13,8
+"2011","Kangaatsiaq","20-24 years","Men",38,12
+"2011","Kangaatsiaq","20-24 years","Women",35,14
+"2011","Kangaatsiaq","25-29 years","Men",37,10
+"2011","Kangaatsiaq","25-29 years","Women",21,10
+"2011","Kangaatsiaq","30-34 years","Men",24,7
+"2011","Kangaatsiaq","30-34 years","Women",22,6
+"2011","Kangaatsiaq","35-39 years","Men",25,5
+"2011","Kangaatsiaq","35-39 years","Women",18,2
+"2011","Kangaatsiaq","40-44 years","Men",33,6
+"2011","Kangaatsiaq","40-44 years","Women",32,8
+"2011","Kangaatsiaq","45-49 years","Men",37,4
+"2011","Kangaatsiaq","45-49 years","Women",39,7
+"2011","Kangaatsiaq","50-54 years","Men",40,7
+"2011","Kangaatsiaq","50-54 years","Women",30,3
+"2011","Kangaatsiaq","55-59 years","Men",29,3
+"2011","Kangaatsiaq","55-59 years","Women",15,3
+"2011","Kangaatsiaq","Over 60 years","Men",8,1
+"2011","Kangaatsiaq","Over 60 years","Women",3,0
+"2011","Aasiaat","18-19 years","Men",32,2
+"2011","Aasiaat","18-19 years","Women",36,5
+"2011","Aasiaat","20-24 years","Men",96,8
+"2011","Aasiaat","20-24 years","Women",70,10
+"2011","Aasiaat","25-29 years","Men",102,12
+"2011","Aasiaat","25-29 years","Women",64,12
+"2011","Aasiaat","30-34 years","Men",60,5
+"2011","Aasiaat","30-34 years","Women",70,11
+"2011","Aasiaat","35-39 years","Men",64,4
+"2011","Aasiaat","35-39 years","Women",46,6
+"2011","Aasiaat","40-44 years","Men",120,14
+"2011","Aasiaat","40-44 years","Women",107,11
+"2011","Aasiaat","45-49 years","Men",151,16
+"2011","Aasiaat","45-49 years","Women",101,8
+"2011","Aasiaat","50-54 years","Men",110,8
+"2011","Aasiaat","50-54 years","Women",65,4
+"2011","Aasiaat","55-59 years","Men",65,4
+"2011","Aasiaat","55-59 years","Women",49,2
+"2011","Aasiaat","Over 60 years","Men",56,3
+"2011","Aasiaat","Over 60 years","Women",34,1
+"2011","Qasigiannguit","18-19 years","Men",13,3
+"2011","Qasigiannguit","18-19 years","Women",11,1
+"2011","Qasigiannguit","20-24 years","Men",43,2
+"2011","Qasigiannguit","20-24 years","Women",32,2
+"2011","Qasigiannguit","25-29 years","Men",32,3
+"2011","Qasigiannguit","25-29 years","Women",28,3
+"2011","Qasigiannguit","30-34 years","Men",31,1
+"2011","Qasigiannguit","30-34 years","Women",25,2
+"2011","Qasigiannguit","35-39 years","Men",40,3
+"2011","Qasigiannguit","35-39 years","Women",33,2
+"2011","Qasigiannguit","40-44 years","Men",46,2
+"2011","Qasigiannguit","40-44 years","Women",36,2
+"2011","Qasigiannguit","45-49 years","Men",47,3
+"2011","Qasigiannguit","45-49 years","Women",46,2
+"2011","Qasigiannguit","50-54 years","Men",37,3
+"2011","Qasigiannguit","50-54 years","Women",27,1
+"2011","Qasigiannguit","55-59 years","Men",28,3
+"2011","Qasigiannguit","55-59 years","Women",27,1
+"2011","Qasigiannguit","Over 60 years","Men",27,4
+"2011","Qasigiannguit","Over 60 years","Women",15,0
+"2011","Ilulissat","18-19 years","Men",36,4
+"2011","Ilulissat","18-19 years","Women",33,8
+"2011","Ilulissat","20-24 years","Men",136,9
+"2011","Ilulissat","20-24 years","Women",101,19
+"2011","Ilulissat","25-29 years","Men",121,8
+"2011","Ilulissat","25-29 years","Women",118,13
+"2011","Ilulissat","30-34 years","Men",146,6
+"2011","Ilulissat","30-34 years","Women",126,13
+"2011","Ilulissat","35-39 years","Men",133,6
+"2011","Ilulissat","35-39 years","Women",115,7
+"2011","Ilulissat","40-44 years","Men",181,6
+"2011","Ilulissat","40-44 years","Women",156,10
+"2011","Ilulissat","45-49 years","Men",222,15
+"2011","Ilulissat","45-49 years","Women",193,9
+"2011","Ilulissat","50-54 years","Men",151,9
+"2011","Ilulissat","50-54 years","Women",123,6
+"2011","Ilulissat","55-59 years","Men",106,3
+"2011","Ilulissat","55-59 years","Women",79,3
+"2011","Ilulissat","Over 60 years","Men",71,4
+"2011","Ilulissat","Over 60 years","Women",46,3
+"2011","Qeqertarsuaq","18-19 years","Men",6,2
+"2011","Qeqertarsuaq","18-19 years","Women",5,0
+"2011","Qeqertarsuaq","20-24 years","Men",23,4
+"2011","Qeqertarsuaq","20-24 years","Women",13,2
+"2011","Qeqertarsuaq","25-29 years","Men",16,2
+"2011","Qeqertarsuaq","25-29 years","Women",14,1
+"2011","Qeqertarsuaq","30-34 years","Men",13,1
+"2011","Qeqertarsuaq","30-34 years","Women",21,3
+"2011","Qeqertarsuaq","35-39 years","Men",21,2
+"2011","Qeqertarsuaq","35-39 years","Women",17,0
+"2011","Qeqertarsuaq","40-44 years","Men",23,2
+"2011","Qeqertarsuaq","40-44 years","Women",23,2
+"2011","Qeqertarsuaq","45-49 years","Men",40,5
+"2011","Qeqertarsuaq","45-49 years","Women",38,3
+"2011","Qeqertarsuaq","50-54 years","Men",32,2
+"2011","Qeqertarsuaq","50-54 years","Women",26,1
+"2011","Qeqertarsuaq","55-59 years","Men",16,1
+"2011","Qeqertarsuaq","55-59 years","Women",17,0
+"2011","Qeqertarsuaq","Over 60 years","Men",12,1
+"2011","Qeqertarsuaq","Over 60 years","Women",7,0
+"2011","Uummannaq","18-19 years","Men",22,3
+"2011","Uummannaq","18-19 years","Women",20,3
+"2011","Uummannaq","20-24 years","Men",63,7
+"2011","Uummannaq","20-24 years","Women",59,6
+"2011","Uummannaq","25-29 years","Men",60,6
+"2011","Uummannaq","25-29 years","Women",41,5
+"2011","Uummannaq","30-34 years","Men",43,3
+"2011","Uummannaq","30-34 years","Women",49,5
+"2011","Uummannaq","35-39 years","Men",58,4
+"2011","Uummannaq","35-39 years","Women",45,4
+"2011","Uummannaq","40-44 years","Men",71,6
+"2011","Uummannaq","40-44 years","Women",71,4
+"2011","Uummannaq","45-49 years","Men",103,8
+"2011","Uummannaq","45-49 years","Women",80,4
+"2011","Uummannaq","50-54 years","Men",83,7
+"2011","Uummannaq","50-54 years","Women",59,4
+"2011","Uummannaq","55-59 years","Men",57,4
+"2011","Uummannaq","55-59 years","Women",41,3
+"2011","Uummannaq","Over 60 years","Men",38,2
+"2011","Uummannaq","Over 60 years","Women",23,2
+"2011","Upernavik","18-19 years","Men",34,8
+"2011","Upernavik","18-19 years","Women",28,11
+"2011","Upernavik","20-24 years","Men",77,15
+"2011","Upernavik","20-24 years","Women",65,26
+"2011","Upernavik","25-29 years","Men",79,13
+"2011","Upernavik","25-29 years","Women",56,17
+"2011","Upernavik","30-34 years","Men",88,10
+"2011","Upernavik","30-34 years","Women",61,17
+"2011","Upernavik","35-39 years","Men",73,6
+"2011","Upernavik","35-39 years","Women",68,12
+"2011","Upernavik","40-44 years","Men",92,8
+"2011","Upernavik","40-44 years","Women",62,9
+"2011","Upernavik","45-49 years","Men",120,9
+"2011","Upernavik","45-49 years","Women",72,12
+"2011","Upernavik","50-54 years","Men",84,7
+"2011","Upernavik","50-54 years","Women",56,7
+"2011","Upernavik","55-59 years","Men",53,7
+"2011","Upernavik","55-59 years","Women",28,3
+"2011","Upernavik","Over 60 years","Men",25,2
+"2011","Upernavik","Over 60 years","Women",13,1
+"2011","Qaanaaq","18-19 years","Men",7,3
+"2011","Qaanaaq","18-19 years","Women",7,5
+"2011","Qaanaaq","20-24 years","Men",24,9
+"2011","Qaanaaq","20-24 years","Women",18,10
+"2011","Qaanaaq","25-29 years","Men",19,5
+"2011","Qaanaaq","25-29 years","Women",15,6
+"2011","Qaanaaq","30-34 years","Men",14,3
+"2011","Qaanaaq","30-34 years","Women",10,3
+"2011","Qaanaaq","35-39 years","Men",13,2
+"2011","Qaanaaq","35-39 years","Women",7,1
+"2011","Qaanaaq","40-44 years","Men",25,8
+"2011","Qaanaaq","40-44 years","Women",22,5
+"2011","Qaanaaq","45-49 years","Men",30,5
+"2011","Qaanaaq","45-49 years","Women",26,5
+"2011","Qaanaaq","50-54 years","Men",29,2
+"2011","Qaanaaq","50-54 years","Women",23,2
+"2011","Qaanaaq","55-59 years","Men",10,1
+"2011","Qaanaaq","55-59 years","Women",8,1
+"2011","Qaanaaq","Over 60 years","Men",12,0
+"2011","Qaanaaq","Over 60 years","Women",3,0
+"2011","Tasiilaq","18-19 years","Men",22,9
+"2011","Tasiilaq","18-19 years","Women",23,7
+"2011","Tasiilaq","20-24 years","Men",77,20
+"2011","Tasiilaq","20-24 years","Women",69,28
+"2011","Tasiilaq","25-29 years","Men",79,17
+"2011","Tasiilaq","25-29 years","Women",68,21
+"2011","Tasiilaq","30-34 years","Men",67,12
+"2011","Tasiilaq","30-34 years","Women",55,12
+"2011","Tasiilaq","35-39 years","Men",76,10
+"2011","Tasiilaq","35-39 years","Women",54,7
+"2011","Tasiilaq","40-44 years","Men",71,9
+"2011","Tasiilaq","40-44 years","Women",74,10
+"2011","Tasiilaq","45-49 years","Men",76,9
+"2011","Tasiilaq","45-49 years","Women",68,16
+"2011","Tasiilaq","50-54 years","Men",69,13
+"2011","Tasiilaq","50-54 years","Women",47,8
+"2011","Tasiilaq","55-59 years","Men",46,7
+"2011","Tasiilaq","55-59 years","Women",33,4
+"2011","Tasiilaq","Over 60 years","Men",32,2
+"2011","Tasiilaq","Over 60 years","Women",15,1
+"2011","Ittoqqortoormiit","18-19 years","Men",3,1
+"2011","Ittoqqortoormiit","18-19 years","Women",2,0
+"2011","Ittoqqortoormiit","20-24 years","Men",17,7
+"2011","Ittoqqortoormiit","20-24 years","Women",11,1
+"2011","Ittoqqortoormiit","25-29 years","Men",17,4
+"2011","Ittoqqortoormiit","25-29 years","Women",12,4
+"2011","Ittoqqortoormiit","30-34 years","Men",7,2
+"2011","Ittoqqortoormiit","30-34 years","Women",9,0
+"2011","Ittoqqortoormiit","35-39 years","Men",14,2
+"2011","Ittoqqortoormiit","35-39 years","Women",9,3
+"2011","Ittoqqortoormiit","40-44 years","Men",8,2
+"2011","Ittoqqortoormiit","40-44 years","Women",10,2
+"2011","Ittoqqortoormiit","45-49 years","Men",7,1
+"2011","Ittoqqortoormiit","45-49 years","Women",18,3
+"2011","Ittoqqortoormiit","50-54 years","Men",17,4
+"2011","Ittoqqortoormiit","50-54 years","Women",7,1
+"2011","Ittoqqortoormiit","55-59 years","Men",8,1
+"2011","Ittoqqortoormiit","55-59 years","Women",5,1
+"2011","Ittoqqortoormiit","Over 60 years","Men",4,1
+"2011","Ittoqqortoormiit","Over 60 years","Women",2,2
+"2012","Nanortalik","18-19 years","Men",24,9
+"2012","Nanortalik","18-19 years","Women",8,4
+"2012","Nanortalik","20-24 years","Men",51,17
+"2012","Nanortalik","20-24 years","Women",30,9
+"2012","Nanortalik","25-29 years","Men",51,10
+"2012","Nanortalik","25-29 years","Women",35,5
+"2012","Nanortalik","30-34 years","Men",45,9
+"2012","Nanortalik","30-34 years","Women",35,4
+"2012","Nanortalik","35-39 years","Men",43,8
+"2012","Nanortalik","35-39 years","Women",20,3
+"2012","Nanortalik","40-44 years","Men",42,6
+"2012","Nanortalik","40-44 years","Women",37,6
+"2012","Nanortalik","45-49 years","Men",55,5
+"2012","Nanortalik","45-49 years","Women",58,8
+"2012","Nanortalik","50-54 years","Men",61,10
+"2012","Nanortalik","50-54 years","Women",43,4
+"2012","Nanortalik","55-59 years","Men",57,7
+"2012","Nanortalik","55-59 years","Women",21,1
+"2012","Nanortalik","Over 60 years","Men",29,3
+"2012","Nanortalik","Over 60 years","Women",20,1
+"2012","Qaqortoq","18-19 years","Men",28,10
+"2012","Qaqortoq","18-19 years","Women",35,4
+"2012","Qaqortoq","20-24 years","Men",94,19
+"2012","Qaqortoq","20-24 years","Women",83,17
+"2012","Qaqortoq","25-29 years","Men",90,18
+"2012","Qaqortoq","25-29 years","Women",75,11
+"2012","Qaqortoq","30-34 years","Men",77,9
+"2012","Qaqortoq","30-34 years","Women",60,5
+"2012","Qaqortoq","35-39 years","Men",60,7
+"2012","Qaqortoq","35-39 years","Women",57,4
+"2012","Qaqortoq","40-44 years","Men",87,9
+"2012","Qaqortoq","40-44 years","Women",78,9
+"2012","Qaqortoq","45-49 years","Men",144,17
+"2012","Qaqortoq","45-49 years","Women",123,12
+"2012","Qaqortoq","50-54 years","Men",122,13
+"2012","Qaqortoq","50-54 years","Women",114,10
+"2012","Qaqortoq","55-59 years","Men",85,9
+"2012","Qaqortoq","55-59 years","Women",78,5
+"2012","Qaqortoq","Over 60 years","Men",66,8
+"2012","Qaqortoq","Over 60 years","Women",43,4
+"2012","Narsaq","18-19 years","Men",13,2
+"2012","Narsaq","18-19 years","Women",7,2
+"2012","Narsaq","20-24 years","Men",40,8
+"2012","Narsaq","20-24 years","Women",38,6
+"2012","Narsaq","25-29 years","Men",35,5
+"2012","Narsaq","25-29 years","Women",43,5
+"2012","Narsaq","30-34 years","Men",44,7
+"2012","Narsaq","30-34 years","Women",27,3
+"2012","Narsaq","35-39 years","Men",29,2
+"2012","Narsaq","35-39 years","Women",21,2
+"2012","Narsaq","40-44 years","Men",32,5
+"2012","Narsaq","40-44 years","Women",43,4
+"2012","Narsaq","45-49 years","Men",78,14
+"2012","Narsaq","45-49 years","Women",54,6
+"2012","Narsaq","50-54 years","Men",80,10
+"2012","Narsaq","50-54 years","Women",61,3
+"2012","Narsaq","55-59 years","Men",52,7
+"2012","Narsaq","55-59 years","Women",40,4
+"2012","Narsaq","Over 60 years","Men",41,8
+"2012","Narsaq","Over 60 years","Women",24,0
+"2012","Ivittuut","18-19 years","Men",0,0
+"2012","Ivittuut","18-19 years","Women",0,0
+"2012","Ivittuut","20-24 years","Men",0,0
+"2012","Ivittuut","20-24 years","Women",0,0
+"2012","Ivittuut","25-29 years","Men",5,0
+"2012","Ivittuut","25-29 years","Women",1,0
+"2012","Ivittuut","30-34 years","Men",2,0
+"2012","Ivittuut","30-34 years","Women",1,0
+"2012","Ivittuut","35-39 years","Men",4,0
+"2012","Ivittuut","35-39 years","Women",1,0
+"2012","Ivittuut","40-44 years","Men",6,0
+"2012","Ivittuut","40-44 years","Women",0,0
+"2012","Ivittuut","45-49 years","Men",7,0
+"2012","Ivittuut","45-49 years","Women",0,0
+"2012","Ivittuut","50-54 years","Men",4,0
+"2012","Ivittuut","50-54 years","Women",0,0
+"2012","Ivittuut","55-59 years","Men",3,0
+"2012","Ivittuut","55-59 years","Women",1,0
+"2012","Ivittuut","Over 60 years","Men",1,0
+"2012","Ivittuut","Over 60 years","Women",0,0
+"2012","Paamiut","18-19 years","Men",16,3
+"2012","Paamiut","18-19 years","Women",11,2
+"2012","Paamiut","20-24 years","Men",43,8
+"2012","Paamiut","20-24 years","Women",36,7
+"2012","Paamiut","25-29 years","Men",41,5
+"2012","Paamiut","25-29 years","Women",35,4
+"2012","Paamiut","30-34 years","Men",45,7
+"2012","Paamiut","30-34 years","Women",28,5
+"2012","Paamiut","35-39 years","Men",31,3
+"2012","Paamiut","35-39 years","Women",24,3
+"2012","Paamiut","40-44 years","Men",44,4
+"2012","Paamiut","40-44 years","Women",27,2
+"2012","Paamiut","45-49 years","Men",69,11
+"2012","Paamiut","45-49 years","Women",49,4
+"2012","Paamiut","50-54 years","Men",57,7
+"2012","Paamiut","50-54 years","Women",44,5
+"2012","Paamiut","55-59 years","Men",50,5
+"2012","Paamiut","55-59 years","Women",25,3
+"2012","Paamiut","Over 60 years","Men",35,2
+"2012","Paamiut","Over 60 years","Women",18,1
+"2012","Nuuk","18-19 years","Men",106,13
+"2012","Nuuk","18-19 years","Women",95,9
+"2012","Nuuk","20-24 years","Men",430,42
+"2012","Nuuk","20-24 years","Women",408,37
+"2012","Nuuk","25-29 years","Men",485,38
+"2012","Nuuk","25-29 years","Women",437,27
+"2012","Nuuk","30-34 years","Men",538,29
+"2012","Nuuk","30-34 years","Women",535,19
+"2012","Nuuk","35-39 years","Men",494,15
+"2012","Nuuk","35-39 years","Women",396,17
+"2012","Nuuk","40-44 years","Men",542,27
+"2012","Nuuk","40-44 years","Women",467,32
+"2012","Nuuk","45-49 years","Men",747,45
+"2012","Nuuk","45-49 years","Women",681,43
+"2012","Nuuk","50-54 years","Men",660,44
+"2012","Nuuk","50-54 years","Women",520,31
+"2012","Nuuk","55-59 years","Men",476,30
+"2012","Nuuk","55-59 years","Women",360,14
+"2012","Nuuk","Over 60 years","Men",293,15
+"2012","Nuuk","Over 60 years","Women",192,9
+"2012","Maniitsoq","18-19 years","Men",39,6
+"2012","Maniitsoq","18-19 years","Women",20,4
+"2012","Maniitsoq","20-24 years","Men",100,15
+"2012","Maniitsoq","20-24 years","Women",59,12
+"2012","Maniitsoq","25-29 years","Men",73,8
+"2012","Maniitsoq","25-29 years","Women",64,10
+"2012","Maniitsoq","30-34 years","Men",89,8
+"2012","Maniitsoq","30-34 years","Women",76,8
+"2012","Maniitsoq","35-39 years","Men",83,7
+"2012","Maniitsoq","35-39 years","Women",54,5
+"2012","Maniitsoq","40-44 years","Men",87,10
+"2012","Maniitsoq","40-44 years","Women",74,4
+"2012","Maniitsoq","45-49 years","Men",143,9
+"2012","Maniitsoq","45-49 years","Women",109,6
+"2012","Maniitsoq","50-54 years","Men",117,10
+"2012","Maniitsoq","50-54 years","Women",113,8
+"2012","Maniitsoq","55-59 years","Men",103,6
+"2012","Maniitsoq","55-59 years","Women",64,4
+"2012","Maniitsoq","Over 60 years","Men",62,2
+"2012","Maniitsoq","Over 60 years","Women",47,3
+"2012","Sisimiut","18-19 years","Men",58,6
+"2012","Sisimiut","18-19 years","Women",53,11
+"2012","Sisimiut","20-24 years","Men",233,15
+"2012","Sisimiut","20-24 years","Women",154,23
+"2012","Sisimiut","25-29 years","Men",162,12
+"2012","Sisimiut","25-29 years","Women",136,15
+"2012","Sisimiut","30-34 years","Men",156,9
+"2012","Sisimiut","30-34 years","Women",151,13
+"2012","Sisimiut","35-39 years","Men",138,8
+"2012","Sisimiut","35-39 years","Women",132,9
+"2012","Sisimiut","40-44 years","Men",210,16
+"2012","Sisimiut","40-44 years","Women",181,11
+"2012","Sisimiut","45-49 years","Men",257,13
+"2012","Sisimiut","45-49 years","Women",230,13
+"2012","Sisimiut","50-54 years","Men",214,14
+"2012","Sisimiut","50-54 years","Women",169,6
+"2012","Sisimiut","55-59 years","Men",166,9
+"2012","Sisimiut","55-59 years","Women",122,5
+"2012","Sisimiut","Over 60 years","Men",119,6
+"2012","Sisimiut","Over 60 years","Women",63,5
+"2012","Kangaatsiaq","18-19 years","Men",10,5
+"2012","Kangaatsiaq","18-19 years","Women",7,6
+"2012","Kangaatsiaq","20-24 years","Men",43,16
+"2012","Kangaatsiaq","20-24 years","Women",32,17
+"2012","Kangaatsiaq","25-29 years","Men",38,10
+"2012","Kangaatsiaq","25-29 years","Women",27,9
+"2012","Kangaatsiaq","30-34 years","Men",20,6
+"2012","Kangaatsiaq","30-34 years","Women",27,7
+"2012","Kangaatsiaq","35-39 years","Men",24,5
+"2012","Kangaatsiaq","35-39 years","Women",18,3
+"2012","Kangaatsiaq","40-44 years","Men",25,5
+"2012","Kangaatsiaq","40-44 years","Women",30,6
+"2012","Kangaatsiaq","45-49 years","Men",38,5
+"2012","Kangaatsiaq","45-49 years","Women",37,8
+"2012","Kangaatsiaq","50-54 years","Men",44,8
+"2012","Kangaatsiaq","50-54 years","Women",30,3
+"2012","Kangaatsiaq","55-59 years","Men",32,5
+"2012","Kangaatsiaq","55-59 years","Women",17,2
+"2012","Kangaatsiaq","Over 60 years","Men",7,0
+"2012","Kangaatsiaq","Over 60 years","Women",3,0
+"2012","Aasiaat","18-19 years","Men",24,4
+"2012","Aasiaat","18-19 years","Women",41,7
+"2012","Aasiaat","20-24 years","Men",92,4
+"2012","Aasiaat","20-24 years","Women",60,11
+"2012","Aasiaat","25-29 years","Men",87,11
+"2012","Aasiaat","25-29 years","Women",64,8
+"2012","Aasiaat","30-34 years","Men",78,7
+"2012","Aasiaat","30-34 years","Women",66,6
+"2012","Aasiaat","35-39 years","Men",54,7
+"2012","Aasiaat","35-39 years","Women",56,6
+"2012","Aasiaat","40-44 years","Men",110,14
+"2012","Aasiaat","40-44 years","Women",91,8
+"2012","Aasiaat","45-49 years","Men",148,15
+"2012","Aasiaat","45-49 years","Women",106,9
+"2012","Aasiaat","50-54 years","Men",119,13
+"2012","Aasiaat","50-54 years","Women",75,6
+"2012","Aasiaat","55-59 years","Men",73,5
+"2012","Aasiaat","55-59 years","Women",50,1
+"2012","Aasiaat","Over 60 years","Men",54,4
+"2012","Aasiaat","Over 60 years","Women",39,1
+"2012","Qasigiannguit","18-19 years","Men",9,3
+"2012","Qasigiannguit","18-19 years","Women",7,3
+"2012","Qasigiannguit","20-24 years","Men",43,6
+"2012","Qasigiannguit","20-24 years","Women",31,4
+"2012","Qasigiannguit","25-29 years","Men",35,5
+"2012","Qasigiannguit","25-29 years","Women",33,5
+"2012","Qasigiannguit","30-34 years","Men",37,3
+"2012","Qasigiannguit","30-34 years","Women",30,5
+"2012","Qasigiannguit","35-39 years","Men",34,5
+"2012","Qasigiannguit","35-39 years","Women",26,3
+"2012","Qasigiannguit","40-44 years","Men",40,4
+"2012","Qasigiannguit","40-44 years","Women",34,3
+"2012","Qasigiannguit","45-49 years","Men",52,4
+"2012","Qasigiannguit","45-49 years","Women",48,5
+"2012","Qasigiannguit","50-54 years","Men",40,3
+"2012","Qasigiannguit","50-54 years","Women",31,2
+"2012","Qasigiannguit","55-59 years","Men",24,3
+"2012","Qasigiannguit","55-59 years","Women",28,2
+"2012","Qasigiannguit","Over 60 years","Men",25,4
+"2012","Qasigiannguit","Over 60 years","Women",13,0
+"2012","Ilulissat","18-19 years","Men",33,4
+"2012","Ilulissat","18-19 years","Women",26,6
+"2012","Ilulissat","20-24 years","Men",139,15
+"2012","Ilulissat","20-24 years","Women",94,17
+"2012","Ilulissat","25-29 years","Men",118,10
+"2012","Ilulissat","25-29 years","Women",125,17
+"2012","Ilulissat","30-34 years","Men",124,8
+"2012","Ilulissat","30-34 years","Women",132,11
+"2012","Ilulissat","35-39 years","Men",147,8
+"2012","Ilulissat","35-39 years","Women",117,9
+"2012","Ilulissat","40-44 years","Men",183,10
+"2012","Ilulissat","40-44 years","Women",137,9
+"2012","Ilulissat","45-49 years","Men",207,18
+"2012","Ilulissat","45-49 years","Women",184,11
+"2012","Ilulissat","50-54 years","Men",163,11
+"2012","Ilulissat","50-54 years","Women",135,9
+"2012","Ilulissat","55-59 years","Men",112,6
+"2012","Ilulissat","55-59 years","Women",76,4
+"2012","Ilulissat","Over 60 years","Men",71,3
+"2012","Ilulissat","Over 60 years","Women",44,2
+"2012","Qeqertarsuaq","18-19 years","Men",6,3
+"2012","Qeqertarsuaq","18-19 years","Women",6,3
+"2012","Qeqertarsuaq","20-24 years","Men",23,6
+"2012","Qeqertarsuaq","20-24 years","Women",18,2
+"2012","Qeqertarsuaq","25-29 years","Men",17,1
+"2012","Qeqertarsuaq","25-29 years","Women",12,1
+"2012","Qeqertarsuaq","30-34 years","Men",8,1
+"2012","Qeqertarsuaq","30-34 years","Women",18,3
+"2012","Qeqertarsuaq","35-39 years","Men",19,1
+"2012","Qeqertarsuaq","35-39 years","Women",12,0
+"2012","Qeqertarsuaq","40-44 years","Men",23,1
+"2012","Qeqertarsuaq","40-44 years","Women",22,1
+"2012","Qeqertarsuaq","45-49 years","Men",39,2
+"2012","Qeqertarsuaq","45-49 years","Women",36,2
+"2012","Qeqertarsuaq","50-54 years","Men",32,2
+"2012","Qeqertarsuaq","50-54 years","Women",26,1
+"2012","Qeqertarsuaq","55-59 years","Men",19,1
+"2012","Qeqertarsuaq","55-59 years","Women",16,0
+"2012","Qeqertarsuaq","Over 60 years","Men",11,0
+"2012","Qeqertarsuaq","Over 60 years","Women",7,0
+"2012","Uummannaq","18-19 years","Men",22,3
+"2012","Uummannaq","18-19 years","Women",21,4
+"2012","Uummannaq","20-24 years","Men",69,13
+"2012","Uummannaq","20-24 years","Women",55,13
+"2012","Uummannaq","25-29 years","Men",67,6
+"2012","Uummannaq","25-29 years","Women",43,5
+"2012","Uummannaq","30-34 years","Men",47,4
+"2012","Uummannaq","30-34 years","Women",48,5
+"2012","Uummannaq","35-39 years","Men",52,1
+"2012","Uummannaq","35-39 years","Women",50,5
+"2012","Uummannaq","40-44 years","Men",53,2
+"2012","Uummannaq","40-44 years","Women",69,5
+"2012","Uummannaq","45-49 years","Men",118,7
+"2012","Uummannaq","45-49 years","Women",81,6
+"2012","Uummannaq","50-54 years","Men",86,6
+"2012","Uummannaq","50-54 years","Women",63,4
+"2012","Uummannaq","55-59 years","Men",71,6
+"2012","Uummannaq","55-59 years","Women",43,2
+"2012","Uummannaq","Over 60 years","Men",38,2
+"2012","Uummannaq","Over 60 years","Women",25,3
+"2012","Upernavik","18-19 years","Men",26,7
+"2012","Upernavik","18-19 years","Women",19,5
+"2012","Upernavik","20-24 years","Men",73,13
+"2012","Upernavik","20-24 years","Women",71,25
+"2012","Upernavik","25-29 years","Men",77,11
+"2012","Upernavik","25-29 years","Women",46,14
+"2012","Upernavik","30-34 years","Men",87,9
+"2012","Upernavik","30-34 years","Women",66,14
+"2012","Upernavik","35-39 years","Men",77,4
+"2012","Upernavik","35-39 years","Women",62,10
+"2012","Upernavik","40-44 years","Men",85,7
+"2012","Upernavik","40-44 years","Women",66,8
+"2012","Upernavik","45-49 years","Men",120,9
+"2012","Upernavik","45-49 years","Women",79,12
+"2012","Upernavik","50-54 years","Men",93,4
+"2012","Upernavik","50-54 years","Women",57,7
+"2012","Upernavik","55-59 years","Men",56,5
+"2012","Upernavik","55-59 years","Women",25,4
+"2012","Upernavik","Over 60 years","Men",30,3
+"2012","Upernavik","Over 60 years","Women",16,1
+"2012","Qaanaaq","18-19 years","Men",10,4
+"2012","Qaanaaq","18-19 years","Women",5,3
+"2012","Qaanaaq","20-24 years","Men",23,8
+"2012","Qaanaaq","20-24 years","Women",19,9
+"2012","Qaanaaq","25-29 years","Men",15,3
+"2012","Qaanaaq","25-29 years","Women",16,7
+"2012","Qaanaaq","30-34 years","Men",17,5
+"2012","Qaanaaq","30-34 years","Women",8,1
+"2012","Qaanaaq","35-39 years","Men",16,4
+"2012","Qaanaaq","35-39 years","Women",9,2
+"2012","Qaanaaq","40-44 years","Men",23,7
+"2012","Qaanaaq","40-44 years","Women",17,4
+"2012","Qaanaaq","45-49 years","Men",38,4
+"2012","Qaanaaq","45-49 years","Women",30,5
+"2012","Qaanaaq","50-54 years","Men",19,2
+"2012","Qaanaaq","50-54 years","Women",25,3
+"2012","Qaanaaq","55-59 years","Men",16,2
+"2012","Qaanaaq","55-59 years","Women",9,2
+"2012","Qaanaaq","Over 60 years","Men",11,0
+"2012","Qaanaaq","Over 60 years","Women",1,0
+"2012","Tasiilaq","18-19 years","Men",26,10
+"2012","Tasiilaq","18-19 years","Women",23,10
+"2012","Tasiilaq","20-24 years","Men",74,23
+"2012","Tasiilaq","20-24 years","Women",70,31
+"2012","Tasiilaq","25-29 years","Men",78,15
+"2012","Tasiilaq","25-29 years","Women",77,25
+"2012","Tasiilaq","30-34 years","Men",69,13
+"2012","Tasiilaq","30-34 years","Women",61,19
+"2012","Tasiilaq","35-39 years","Men",68,9
+"2012","Tasiilaq","35-39 years","Women",55,9
+"2012","Tasiilaq","40-44 years","Men",81,19
+"2012","Tasiilaq","40-44 years","Women",72,14
+"2012","Tasiilaq","45-49 years","Men",75,12
+"2012","Tasiilaq","45-49 years","Women",86,25
+"2012","Tasiilaq","50-54 years","Men",84,20
+"2012","Tasiilaq","50-54 years","Women",47,9
+"2012","Tasiilaq","55-59 years","Men",49,9
+"2012","Tasiilaq","55-59 years","Women",36,7
+"2012","Tasiilaq","Over 60 years","Men",36,3
+"2012","Tasiilaq","Over 60 years","Women",21,3
+"2012","Ittoqqortoormiit","18-19 years","Men",2,1
+"2012","Ittoqqortoormiit","18-19 years","Women",3,0
+"2012","Ittoqqortoormiit","20-24 years","Men",12,3
+"2012","Ittoqqortoormiit","20-24 years","Women",11,3
+"2012","Ittoqqortoormiit","25-29 years","Men",19,3
+"2012","Ittoqqortoormiit","25-29 years","Women",13,4
+"2012","Ittoqqortoormiit","30-34 years","Men",4,0
+"2012","Ittoqqortoormiit","30-34 years","Women",10,1
+"2012","Ittoqqortoormiit","35-39 years","Men",11,3
+"2012","Ittoqqortoormiit","35-39 years","Women",9,3
+"2012","Ittoqqortoormiit","40-44 years","Men",8,2
+"2012","Ittoqqortoormiit","40-44 years","Women",8,1
+"2012","Ittoqqortoormiit","45-49 years","Men",8,1
+"2012","Ittoqqortoormiit","45-49 years","Women",19,6
+"2012","Ittoqqortoormiit","50-54 years","Men",18,4
+"2012","Ittoqqortoormiit","50-54 years","Women",10,1
+"2012","Ittoqqortoormiit","55-59 years","Men",9,1
+"2012","Ittoqqortoormiit","55-59 years","Women",5,1
+"2012","Ittoqqortoormiit","Over 60 years","Men",5,0
+"2012","Ittoqqortoormiit","Over 60 years","Women",0,0
+"2013","Nanortalik","18-19 years","Men",20,5
+"2013","Nanortalik","18-19 years","Women",4,2
+"2013","Nanortalik","20-24 years","Men",50,17
+"2013","Nanortalik","20-24 years","Women",29,11
+"2013","Nanortalik","25-29 years","Men",51,10
+"2013","Nanortalik","25-29 years","Women",37,7
+"2013","Nanortalik","30-34 years","Men",46,8
+"2013","Nanortalik","30-34 years","Women",38,5
+"2013","Nanortalik","35-39 years","Men",37,10
+"2013","Nanortalik","35-39 years","Women",23,3
+"2013","Nanortalik","40-44 years","Men",41,6
+"2013","Nanortalik","40-44 years","Women",31,4
+"2013","Nanortalik","45-49 years","Men",58,8
+"2013","Nanortalik","45-49 years","Women",55,8
+"2013","Nanortalik","50-54 years","Men",57,8
+"2013","Nanortalik","50-54 years","Women",43,5
+"2013","Nanortalik","55-59 years","Men",49,5
+"2013","Nanortalik","55-59 years","Women",28,2
+"2013","Nanortalik","Over 60 years","Men",34,2
+"2013","Nanortalik","Over 60 years","Women",22,1
+"2013","Qaqortoq","18-19 years","Men",19,4
+"2013","Qaqortoq","18-19 years","Women",28,3
+"2013","Qaqortoq","20-24 years","Men",103,18
+"2013","Qaqortoq","20-24 years","Women",79,10
+"2013","Qaqortoq","25-29 years","Men",80,13
+"2013","Qaqortoq","25-29 years","Women",74,10
+"2013","Qaqortoq","30-34 years","Men",78,10
+"2013","Qaqortoq","30-34 years","Women",73,9
+"2013","Qaqortoq","35-39 years","Men",66,5
+"2013","Qaqortoq","35-39 years","Women",61,6
+"2013","Qaqortoq","40-44 years","Men",63,6
+"2013","Qaqortoq","40-44 years","Women",64,6
+"2013","Qaqortoq","45-49 years","Men",140,18
+"2013","Qaqortoq","45-49 years","Women",117,14
+"2013","Qaqortoq","50-54 years","Men",129,17
+"2013","Qaqortoq","50-54 years","Women",113,6
+"2013","Qaqortoq","55-59 years","Men",86,5
+"2013","Qaqortoq","55-59 years","Women",79,4
+"2013","Qaqortoq","Over 60 years","Men",64,10
+"2013","Qaqortoq","Over 60 years","Women",52,3
+"2013","Narsaq","18-19 years","Men",8,2
+"2013","Narsaq","18-19 years","Women",8,4
+"2013","Narsaq","20-24 years","Men",46,11
+"2013","Narsaq","20-24 years","Women",37,8
+"2013","Narsaq","25-29 years","Men",40,6
+"2013","Narsaq","25-29 years","Women",42,6
+"2013","Narsaq","30-34 years","Men",39,5
+"2013","Narsaq","30-34 years","Women",28,4
+"2013","Narsaq","35-39 years","Men",26,4
+"2013","Narsaq","35-39 years","Women",24,2
+"2013","Narsaq","40-44 years","Men",26,4
+"2013","Narsaq","40-44 years","Women",37,2
+"2013","Narsaq","45-49 years","Men",81,19
+"2013","Narsaq","45-49 years","Women",54,8
+"2013","Narsaq","50-54 years","Men",68,8
+"2013","Narsaq","50-54 years","Women",60,5
+"2013","Narsaq","55-59 years","Men",66,8
+"2013","Narsaq","55-59 years","Women",51,4
+"2013","Narsaq","Over 60 years","Men",33,7
+"2013","Narsaq","Over 60 years","Women",24,0
+"2013","Ivittuut","18-19 years","Men",0,0
+"2013","Ivittuut","18-19 years","Women",0,0
+"2013","Ivittuut","20-24 years","Men",0,0
+"2013","Ivittuut","20-24 years","Women",0,0
+"2013","Ivittuut","25-29 years","Men",2,0
+"2013","Ivittuut","25-29 years","Women",0,0
+"2013","Ivittuut","30-34 years","Men",2,0
+"2013","Ivittuut","30-34 years","Women",0,0
+"2013","Ivittuut","35-39 years","Men",1,0
+"2013","Ivittuut","35-39 years","Women",0,0
+"2013","Ivittuut","40-44 years","Men",2,0
+"2013","Ivittuut","40-44 years","Women",0,0
+"2013","Ivittuut","45-49 years","Men",0,0
+"2013","Ivittuut","45-49 years","Women",0,0
+"2013","Ivittuut","50-54 years","Men",1,0
+"2013","Ivittuut","50-54 years","Women",0,0
+"2013","Ivittuut","55-59 years","Men",2,0
+"2013","Ivittuut","55-59 years","Women",1,0
+"2013","Ivittuut","Over 60 years","Men",1,0
+"2013","Ivittuut","Over 60 years","Women",0,0
+"2013","Paamiut","18-19 years","Men",12,2
+"2013","Paamiut","18-19 years","Women",13,4
+"2013","Paamiut","20-24 years","Men",59,10
+"2013","Paamiut","20-24 years","Women",36,6
+"2013","Paamiut","25-29 years","Men",42,7
+"2013","Paamiut","25-29 years","Women",36,5
+"2013","Paamiut","30-34 years","Men",49,8
+"2013","Paamiut","30-34 years","Women",30,2
+"2013","Paamiut","35-39 years","Men",37,6
+"2013","Paamiut","35-39 years","Women",22,4
+"2013","Paamiut","40-44 years","Men",35,3
+"2013","Paamiut","40-44 years","Women",27,3
+"2013","Paamiut","45-49 years","Men",68,10
+"2013","Paamiut","45-49 years","Women",43,4
+"2013","Paamiut","50-54 years","Men",54,7
+"2013","Paamiut","50-54 years","Women",43,3
+"2013","Paamiut","55-59 years","Men",43,5
+"2013","Paamiut","55-59 years","Women",30,3
+"2013","Paamiut","Over 60 years","Men",40,4
+"2013","Paamiut","Over 60 years","Women",21,2
+"2013","Nuuk","18-19 years","Men",111,18
+"2013","Nuuk","18-19 years","Women",97,16
+"2013","Nuuk","20-24 years","Men",425,51
+"2013","Nuuk","20-24 years","Women",382,36
+"2013","Nuuk","25-29 years","Men",534,46
+"2013","Nuuk","25-29 years","Women",492,34
+"2013","Nuuk","30-34 years","Men",554,41
+"2013","Nuuk","30-34 years","Women",514,22
+"2013","Nuuk","35-39 years","Men",490,21
+"2013","Nuuk","35-39 years","Women",427,18
+"2013","Nuuk","40-44 years","Men",522,26
+"2013","Nuuk","40-44 years","Women",422,28
+"2013","Nuuk","45-49 years","Men",740,58
+"2013","Nuuk","45-49 years","Women",696,48
+"2013","Nuuk","50-54 years","Men",693,59
+"2013","Nuuk","50-54 years","Women",570,37
+"2013","Nuuk","55-59 years","Men",523,38
+"2013","Nuuk","55-59 years","Women",404,22
+"2013","Nuuk","Over 60 years","Men",317,22
+"2013","Nuuk","Over 60 years","Women",220,10
+"2013","Maniitsoq","18-19 years","Men",18,3
+"2013","Maniitsoq","18-19 years","Women",15,5
+"2013","Maniitsoq","20-24 years","Men",104,13
+"2013","Maniitsoq","20-24 years","Women",59,11
+"2013","Maniitsoq","25-29 years","Men",63,8
+"2013","Maniitsoq","25-29 years","Women",67,14
+"2013","Maniitsoq","30-34 years","Men",92,12
+"2013","Maniitsoq","30-34 years","Women",75,10
+"2013","Maniitsoq","35-39 years","Men",75,6
+"2013","Maniitsoq","35-39 years","Women",54,5
+"2013","Maniitsoq","40-44 years","Men",77,14
+"2013","Maniitsoq","40-44 years","Women",59,3
+"2013","Maniitsoq","45-49 years","Men",131,13
+"2013","Maniitsoq","45-49 years","Women",111,7
+"2013","Maniitsoq","50-54 years","Men",117,12
+"2013","Maniitsoq","50-54 years","Women",119,6
+"2013","Maniitsoq","55-59 years","Men",102,10
+"2013","Maniitsoq","55-59 years","Women",63,4
+"2013","Maniitsoq","Over 60 years","Men",59,2
+"2013","Maniitsoq","Over 60 years","Women",46,2
+"2013","Sisimiut","18-19 years","Men",48,4
+"2013","Sisimiut","18-19 years","Women",42,9
+"2013","Sisimiut","20-24 years","Men",212,13
+"2013","Sisimiut","20-24 years","Women",146,19
+"2013","Sisimiut","25-29 years","Men",184,13
+"2013","Sisimiut","25-29 years","Women",147,20
+"2013","Sisimiut","30-34 years","Men",159,12
+"2013","Sisimiut","30-34 years","Women",162,14
+"2013","Sisimiut","35-39 years","Men",145,8
+"2013","Sisimiut","35-39 years","Women",134,9
+"2013","Sisimiut","40-44 years","Men",182,12
+"2013","Sisimiut","40-44 years","Women",166,12
+"2013","Sisimiut","45-49 years","Men",274,14
+"2013","Sisimiut","45-49 years","Women",233,15
+"2013","Sisimiut","50-54 years","Men",216,15
+"2013","Sisimiut","50-54 years","Women",176,8
+"2013","Sisimiut","55-59 years","Men",169,13
+"2013","Sisimiut","55-59 years","Women",126,6
+"2013","Sisimiut","Over 60 years","Men",116,9
+"2013","Sisimiut","Over 60 years","Women",72,5
+"2013","Kangaatsiaq","18-19 years","Men",8,4
+"2013","Kangaatsiaq","18-19 years","Women",7,4
+"2013","Kangaatsiaq","20-24 years","Men",46,12
+"2013","Kangaatsiaq","20-24 years","Women",38,18
+"2013","Kangaatsiaq","25-29 years","Men",32,7
+"2013","Kangaatsiaq","25-29 years","Women",22,5
+"2013","Kangaatsiaq","30-34 years","Men",23,7
+"2013","Kangaatsiaq","30-34 years","Women",23,8
+"2013","Kangaatsiaq","35-39 years","Men",22,3
+"2013","Kangaatsiaq","35-39 years","Women",17,3
+"2013","Kangaatsiaq","40-44 years","Men",21,3
+"2013","Kangaatsiaq","40-44 years","Women",26,4
+"2013","Kangaatsiaq","45-49 years","Men",40,6
+"2013","Kangaatsiaq","45-49 years","Women",41,5
+"2013","Kangaatsiaq","50-54 years","Men",37,5
+"2013","Kangaatsiaq","50-54 years","Women",32,5
+"2013","Kangaatsiaq","55-59 years","Men",36,4
+"2013","Kangaatsiaq","55-59 years","Women",18,3
+"2013","Kangaatsiaq","Over 60 years","Men",11,2
+"2013","Kangaatsiaq","Over 60 years","Women",6,0
+"2013","Aasiaat","18-19 years","Men",29,4
+"2013","Aasiaat","18-19 years","Women",33,4
+"2013","Aasiaat","20-24 years","Men",95,6
+"2013","Aasiaat","20-24 years","Women",65,10
+"2013","Aasiaat","25-29 years","Men",88,10
+"2013","Aasiaat","25-29 years","Women",64,8
+"2013","Aasiaat","30-34 years","Men",69,6
+"2013","Aasiaat","30-34 years","Women",60,8
+"2013","Aasiaat","35-39 years","Men",48,5
+"2013","Aasiaat","35-39 years","Women",63,7
+"2013","Aasiaat","40-44 years","Men",91,8
+"2013","Aasiaat","40-44 years","Women",71,3
+"2013","Aasiaat","45-49 years","Men",139,18
+"2013","Aasiaat","45-49 years","Women",101,9
+"2013","Aasiaat","50-54 years","Men",112,14
+"2013","Aasiaat","50-54 years","Women",76,8
+"2013","Aasiaat","55-59 years","Men",94,11
+"2013","Aasiaat","55-59 years","Women",52,1
+"2013","Aasiaat","Over 60 years","Men",45,6
+"2013","Aasiaat","Over 60 years","Women",44,2
+"2013","Qasigiannguit","18-19 years","Men",10,2
+"2013","Qasigiannguit","18-19 years","Women",12,3
+"2013","Qasigiannguit","20-24 years","Men",39,5
+"2013","Qasigiannguit","20-24 years","Women",33,6
+"2013","Qasigiannguit","25-29 years","Men",37,4
+"2013","Qasigiannguit","25-29 years","Women",27,3
+"2013","Qasigiannguit","30-34 years","Men",31,3
+"2013","Qasigiannguit","30-34 years","Women",28,4
+"2013","Qasigiannguit","35-39 years","Men",32,4
+"2013","Qasigiannguit","35-39 years","Women",25,1
+"2013","Qasigiannguit","40-44 years","Men",41,5
+"2013","Qasigiannguit","40-44 years","Women",33,2
+"2013","Qasigiannguit","45-49 years","Men",58,2
+"2013","Qasigiannguit","45-49 years","Women",52,4
+"2013","Qasigiannguit","50-54 years","Men",35,2
+"2013","Qasigiannguit","50-54 years","Women",32,3
+"2013","Qasigiannguit","55-59 years","Men",25,1
+"2013","Qasigiannguit","55-59 years","Women",30,2
+"2013","Qasigiannguit","Over 60 years","Men",27,3
+"2013","Qasigiannguit","Over 60 years","Women",18,1
+"2013","Ilulissat","18-19 years","Men",29,4
+"2013","Ilulissat","18-19 years","Women",27,5
+"2013","Ilulissat","20-24 years","Men",127,17
+"2013","Ilulissat","20-24 years","Women",103,16
+"2013","Ilulissat","25-29 years","Men",135,12
+"2013","Ilulissat","25-29 years","Women",110,17
+"2013","Ilulissat","30-34 years","Men",128,10
+"2013","Ilulissat","30-34 years","Women",144,15
+"2013","Ilulissat","35-39 years","Men",135,6
+"2013","Ilulissat","35-39 years","Women",115,7
+"2013","Ilulissat","40-44 years","Men",166,15
+"2013","Ilulissat","40-44 years","Women",113,10
+"2013","Ilulissat","45-49 years","Men",190,14
+"2013","Ilulissat","45-49 years","Women",197,12
+"2013","Ilulissat","50-54 years","Men",183,15
+"2013","Ilulissat","50-54 years","Women",140,8
+"2013","Ilulissat","55-59 years","Men",111,4
+"2013","Ilulissat","55-59 years","Women",79,5
+"2013","Ilulissat","Over 60 years","Men",83,3
+"2013","Ilulissat","Over 60 years","Women",55,4
+"2013","Qeqertarsuaq","18-19 years","Men",4,1
+"2013","Qeqertarsuaq","18-19 years","Women",3,1
+"2013","Qeqertarsuaq","20-24 years","Men",20,5
+"2013","Qeqertarsuaq","20-24 years","Women",19,3
+"2013","Qeqertarsuaq","25-29 years","Men",23,1
+"2013","Qeqertarsuaq","25-29 years","Women",12,1
+"2013","Qeqertarsuaq","30-34 years","Men",8,0
+"2013","Qeqertarsuaq","30-34 years","Women",22,4
+"2013","Qeqertarsuaq","35-39 years","Men",19,1
+"2013","Qeqertarsuaq","35-39 years","Women",10,1
+"2013","Qeqertarsuaq","40-44 years","Men",22,1
+"2013","Qeqertarsuaq","40-44 years","Women",20,0
+"2013","Qeqertarsuaq","45-49 years","Men",41,2
+"2013","Qeqertarsuaq","45-49 years","Women",34,2
+"2013","Qeqertarsuaq","50-54 years","Men",33,3
+"2013","Qeqertarsuaq","50-54 years","Women",29,1
+"2013","Qeqertarsuaq","55-59 years","Men",23,1
+"2013","Qeqertarsuaq","55-59 years","Women",21,0
+"2013","Qeqertarsuaq","Over 60 years","Men",15,0
+"2013","Qeqertarsuaq","Over 60 years","Women",10,1
+"2013","Uummannaq","18-19 years","Men",18,2
+"2013","Uummannaq","18-19 years","Women",20,5
+"2013","Uummannaq","20-24 years","Men",76,11
+"2013","Uummannaq","20-24 years","Women",56,11
+"2013","Uummannaq","25-29 years","Men",58,4
+"2013","Uummannaq","25-29 years","Women",49,4
+"2013","Uummannaq","30-34 years","Men",54,6
+"2013","Uummannaq","30-34 years","Women",43,6
+"2013","Uummannaq","35-39 years","Men",49,2
+"2013","Uummannaq","35-39 years","Women",43,4
+"2013","Uummannaq","40-44 years","Men",52,3
+"2013","Uummannaq","40-44 years","Women",57,5
+"2013","Uummannaq","45-49 years","Men",110,6
+"2013","Uummannaq","45-49 years","Women",83,5
+"2013","Uummannaq","50-54 years","Men",80,9
+"2013","Uummannaq","50-54 years","Women",68,3
+"2013","Uummannaq","55-59 years","Men",73,5
+"2013","Uummannaq","55-59 years","Women",43,2
+"2013","Uummannaq","Over 60 years","Men",42,1
+"2013","Uummannaq","Over 60 years","Women",28,2
+"2013","Upernavik","18-19 years","Men",20,7
+"2013","Upernavik","18-19 years","Women",18,8
+"2013","Upernavik","20-24 years","Men",77,16
+"2013","Upernavik","20-24 years","Women",71,22
+"2013","Upernavik","25-29 years","Men",67,8
+"2013","Upernavik","25-29 years","Women",40,10
+"2013","Upernavik","30-34 years","Men",80,10
+"2013","Upernavik","30-34 years","Women",61,14
+"2013","Upernavik","35-39 years","Men",75,6
+"2013","Upernavik","35-39 years","Women",56,9
+"2013","Upernavik","40-44 years","Men",78,7
+"2013","Upernavik","40-44 years","Women",69,8
+"2013","Upernavik","45-49 years","Men",104,8
+"2013","Upernavik","45-49 years","Women",71,8
+"2013","Upernavik","50-54 years","Men",97,7
+"2013","Upernavik","50-54 years","Women",64,6
+"2013","Upernavik","55-59 years","Men",53,6
+"2013","Upernavik","55-59 years","Women",26,3
+"2013","Upernavik","Over 60 years","Men",35,3
+"2013","Upernavik","Over 60 years","Women",21,2
+"2013","Qaanaaq","18-19 years","Men",8,4
+"2013","Qaanaaq","18-19 years","Women",7,5
+"2013","Qaanaaq","20-24 years","Men",26,9
+"2013","Qaanaaq","20-24 years","Women",19,8
+"2013","Qaanaaq","25-29 years","Men",16,8
+"2013","Qaanaaq","25-29 years","Women",16,8
+"2013","Qaanaaq","30-34 years","Men",17,7
+"2013","Qaanaaq","30-34 years","Women",15,4
+"2013","Qaanaaq","35-39 years","Men",12,4
+"2013","Qaanaaq","35-39 years","Women",9,2
+"2013","Qaanaaq","40-44 years","Men",22,5
+"2013","Qaanaaq","40-44 years","Women",15,4
+"2013","Qaanaaq","45-49 years","Men",33,6
+"2013","Qaanaaq","45-49 years","Women",24,7
+"2013","Qaanaaq","50-54 years","Men",24,2
+"2013","Qaanaaq","50-54 years","Women",27,4
+"2013","Qaanaaq","55-59 years","Men",14,3
+"2013","Qaanaaq","55-59 years","Women",11,1
+"2013","Qaanaaq","Over 60 years","Men",6,0
+"2013","Qaanaaq","Over 60 years","Women",5,1
+"2013","Tasiilaq","18-19 years","Men",23,5
+"2013","Tasiilaq","18-19 years","Women",25,6
+"2013","Tasiilaq","20-24 years","Men",72,17
+"2013","Tasiilaq","20-24 years","Women",60,21
+"2013","Tasiilaq","25-29 years","Men",83,14
+"2013","Tasiilaq","25-29 years","Women",80,24
+"2013","Tasiilaq","30-34 years","Men",71,10
+"2013","Tasiilaq","30-34 years","Women",66,16
+"2013","Tasiilaq","35-39 years","Men",67,6
+"2013","Tasiilaq","35-39 years","Women",48,7
+"2013","Tasiilaq","40-44 years","Men",80,15
+"2013","Tasiilaq","40-44 years","Women",60,9
+"2013","Tasiilaq","45-49 years","Men",79,11
+"2013","Tasiilaq","45-49 years","Women",92,23
+"2013","Tasiilaq","50-54 years","Men",75,14
+"2013","Tasiilaq","50-54 years","Women",53,11
+"2013","Tasiilaq","55-59 years","Men",61,13
+"2013","Tasiilaq","55-59 years","Women",37,8
+"2013","Tasiilaq","Over 60 years","Men",36,5
+"2013","Tasiilaq","Over 60 years","Women",13,2
+"2013","Ittoqqortoormiit","18-19 years","Men",4,2
+"2013","Ittoqqortoormiit","18-19 years","Women",2,1
+"2013","Ittoqqortoormiit","20-24 years","Men",9,3
+"2013","Ittoqqortoormiit","20-24 years","Women",8,3
+"2013","Ittoqqortoormiit","25-29 years","Men",20,4
+"2013","Ittoqqortoormiit","25-29 years","Women",15,6
+"2013","Ittoqqortoormiit","30-34 years","Men",4,0
+"2013","Ittoqqortoormiit","30-34 years","Women",11,2
+"2013","Ittoqqortoormiit","35-39 years","Men",14,3
+"2013","Ittoqqortoormiit","35-39 years","Women",9,3
+"2013","Ittoqqortoormiit","40-44 years","Men",6,1
+"2013","Ittoqqortoormiit","40-44 years","Women",3,1
+"2013","Ittoqqortoormiit","45-49 years","Men",11,1
+"2013","Ittoqqortoormiit","45-49 years","Women",16,5
+"2013","Ittoqqortoormiit","50-54 years","Men",16,4
+"2013","Ittoqqortoormiit","50-54 years","Women",14,2
+"2013","Ittoqqortoormiit","55-59 years","Men",10,2
+"2013","Ittoqqortoormiit","55-59 years","Women",7,1
+"2013","Ittoqqortoormiit","Over 60 years","Men",5,0
+"2013","Ittoqqortoormiit","Over 60 years","Women",0,0
+"2014","Nanortalik","18-19 years","Men",9,1
+"2014","Nanortalik","18-19 years","Women",11,3
+"2014","Nanortalik","20-24 years","Men",45,11
+"2014","Nanortalik","20-24 years","Women",29,9
+"2014","Nanortalik","25-29 years","Men",46,10
+"2014","Nanortalik","25-29 years","Women",33,10
+"2014","Nanortalik","30-34 years","Men",40,8
+"2014","Nanortalik","30-34 years","Women",40,6
+"2014","Nanortalik","35-39 years","Men",39,8
+"2014","Nanortalik","35-39 years","Women",26,2
+"2014","Nanortalik","40-44 years","Men",47,8
+"2014","Nanortalik","40-44 years","Women",21,2
+"2014","Nanortalik","45-49 years","Men",55,9
+"2014","Nanortalik","45-49 years","Women",59,7
+"2014","Nanortalik","50-54 years","Men",54,9
+"2014","Nanortalik","50-54 years","Women",45,4
+"2014","Nanortalik","55-59 years","Men",54,10
+"2014","Nanortalik","55-59 years","Women",30,2
+"2014","Nanortalik","Over 60 years","Men",36,2
+"2014","Nanortalik","Over 60 years","Women",20,1
+"2014","Qaqortoq","18-19 years","Men",21,4
+"2014","Qaqortoq","18-19 years","Women",18,3
+"2014","Qaqortoq","20-24 years","Men",84,17
+"2014","Qaqortoq","20-24 years","Women",74,9
+"2014","Qaqortoq","25-29 years","Men",87,13
+"2014","Qaqortoq","25-29 years","Women",85,11
+"2014","Qaqortoq","30-34 years","Men",72,10
+"2014","Qaqortoq","30-34 years","Women",68,5
+"2014","Qaqortoq","35-39 years","Men",63,2
+"2014","Qaqortoq","35-39 years","Women",58,5
+"2014","Qaqortoq","40-44 years","Men",56,4
+"2014","Qaqortoq","40-44 years","Women",64,4
+"2014","Qaqortoq","45-49 years","Men",120,13
+"2014","Qaqortoq","45-49 years","Women",93,8
+"2014","Qaqortoq","50-54 years","Men",128,14
+"2014","Qaqortoq","50-54 years","Women",113,7
+"2014","Qaqortoq","55-59 years","Men",94,7
+"2014","Qaqortoq","55-59 years","Women",85,2
+"2014","Qaqortoq","Over 60 years","Men",73,11
+"2014","Qaqortoq","Over 60 years","Women",52,3
+"2014","Narsaq","18-19 years","Men",13,4
+"2014","Narsaq","18-19 years","Women",6,1
+"2014","Narsaq","20-24 years","Men",48,14
+"2014","Narsaq","20-24 years","Women",34,10
+"2014","Narsaq","25-29 years","Men",39,7
+"2014","Narsaq","25-29 years","Women",36,6
+"2014","Narsaq","30-34 years","Men",44,7
+"2014","Narsaq","30-34 years","Women",36,5
+"2014","Narsaq","35-39 years","Men",32,3
+"2014","Narsaq","35-39 years","Women",31,6
+"2014","Narsaq","40-44 years","Men",26,5
+"2014","Narsaq","40-44 years","Women",25,2
+"2014","Narsaq","45-49 years","Men",77,18
+"2014","Narsaq","45-49 years","Women",56,10
+"2014","Narsaq","50-54 years","Men",66,8
+"2014","Narsaq","50-54 years","Women",59,7
+"2014","Narsaq","55-59 years","Men",65,9
+"2014","Narsaq","55-59 years","Women",53,5
+"2014","Narsaq","Over 60 years","Men",40,7
+"2014","Narsaq","Over 60 years","Women",26,0
+"2014","Ivittuut","18-19 years","Men",0,0
+"2014","Ivittuut","18-19 years","Women",0,0
+"2014","Ivittuut","20-24 years","Men",0,0
+"2014","Ivittuut","20-24 years","Women",0,0
+"2014","Ivittuut","25-29 years","Men",1,0
+"2014","Ivittuut","25-29 years","Women",0,0
+"2014","Ivittuut","30-34 years","Men",0,0
+"2014","Ivittuut","30-34 years","Women",0,0
+"2014","Ivittuut","35-39 years","Men",1,0
+"2014","Ivittuut","35-39 years","Women",0,0
+"2014","Ivittuut","40-44 years","Men",0,0
+"2014","Ivittuut","40-44 years","Women",0,0
+"2014","Ivittuut","45-49 years","Men",1,0
+"2014","Ivittuut","45-49 years","Women",0,0
+"2014","Ivittuut","50-54 years","Men",0,0
+"2014","Ivittuut","50-54 years","Women",0,0
+"2014","Ivittuut","55-59 years","Men",0,0
+"2014","Ivittuut","55-59 years","Women",0,0
+"2014","Ivittuut","Over 60 years","Men",0,0
+"2014","Ivittuut","Over 60 years","Women",0,0
+"2014","Paamiut","18-19 years","Men",9,3
+"2014","Paamiut","18-19 years","Women",9,3
+"2014","Paamiut","20-24 years","Men",46,10
+"2014","Paamiut","20-24 years","Women",33,9
+"2014","Paamiut","25-29 years","Men",41,8
+"2014","Paamiut","25-29 years","Women",35,8
+"2014","Paamiut","30-34 years","Men",56,9
+"2014","Paamiut","30-34 years","Women",34,7
+"2014","Paamiut","35-39 years","Men",30,5
+"2014","Paamiut","35-39 years","Women",28,5
+"2014","Paamiut","40-44 years","Men",27,3
+"2014","Paamiut","40-44 years","Women",20,4
+"2014","Paamiut","45-49 years","Men",60,9
+"2014","Paamiut","45-49 years","Women",43,4
+"2014","Paamiut","50-54 years","Men",64,10
+"2014","Paamiut","50-54 years","Women",41,5
+"2014","Paamiut","55-59 years","Men",40,4
+"2014","Paamiut","55-59 years","Women",35,4
+"2014","Paamiut","Over 60 years","Men",41,4
+"2014","Paamiut","Over 60 years","Women",20,1
+"2014","Nuuk","18-19 years","Men",81,20
+"2014","Nuuk","18-19 years","Women",94,17
+"2014","Nuuk","20-24 years","Men",406,58
+"2014","Nuuk","20-24 years","Women",364,42
+"2014","Nuuk","25-29 years","Men",523,48
+"2014","Nuuk","25-29 years","Women",473,36
+"2014","Nuuk","30-34 years","Men",546,41
+"2014","Nuuk","30-34 years","Women",548,31
+"2014","Nuuk","35-39 years","Men",515,27
+"2014","Nuuk","35-39 years","Women",452,22
+"2014","Nuuk","40-44 years","Men",510,24
+"2014","Nuuk","40-44 years","Women",394,25
+"2014","Nuuk","45-49 years","Men",676,62
+"2014","Nuuk","45-49 years","Women",640,47
+"2014","Nuuk","50-54 years","Men",694,63
+"2014","Nuuk","50-54 years","Women",627,55
+"2014","Nuuk","55-59 years","Men",539,53
+"2014","Nuuk","55-59 years","Women",419,27
+"2014","Nuuk","Over 60 years","Men",331,19
+"2014","Nuuk","Over 60 years","Women",244,12
+"2014","Maniitsoq","18-19 years","Men",26,3
+"2014","Maniitsoq","18-19 years","Women",17,5
+"2014","Maniitsoq","20-24 years","Men",88,12
+"2014","Maniitsoq","20-24 years","Women",57,10
+"2014","Maniitsoq","25-29 years","Men",84,11
+"2014","Maniitsoq","25-29 years","Women",68,9
+"2014","Maniitsoq","30-34 years","Men",92,11
+"2014","Maniitsoq","30-34 years","Women",73,11
+"2014","Maniitsoq","35-39 years","Men",70,4
+"2014","Maniitsoq","35-39 years","Women",50,4
+"2014","Maniitsoq","40-44 years","Men",71,8
+"2014","Maniitsoq","40-44 years","Women",53,1
+"2014","Maniitsoq","45-49 years","Men",122,11
+"2014","Maniitsoq","45-49 years","Women",102,5
+"2014","Maniitsoq","50-54 years","Men",123,12
+"2014","Maniitsoq","50-54 years","Women",124,5
+"2014","Maniitsoq","55-59 years","Men",104,8
+"2014","Maniitsoq","55-59 years","Women",67,6
+"2014","Maniitsoq","Over 60 years","Men",67,2
+"2014","Maniitsoq","Over 60 years","Women",48,3
+"2014","Sisimiut","18-19 years","Men",42,6
+"2014","Sisimiut","18-19 years","Women",37,7
+"2014","Sisimiut","20-24 years","Men",214,13
+"2014","Sisimiut","20-24 years","Women",153,27
+"2014","Sisimiut","25-29 years","Men",191,12
+"2014","Sisimiut","25-29 years","Women",141,20
+"2014","Sisimiut","30-34 years","Men",158,12
+"2014","Sisimiut","30-34 years","Women",154,13
+"2014","Sisimiut","35-39 years","Men",156,9
+"2014","Sisimiut","35-39 years","Women",149,10
+"2014","Sisimiut","40-44 years","Men",156,11
+"2014","Sisimiut","40-44 years","Women",155,15
+"2014","Sisimiut","45-49 years","Men",274,11
+"2014","Sisimiut","45-49 years","Women",214,14
+"2014","Sisimiut","50-54 years","Men",225,17
+"2014","Sisimiut","50-54 years","Women",202,11
+"2014","Sisimiut","55-59 years","Men",176,9
+"2014","Sisimiut","55-59 years","Women",123,7
+"2014","Sisimiut","Over 60 years","Men",128,11
+"2014","Sisimiut","Over 60 years","Women",78,4
+"2014","Kangaatsiaq","18-19 years","Men",6,4
+"2014","Kangaatsiaq","18-19 years","Women",2,1
+"2014","Kangaatsiaq","20-24 years","Men",39,12
+"2014","Kangaatsiaq","20-24 years","Women",28,15
+"2014","Kangaatsiaq","25-29 years","Men",38,6
+"2014","Kangaatsiaq","25-29 years","Women",34,7
+"2014","Kangaatsiaq","30-34 years","Men",29,6
+"2014","Kangaatsiaq","30-34 years","Women",26,6
+"2014","Kangaatsiaq","35-39 years","Men",17,2
+"2014","Kangaatsiaq","35-39 years","Women",15,2
+"2014","Kangaatsiaq","40-44 years","Men",28,5
+"2014","Kangaatsiaq","40-44 years","Women",22,3
+"2014","Kangaatsiaq","45-49 years","Men",36,4
+"2014","Kangaatsiaq","45-49 years","Women",37,5
+"2014","Kangaatsiaq","50-54 years","Men",42,3
+"2014","Kangaatsiaq","50-54 years","Women",31,4
+"2014","Kangaatsiaq","55-59 years","Men",36,6
+"2014","Kangaatsiaq","55-59 years","Women",23,5
+"2014","Kangaatsiaq","Over 60 years","Men",17,2
+"2014","Kangaatsiaq","Over 60 years","Women",6,0
+"2014","Aasiaat","18-19 years","Men",27,4
+"2014","Aasiaat","18-19 years","Women",28,5
+"2014","Aasiaat","20-24 years","Men",97,11
+"2014","Aasiaat","20-24 years","Women",76,14
+"2014","Aasiaat","25-29 years","Men",91,9
+"2014","Aasiaat","25-29 years","Women",68,9
+"2014","Aasiaat","30-34 years","Men",87,6
+"2014","Aasiaat","30-34 years","Women",64,8
+"2014","Aasiaat","35-39 years","Men",43,6
+"2014","Aasiaat","35-39 years","Women",53,6
+"2014","Aasiaat","40-44 years","Men",74,7
+"2014","Aasiaat","40-44 years","Women",63,5
+"2014","Aasiaat","45-49 years","Men",130,16
+"2014","Aasiaat","45-49 years","Women",93,8
+"2014","Aasiaat","50-54 years","Men",122,12
+"2014","Aasiaat","50-54 years","Women",82,6
+"2014","Aasiaat","55-59 years","Men",97,10
+"2014","Aasiaat","55-59 years","Women",55,3
+"2014","Aasiaat","Over 60 years","Men",46,5
+"2014","Aasiaat","Over 60 years","Women",47,2
+"2014","Qasigiannguit","18-19 years","Men",4,1
+"2014","Qasigiannguit","18-19 years","Women",8,1
+"2014","Qasigiannguit","20-24 years","Men",38,5
+"2014","Qasigiannguit","20-24 years","Women",35,7
+"2014","Qasigiannguit","25-29 years","Men",41,4
+"2014","Qasigiannguit","25-29 years","Women",30,2
+"2014","Qasigiannguit","30-34 years","Men",34,4
+"2014","Qasigiannguit","30-34 years","Women",24,2
+"2014","Qasigiannguit","35-39 years","Men",28,4
+"2014","Qasigiannguit","35-39 years","Women",29,1
+"2014","Qasigiannguit","40-44 years","Men",38,4
+"2014","Qasigiannguit","40-44 years","Women",33,3
+"2014","Qasigiannguit","45-49 years","Men",54,3
+"2014","Qasigiannguit","45-49 years","Women",41,2
+"2014","Qasigiannguit","50-54 years","Men",40,3
+"2014","Qasigiannguit","50-54 years","Women",34,2
+"2014","Qasigiannguit","55-59 years","Men",29,2
+"2014","Qasigiannguit","55-59 years","Women",31,0
+"2014","Qasigiannguit","Over 60 years","Men",31,3
+"2014","Qasigiannguit","Over 60 years","Women",22,1
+"2014","Ilulissat","18-19 years","Men",22,2
+"2014","Ilulissat","18-19 years","Women",28,8
+"2014","Ilulissat","20-24 years","Men",122,14
+"2014","Ilulissat","20-24 years","Women",99,17
+"2014","Ilulissat","25-29 years","Men",149,14
+"2014","Ilulissat","25-29 years","Women",110,10
+"2014","Ilulissat","30-34 years","Men",115,6
+"2014","Ilulissat","30-34 years","Women",136,14
+"2014","Ilulissat","35-39 years","Men",121,7
+"2014","Ilulissat","35-39 years","Women",114,11
+"2014","Ilulissat","40-44 years","Men",155,12
+"2014","Ilulissat","40-44 years","Women",102,6
+"2014","Ilulissat","45-49 years","Men",187,10
+"2014","Ilulissat","45-49 years","Women",192,15
+"2014","Ilulissat","50-54 years","Men",168,16
+"2014","Ilulissat","50-54 years","Women",134,6
+"2014","Ilulissat","55-59 years","Men",119,8
+"2014","Ilulissat","55-59 years","Women",92,5
+"2014","Ilulissat","Over 60 years","Men",86,2
+"2014","Ilulissat","Over 60 years","Women",61,4
+"2014","Qeqertarsuaq","18-19 years","Men",5,1
+"2014","Qeqertarsuaq","18-19 years","Women",2,1
+"2014","Qeqertarsuaq","20-24 years","Men",23,4
+"2014","Qeqertarsuaq","20-24 years","Women",20,5
+"2014","Qeqertarsuaq","25-29 years","Men",18,2
+"2014","Qeqertarsuaq","25-29 years","Women",12,2
+"2014","Qeqertarsuaq","30-34 years","Men",12,1
+"2014","Qeqertarsuaq","30-34 years","Women",15,2
+"2014","Qeqertarsuaq","35-39 years","Men",16,1
+"2014","Qeqertarsuaq","35-39 years","Women",18,3
+"2014","Qeqertarsuaq","40-44 years","Men",22,2
+"2014","Qeqertarsuaq","40-44 years","Women",14,0
+"2014","Qeqertarsuaq","45-49 years","Men",33,4
+"2014","Qeqertarsuaq","45-49 years","Women",34,1
+"2014","Qeqertarsuaq","50-54 years","Men",41,5
+"2014","Qeqertarsuaq","50-54 years","Women",33,2
+"2014","Qeqertarsuaq","55-59 years","Men",26,1
+"2014","Qeqertarsuaq","55-59 years","Women",25,0
+"2014","Qeqertarsuaq","Over 60 years","Men",15,1
+"2014","Qeqertarsuaq","Over 60 years","Women",9,1
+"2014","Uummannaq","18-19 years","Men",18,2
+"2014","Uummannaq","18-19 years","Women",13,3
+"2014","Uummannaq","20-24 years","Men",62,9
+"2014","Uummannaq","20-24 years","Women",63,9
+"2014","Uummannaq","25-29 years","Men",59,5
+"2014","Uummannaq","25-29 years","Women",51,6
+"2014","Uummannaq","30-34 years","Men",51,5
+"2014","Uummannaq","30-34 years","Women",40,4
+"2014","Uummannaq","35-39 years","Men",46,3
+"2014","Uummannaq","35-39 years","Women",45,4
+"2014","Uummannaq","40-44 years","Men",46,3
+"2014","Uummannaq","40-44 years","Women",46,3
+"2014","Uummannaq","45-49 years","Men",93,6
+"2014","Uummannaq","45-49 years","Women",78,7
+"2014","Uummannaq","50-54 years","Men",89,10
+"2014","Uummannaq","50-54 years","Women",77,2
+"2014","Uummannaq","55-59 years","Men",74,5
+"2014","Uummannaq","55-59 years","Women",50,2
+"2014","Uummannaq","Over 60 years","Men",44,3
+"2014","Uummannaq","Over 60 years","Women",26,2
+"2014","Upernavik","18-19 years","Men",18,7
+"2014","Upernavik","18-19 years","Women",21,9
+"2014","Upernavik","20-24 years","Men",83,18
+"2014","Upernavik","20-24 years","Women",65,26
+"2014","Upernavik","25-29 years","Men",60,7
+"2014","Upernavik","25-29 years","Women",55,12
+"2014","Upernavik","30-34 years","Men",80,9
+"2014","Upernavik","30-34 years","Women",59,10
+"2014","Upernavik","35-39 years","Men",69,7
+"2014","Upernavik","35-39 years","Women",57,8
+"2014","Upernavik","40-44 years","Men",76,7
+"2014","Upernavik","40-44 years","Women",60,9
+"2014","Upernavik","45-49 years","Men",93,5
+"2014","Upernavik","45-49 years","Women",70,7
+"2014","Upernavik","50-54 years","Men",96,4
+"2014","Upernavik","50-54 years","Women",62,7
+"2014","Upernavik","55-59 years","Men",62,6
+"2014","Upernavik","55-59 years","Women",29,4
+"2014","Upernavik","Over 60 years","Men",37,3
+"2014","Upernavik","Over 60 years","Women",20,2
+"2014","Qaanaaq","18-19 years","Men",5,3
+"2014","Qaanaaq","18-19 years","Women",10,7
+"2014","Qaanaaq","20-24 years","Men",24,7
+"2014","Qaanaaq","20-24 years","Women",17,9
+"2014","Qaanaaq","25-29 years","Men",18,3
+"2014","Qaanaaq","25-29 years","Women",21,8
+"2014","Qaanaaq","30-34 years","Men",20,6
+"2014","Qaanaaq","30-34 years","Women",16,4
+"2014","Qaanaaq","35-39 years","Men",13,2
+"2014","Qaanaaq","35-39 years","Women",12,1
+"2014","Qaanaaq","40-44 years","Men",23,6
+"2014","Qaanaaq","40-44 years","Women",10,2
+"2014","Qaanaaq","45-49 years","Men",30,6
+"2014","Qaanaaq","45-49 years","Women",27,7
+"2014","Qaanaaq","50-54 years","Men",26,3
+"2014","Qaanaaq","50-54 years","Women",29,4
+"2014","Qaanaaq","55-59 years","Men",17,2
+"2014","Qaanaaq","55-59 years","Women",11,2
+"2014","Qaanaaq","Over 60 years","Men",9,0
+"2014","Qaanaaq","Over 60 years","Women",7,1
+"2014","Tasiilaq","18-19 years","Men",21,6
+"2014","Tasiilaq","18-19 years","Women",19,6
+"2014","Tasiilaq","20-24 years","Men",62,11
+"2014","Tasiilaq","20-24 years","Women",66,19
+"2014","Tasiilaq","25-29 years","Men",94,24
+"2014","Tasiilaq","25-29 years","Women",71,19
+"2014","Tasiilaq","30-34 years","Men",73,13
+"2014","Tasiilaq","30-34 years","Women",70,14
+"2014","Tasiilaq","35-39 years","Men",63,9
+"2014","Tasiilaq","35-39 years","Women",50,8
+"2014","Tasiilaq","40-44 years","Men",69,11
+"2014","Tasiilaq","40-44 years","Women",53,8
+"2014","Tasiilaq","45-49 years","Men",81,13
+"2014","Tasiilaq","45-49 years","Women",81,15
+"2014","Tasiilaq","50-54 years","Men",76,15
+"2014","Tasiilaq","50-54 years","Women",56,9
+"2014","Tasiilaq","55-59 years","Men",52,10
+"2014","Tasiilaq","55-59 years","Women",38,6
+"2014","Tasiilaq","Over 60 years","Men",39,4
+"2014","Tasiilaq","Over 60 years","Women",18,1
+"2014","Ittoqqortoormiit","18-19 years","Men",3,1
+"2014","Ittoqqortoormiit","18-19 years","Women",1,1
+"2014","Ittoqqortoormiit","20-24 years","Men",12,5
+"2014","Ittoqqortoormiit","20-24 years","Women",4,1
+"2014","Ittoqqortoormiit","25-29 years","Men",19,5
+"2014","Ittoqqortoormiit","25-29 years","Women",12,4
+"2014","Ittoqqortoormiit","30-34 years","Men",7,1
+"2014","Ittoqqortoormiit","30-34 years","Women",11,2
+"2014","Ittoqqortoormiit","35-39 years","Men",10,3
+"2014","Ittoqqortoormiit","35-39 years","Women",11,1
+"2014","Ittoqqortoormiit","40-44 years","Men",10,1
+"2014","Ittoqqortoormiit","40-44 years","Women",4,2
+"2014","Ittoqqortoormiit","45-49 years","Men",9,1
+"2014","Ittoqqortoormiit","45-49 years","Women",9,3
+"2014","Ittoqqortoormiit","50-54 years","Men",14,4
+"2014","Ittoqqortoormiit","50-54 years","Women",12,1
+"2014","Ittoqqortoormiit","55-59 years","Men",13,2
+"2014","Ittoqqortoormiit","55-59 years","Women",6,1
+"2014","Ittoqqortoormiit","Over 60 years","Men",4,0
+"2014","Ittoqqortoormiit","Over 60 years","Women",2,0
+"2015","Nanortalik","18-19 years","Men",8,2
+"2015","Nanortalik","18-19 years","Women",12,5
+"2015","Nanortalik","20-24 years","Men",46,6
+"2015","Nanortalik","20-24 years","Women",30,7
+"2015","Nanortalik","25-29 years","Men",44,11
+"2015","Nanortalik","25-29 years","Women",29,7
+"2015","Nanortalik","30-34 years","Men",42,6
+"2015","Nanortalik","30-34 years","Women",42,7
+"2015","Nanortalik","35-39 years","Men",39,8
+"2015","Nanortalik","35-39 years","Women",30,6
+"2015","Nanortalik","40-44 years","Men",44,4
+"2015","Nanortalik","40-44 years","Women",22,3
+"2015","Nanortalik","45-49 years","Men",50,9
+"2015","Nanortalik","45-49 years","Women",42,6
+"2015","Nanortalik","50-54 years","Men",58,7
+"2015","Nanortalik","50-54 years","Women",54,5
+"2015","Nanortalik","55-59 years","Men",52,6
+"2015","Nanortalik","55-59 years","Women",30,4
+"2015","Nanortalik","Over 60 years","Men",44,5
+"2015","Nanortalik","Over 60 years","Women",24,2
+"2015","Qaqortoq","18-19 years","Men",26,5
+"2015","Qaqortoq","18-19 years","Women",15,4
+"2015","Qaqortoq","20-24 years","Men",79,14
+"2015","Qaqortoq","20-24 years","Women",63,9
+"2015","Qaqortoq","25-29 years","Men",95,13
+"2015","Qaqortoq","25-29 years","Women",92,12
+"2015","Qaqortoq","30-34 years","Men",84,12
+"2015","Qaqortoq","30-34 years","Women",75,7
+"2015","Qaqortoq","35-39 years","Men",75,6
+"2015","Qaqortoq","35-39 years","Women",52,4
+"2015","Qaqortoq","40-44 years","Men",54,4
+"2015","Qaqortoq","40-44 years","Women",60,5
+"2015","Qaqortoq","45-49 years","Men",99,7
+"2015","Qaqortoq","45-49 years","Women",90,6
+"2015","Qaqortoq","50-54 years","Men",122,13
+"2015","Qaqortoq","50-54 years","Women",101,7
+"2015","Qaqortoq","55-59 years","Men",110,10
+"2015","Qaqortoq","55-59 years","Women",84,2
+"2015","Qaqortoq","Over 60 years","Men",78,9
+"2015","Qaqortoq","Over 60 years","Women",59,2
+"2015","Narsaq","18-19 years","Men",9,4
+"2015","Narsaq","18-19 years","Women",8,3
+"2015","Narsaq","20-24 years","Men",40,9
+"2015","Narsaq","20-24 years","Women",20,4
+"2015","Narsaq","25-29 years","Men",40,7
+"2015","Narsaq","25-29 years","Women",33,7
+"2015","Narsaq","30-34 years","Men",44,6
+"2015","Narsaq","30-34 years","Women",30,6
+"2015","Narsaq","35-39 years","Men",30,2
+"2015","Narsaq","35-39 years","Women",27,3
+"2015","Narsaq","40-44 years","Men",25,5
+"2015","Narsaq","40-44 years","Women",27,3
+"2015","Narsaq","45-49 years","Men",54,12
+"2015","Narsaq","45-49 years","Women",40,4
+"2015","Narsaq","50-54 years","Men",78,14
+"2015","Narsaq","50-54 years","Women",70,9
+"2015","Narsaq","55-59 years","Men",66,7
+"2015","Narsaq","55-59 years","Women",41,3
+"2015","Narsaq","Over 60 years","Men",43,6
+"2015","Narsaq","Over 60 years","Women",32,2
+"2015","Ivittuut","18-19 years","Men",0,0
+"2015","Ivittuut","18-19 years","Women",0,0
+"2015","Ivittuut","20-24 years","Men",0,0
+"2015","Ivittuut","20-24 years","Women",0,0
+"2015","Ivittuut","25-29 years","Men",0,0
+"2015","Ivittuut","25-29 years","Women",0,0
+"2015","Ivittuut","30-34 years","Men",0,0
+"2015","Ivittuut","30-34 years","Women",0,0
+"2015","Ivittuut","35-39 years","Men",1,0
+"2015","Ivittuut","35-39 years","Women",0,0
+"2015","Ivittuut","40-44 years","Men",0,0
+"2015","Ivittuut","40-44 years","Women",0,0
+"2015","Ivittuut","45-49 years","Men",0,0
+"2015","Ivittuut","45-49 years","Women",0,0
+"2015","Ivittuut","50-54 years","Men",0,0
+"2015","Ivittuut","50-54 years","Women",0,0
+"2015","Ivittuut","55-59 years","Men",0,0
+"2015","Ivittuut","55-59 years","Women",0,0
+"2015","Ivittuut","Over 60 years","Men",0,0
+"2015","Ivittuut","Over 60 years","Women",0,0
+"2015","Paamiut","18-19 years","Men",14,2
+"2015","Paamiut","18-19 years","Women",9,3
+"2015","Paamiut","20-24 years","Men",43,8
+"2015","Paamiut","20-24 years","Women",29,8
+"2015","Paamiut","25-29 years","Men",34,6
+"2015","Paamiut","25-29 years","Women",32,7
+"2015","Paamiut","30-34 years","Men",52,10
+"2015","Paamiut","30-34 years","Women",35,5
+"2015","Paamiut","35-39 years","Men",35,4
+"2015","Paamiut","35-39 years","Women",24,6
+"2015","Paamiut","40-44 years","Men",23,1
+"2015","Paamiut","40-44 years","Women",20,3
+"2015","Paamiut","45-49 years","Men",44,6
+"2015","Paamiut","45-49 years","Women",37,4
+"2015","Paamiut","50-54 years","Men",65,9
+"2015","Paamiut","50-54 years","Women",45,7
+"2015","Paamiut","55-59 years","Men",49,5
+"2015","Paamiut","55-59 years","Women",33,4
+"2015","Paamiut","Over 60 years","Men",41,3
+"2015","Paamiut","Over 60 years","Women",18,1
+"2015","Nuuk","18-19 years","Men",83,14
+"2015","Nuuk","18-19 years","Women",98,8
+"2015","Nuuk","20-24 years","Men",417,41
+"2015","Nuuk","20-24 years","Women",358,26
+"2015","Nuuk","25-29 years","Men",550,39
+"2015","Nuuk","25-29 years","Women",484,29
+"2015","Nuuk","30-34 years","Men",566,34
+"2015","Nuuk","30-34 years","Women",550,24
+"2015","Nuuk","35-39 years","Men",540,24
+"2015","Nuuk","35-39 years","Women",492,15
+"2015","Nuuk","40-44 years","Men",499,19
+"2015","Nuuk","40-44 years","Women",388,19
+"2015","Nuuk","45-49 years","Men",647,40
+"2015","Nuuk","45-49 years","Women",584,33
+"2015","Nuuk","50-54 years","Men",711,52
+"2015","Nuuk","50-54 years","Women",622,42
+"2015","Nuuk","55-59 years","Men",602,46
+"2015","Nuuk","55-59 years","Women",438,25
+"2015","Nuuk","Over 60 years","Men",348,22
+"2015","Nuuk","Over 60 years","Women",265,12
+"2015","Maniitsoq","18-19 years","Men",27,2
+"2015","Maniitsoq","18-19 years","Women",21,6
+"2015","Maniitsoq","20-24 years","Men",93,11
+"2015","Maniitsoq","20-24 years","Women",51,11
+"2015","Maniitsoq","25-29 years","Men",89,10
+"2015","Maniitsoq","25-29 years","Women",73,8
+"2015","Maniitsoq","30-34 years","Men",95,8
+"2015","Maniitsoq","30-34 years","Women",74,7
+"2015","Maniitsoq","35-39 years","Men",85,4
+"2015","Maniitsoq","35-39 years","Women",65,6
+"2015","Maniitsoq","40-44 years","Men",68,4
+"2015","Maniitsoq","40-44 years","Women",54,2
+"2015","Maniitsoq","45-49 years","Men",106,8
+"2015","Maniitsoq","45-49 years","Women",90,6
+"2015","Maniitsoq","50-54 years","Men",137,6
+"2015","Maniitsoq","50-54 years","Women",122,4
+"2015","Maniitsoq","55-59 years","Men",113,5
+"2015","Maniitsoq","55-59 years","Women",79,4
+"2015","Maniitsoq","Over 60 years","Men",85,3
+"2015","Maniitsoq","Over 60 years","Women",45,3
+"2015","Sisimiut","18-19 years","Men",44,7
+"2015","Sisimiut","18-19 years","Women",47,7
+"2015","Sisimiut","20-24 years","Men",187,16
+"2015","Sisimiut","20-24 years","Women",158,22
+"2015","Sisimiut","25-29 years","Men",216,10
+"2015","Sisimiut","25-29 years","Women",138,18
+"2015","Sisimiut","30-34 years","Men",154,11
+"2015","Sisimiut","30-34 years","Women",149,12
+"2015","Sisimiut","35-39 years","Men",138,7
+"2015","Sisimiut","35-39 years","Women",140,8
+"2015","Sisimiut","40-44 years","Men",151,10
+"2015","Sisimiut","40-44 years","Women",147,11
+"2015","Sisimiut","45-49 years","Men",249,10
+"2015","Sisimiut","45-49 years","Women",208,12
+"2015","Sisimiut","50-54 years","Men",224,15
+"2015","Sisimiut","50-54 years","Women",199,10
+"2015","Sisimiut","55-59 years","Men",182,8
+"2015","Sisimiut","55-59 years","Women",139,6
+"2015","Sisimiut","Over 60 years","Men",126,8
+"2015","Sisimiut","Over 60 years","Women",78,7
+"2015","Kangaatsiaq","18-19 years","Men",7,3
+"2015","Kangaatsiaq","18-19 years","Women",10,5
+"2015","Kangaatsiaq","20-24 years","Men",33,10
+"2015","Kangaatsiaq","20-24 years","Women",26,9
+"2015","Kangaatsiaq","25-29 years","Men",40,9
+"2015","Kangaatsiaq","25-29 years","Women",30,7
+"2015","Kangaatsiaq","30-34 years","Men",33,7
+"2015","Kangaatsiaq","30-34 years","Women",26,6
+"2015","Kangaatsiaq","35-39 years","Men",19,4
+"2015","Kangaatsiaq","35-39 years","Women",20,3
+"2015","Kangaatsiaq","40-44 years","Men",22,3
+"2015","Kangaatsiaq","40-44 years","Women",17,1
+"2015","Kangaatsiaq","45-49 years","Men",34,3
+"2015","Kangaatsiaq","45-49 years","Women",33,4
+"2015","Kangaatsiaq","50-54 years","Men",46,3
+"2015","Kangaatsiaq","50-54 years","Women",33,4
+"2015","Kangaatsiaq","55-59 years","Men",44,6
+"2015","Kangaatsiaq","55-59 years","Women",27,4
+"2015","Kangaatsiaq","Over 60 years","Men",19,1
+"2015","Kangaatsiaq","Over 60 years","Women",11,2
+"2015","Aasiaat","18-19 years","Men",27,2
+"2015","Aasiaat","18-19 years","Women",26,3
+"2015","Aasiaat","20-24 years","Men",84,7
+"2015","Aasiaat","20-24 years","Women",70,14
+"2015","Aasiaat","25-29 years","Men",90,7
+"2015","Aasiaat","25-29 years","Women",68,8
+"2015","Aasiaat","30-34 years","Men",97,8
+"2015","Aasiaat","30-34 years","Women",73,6
+"2015","Aasiaat","35-39 years","Men",43,3
+"2015","Aasiaat","35-39 years","Women",54,3
+"2015","Aasiaat","40-44 years","Men",68,9
+"2015","Aasiaat","40-44 years","Women",49,4
+"2015","Aasiaat","45-49 years","Men",121,12
+"2015","Aasiaat","45-49 years","Women",95,6
+"2015","Aasiaat","50-54 years","Men",125,8
+"2015","Aasiaat","50-54 years","Women",90,5
+"2015","Aasiaat","55-59 years","Men",94,8
+"2015","Aasiaat","55-59 years","Women",52,1
+"2015","Aasiaat","Over 60 years","Men",53,4
+"2015","Aasiaat","Over 60 years","Women",41,1
+"2015","Qasigiannguit","18-19 years","Men",3,1
+"2015","Qasigiannguit","18-19 years","Women",7,3
+"2015","Qasigiannguit","20-24 years","Men",31,6
+"2015","Qasigiannguit","20-24 years","Women",27,6
+"2015","Qasigiannguit","25-29 years","Men",39,5
+"2015","Qasigiannguit","25-29 years","Women",30,4
+"2015","Qasigiannguit","30-34 years","Men",35,4
+"2015","Qasigiannguit","30-34 years","Women",26,3
+"2015","Qasigiannguit","35-39 years","Men",32,5
+"2015","Qasigiannguit","35-39 years","Women",16,1
+"2015","Qasigiannguit","40-44 years","Men",27,4
+"2015","Qasigiannguit","40-44 years","Women",34,2
+"2015","Qasigiannguit","45-49 years","Men",50,4
+"2015","Qasigiannguit","45-49 years","Women",40,2
+"2015","Qasigiannguit","50-54 years","Men",40,2
+"2015","Qasigiannguit","50-54 years","Women",34,2
+"2015","Qasigiannguit","55-59 years","Men",30,4
+"2015","Qasigiannguit","55-59 years","Women",32,1
+"2015","Qasigiannguit","Over 60 years","Men",31,2
+"2015","Qasigiannguit","Over 60 years","Women",22,1
+"2015","Ilulissat","18-19 years","Men",23,3
+"2015","Ilulissat","18-19 years","Women",18,4
+"2015","Ilulissat","20-24 years","Men",119,11
+"2015","Ilulissat","20-24 years","Women",100,14
+"2015","Ilulissat","25-29 years","Men",128,9
+"2015","Ilulissat","25-29 years","Women",129,13
+"2015","Ilulissat","30-34 years","Men",114,9
+"2015","Ilulissat","30-34 years","Women",139,12
+"2015","Ilulissat","35-39 years","Men",137,8
+"2015","Ilulissat","35-39 years","Women",107,11
+"2015","Ilulissat","40-44 years","Men",139,8
+"2015","Ilulissat","40-44 years","Women",103,10
+"2015","Ilulissat","45-49 years","Men",176,12
+"2015","Ilulissat","45-49 years","Women",175,14
+"2015","Ilulissat","50-54 years","Men",169,15
+"2015","Ilulissat","50-54 years","Women",144,7
+"2015","Ilulissat","55-59 years","Men",128,5
+"2015","Ilulissat","55-59 years","Women",97,4
+"2015","Ilulissat","Over 60 years","Men",95,4
+"2015","Ilulissat","Over 60 years","Women",57,3
+"2015","Qeqertarsuaq","18-19 years","Men",5,2
+"2015","Qeqertarsuaq","18-19 years","Women",6,3
+"2015","Qeqertarsuaq","20-24 years","Men",16,3
+"2015","Qeqertarsuaq","20-24 years","Women",17,3
+"2015","Qeqertarsuaq","25-29 years","Men",17,2
+"2015","Qeqertarsuaq","25-29 years","Women",18,1
+"2015","Qeqertarsuaq","30-34 years","Men",15,2
+"2015","Qeqertarsuaq","30-34 years","Women",17,1
+"2015","Qeqertarsuaq","35-39 years","Men",17,1
+"2015","Qeqertarsuaq","35-39 years","Women",20,2
+"2015","Qeqertarsuaq","40-44 years","Men",24,2
+"2015","Qeqertarsuaq","40-44 years","Women",9,1
+"2015","Qeqertarsuaq","45-49 years","Men",22,4
+"2015","Qeqertarsuaq","45-49 years","Women",30,1
+"2015","Qeqertarsuaq","50-54 years","Men",43,6
+"2015","Qeqertarsuaq","50-54 years","Women",37,2
+"2015","Qeqertarsuaq","55-59 years","Men",28,1
+"2015","Qeqertarsuaq","55-59 years","Women",29,2
+"2015","Qeqertarsuaq","Over 60 years","Men",11,0
+"2015","Qeqertarsuaq","Over 60 years","Women",11,1
+"2015","Uummannaq","18-19 years","Men",25,5
+"2015","Uummannaq","18-19 years","Women",17,3
+"2015","Uummannaq","20-24 years","Men",72,8
+"2015","Uummannaq","20-24 years","Women",61,8
+"2015","Uummannaq","25-29 years","Men",65,5
+"2015","Uummannaq","25-29 years","Women",51,5
+"2015","Uummannaq","30-34 years","Men",53,4
+"2015","Uummannaq","30-34 years","Women",46,4
+"2015","Uummannaq","35-39 years","Men",40,2
+"2015","Uummannaq","35-39 years","Women",42,2
+"2015","Uummannaq","40-44 years","Men",52,2
+"2015","Uummannaq","40-44 years","Women",39,3
+"2015","Uummannaq","45-49 years","Men",80,4
+"2015","Uummannaq","45-49 years","Women",71,4
+"2015","Uummannaq","50-54 years","Men",108,7
+"2015","Uummannaq","50-54 years","Women",84,6
+"2015","Uummannaq","55-59 years","Men",73,5
+"2015","Uummannaq","55-59 years","Women",53,2
+"2015","Uummannaq","Over 60 years","Men",47,3
+"2015","Uummannaq","Over 60 years","Women",25,1
+"2015","Upernavik","18-19 years","Men",13,3
+"2015","Upernavik","18-19 years","Women",18,7
+"2015","Upernavik","20-24 years","Men",88,14
+"2015","Upernavik","20-24 years","Women",55,17
+"2015","Upernavik","25-29 years","Men",65,6
+"2015","Upernavik","25-29 years","Women",48,11
+"2015","Upernavik","30-34 years","Men",79,6
+"2015","Upernavik","30-34 years","Women",50,7
+"2015","Upernavik","35-39 years","Men",75,3
+"2015","Upernavik","35-39 years","Women",60,9
+"2015","Upernavik","40-44 years","Men",69,4
+"2015","Upernavik","40-44 years","Women",62,6
+"2015","Upernavik","45-49 years","Men",97,3
+"2015","Upernavik","45-49 years","Women",61,7
+"2015","Upernavik","50-54 years","Men",101,3
+"2015","Upernavik","50-54 years","Women",60,4
+"2015","Upernavik","55-59 years","Men",70,5
+"2015","Upernavik","55-59 years","Women",40,3
+"2015","Upernavik","Over 60 years","Men",46,2
+"2015","Upernavik","Over 60 years","Women",17,0
+"2015","Qaanaaq","18-19 years","Men",6,2
+"2015","Qaanaaq","18-19 years","Women",5,2
+"2015","Qaanaaq","20-24 years","Men",25,8
+"2015","Qaanaaq","20-24 years","Women",15,6
+"2015","Qaanaaq","25-29 years","Men",20,4
+"2015","Qaanaaq","25-29 years","Women",23,8
+"2015","Qaanaaq","30-34 years","Men",15,4
+"2015","Qaanaaq","30-34 years","Women",16,3
+"2015","Qaanaaq","35-39 years","Men",13,4
+"2015","Qaanaaq","35-39 years","Women",12,0
+"2015","Qaanaaq","40-44 years","Men",18,4
+"2015","Qaanaaq","40-44 years","Women",8,1
+"2015","Qaanaaq","45-49 years","Men",30,6
+"2015","Qaanaaq","45-49 years","Women",19,3
+"2015","Qaanaaq","50-54 years","Men",22,3
+"2015","Qaanaaq","50-54 years","Women",32,5
+"2015","Qaanaaq","55-59 years","Men",18,3
+"2015","Qaanaaq","55-59 years","Women",16,2
+"2015","Qaanaaq","Over 60 years","Men",6,1
+"2015","Qaanaaq","Over 60 years","Women",6,1
+"2015","Tasiilaq","18-19 years","Men",21,8
+"2015","Tasiilaq","18-19 years","Women",24,9
+"2015","Tasiilaq","20-24 years","Men",69,15
+"2015","Tasiilaq","20-24 years","Women",71,25
+"2015","Tasiilaq","25-29 years","Men",85,22
+"2015","Tasiilaq","25-29 years","Women",75,23
+"2015","Tasiilaq","30-34 years","Men",73,15
+"2015","Tasiilaq","30-34 years","Women",74,19
+"2015","Tasiilaq","35-39 years","Men",71,14
+"2015","Tasiilaq","35-39 years","Women",54,14
+"2015","Tasiilaq","40-44 years","Men",65,11
+"2015","Tasiilaq","40-44 years","Women",48,7
+"2015","Tasiilaq","45-49 years","Men",80,17
+"2015","Tasiilaq","45-49 years","Women",89,18
+"2015","Tasiilaq","50-54 years","Men",81,16
+"2015","Tasiilaq","50-54 years","Women",52,12
+"2015","Tasiilaq","55-59 years","Men",58,16
+"2015","Tasiilaq","55-59 years","Women",47,11
+"2015","Tasiilaq","Over 60 years","Men",42,5
+"2015","Tasiilaq","Over 60 years","Women",24,3
+"2015","Ittoqqortoormiit","18-19 years","Men",4,1
+"2015","Ittoqqortoormiit","18-19 years","Women",3,1
+"2015","Ittoqqortoormiit","20-24 years","Men",12,3
+"2015","Ittoqqortoormiit","20-24 years","Women",4,1
+"2015","Ittoqqortoormiit","25-29 years","Men",12,2
+"2015","Ittoqqortoormiit","25-29 years","Women",14,4
+"2015","Ittoqqortoormiit","30-34 years","Men",10,0
+"2015","Ittoqqortoormiit","30-34 years","Women",9,1
+"2015","Ittoqqortoormiit","35-39 years","Men",10,2
+"2015","Ittoqqortoormiit","35-39 years","Women",14,1
+"2015","Ittoqqortoormiit","40-44 years","Men",13,1
+"2015","Ittoqqortoormiit","40-44 years","Women",4,1
+"2015","Ittoqqortoormiit","45-49 years","Men",9,1
+"2015","Ittoqqortoormiit","45-49 years","Women",6,3
+"2015","Ittoqqortoormiit","50-54 years","Men",8,1
+"2015","Ittoqqortoormiit","50-54 years","Women",12,2
+"2015","Ittoqqortoormiit","55-59 years","Men",14,1
+"2015","Ittoqqortoormiit","55-59 years","Women",7,1
+"2015","Ittoqqortoormiit","Over 60 years","Men",6,1
+"2015","Ittoqqortoormiit","Over 60 years","Women",2,1
+"2016","Nanortalik","18-19 years","Men",10,2
+"2016","Nanortalik","18-19 years","Women",13,4
+"2016","Nanortalik","20-24 years","Men",46,6
+"2016","Nanortalik","20-24 years","Women",32,8
+"2016","Nanortalik","25-29 years","Men",43,5
+"2016","Nanortalik","25-29 years","Women",27,5
+"2016","Nanortalik","30-34 years","Men",46,7
+"2016","Nanortalik","30-34 years","Women",33,4
+"2016","Nanortalik","35-39 years","Men",47,7
+"2016","Nanortalik","35-39 years","Women",28,3
+"2016","Nanortalik","40-44 years","Men",41,5
+"2016","Nanortalik","40-44 years","Women",28,2
+"2016","Nanortalik","45-49 years","Men",48,6
+"2016","Nanortalik","45-49 years","Women",36,5
+"2016","Nanortalik","50-54 years","Men",53,5
+"2016","Nanortalik","50-54 years","Women",55,5
+"2016","Nanortalik","55-59 years","Men",64,7
+"2016","Nanortalik","55-59 years","Women",35,4
+"2016","Nanortalik","Over 60 years","Men",38,3
+"2016","Nanortalik","Over 60 years","Women",22,2
+"2016","Qaqortoq","18-19 years","Men",27,4
+"2016","Qaqortoq","18-19 years","Women",25,4
+"2016","Qaqortoq","20-24 years","Men",80,16
+"2016","Qaqortoq","20-24 years","Women",70,6
+"2016","Qaqortoq","25-29 years","Men",96,13
+"2016","Qaqortoq","25-29 years","Women",86,12
+"2016","Qaqortoq","30-34 years","Men",77,7
+"2016","Qaqortoq","30-34 years","Women",82,7
+"2016","Qaqortoq","35-39 years","Men",67,4
+"2016","Qaqortoq","35-39 years","Women",66,6
+"2016","Qaqortoq","40-44 years","Men",59,6
+"2016","Qaqortoq","40-44 years","Women",48,3
+"2016","Qaqortoq","45-49 years","Men",89,7
+"2016","Qaqortoq","45-49 years","Women",78,7
+"2016","Qaqortoq","50-54 years","Men",130,11
+"2016","Qaqortoq","50-54 years","Women",103,6
+"2016","Qaqortoq","55-59 years","Men",103,11
+"2016","Qaqortoq","55-59 years","Women",88,4
+"2016","Qaqortoq","Over 60 years","Men",85,7
+"2016","Qaqortoq","Over 60 years","Women",64,3
+"2016","Narsaq","18-19 years","Men",9,4
+"2016","Narsaq","18-19 years","Women",8,2
+"2016","Narsaq","20-24 years","Men",40,7
+"2016","Narsaq","20-24 years","Women",26,5
+"2016","Narsaq","25-29 years","Men",36,6
+"2016","Narsaq","25-29 years","Women",37,6
+"2016","Narsaq","30-34 years","Men",39,4
+"2016","Narsaq","30-34 years","Women",28,4
+"2016","Narsaq","35-39 years","Men",33,4
+"2016","Narsaq","35-39 years","Women",34,3
+"2016","Narsaq","40-44 years","Men",26,3
+"2016","Narsaq","40-44 years","Women",24,2
+"2016","Narsaq","45-49 years","Men",33,8
+"2016","Narsaq","45-49 years","Women",33,2
+"2016","Narsaq","50-54 years","Men",79,13
+"2016","Narsaq","50-54 years","Women",59,7
+"2016","Narsaq","55-59 years","Men",57,7
+"2016","Narsaq","55-59 years","Women",48,5
+"2016","Narsaq","Over 60 years","Men",45,5
+"2016","Narsaq","Over 60 years","Women",28,0
+"2016","Ivittuut","18-19 years","Men",0,0
+"2016","Ivittuut","18-19 years","Women",0,0
+"2016","Ivittuut","20-24 years","Men",0,0
+"2016","Ivittuut","20-24 years","Women",1,0
+"2016","Ivittuut","25-29 years","Men",0,0
+"2016","Ivittuut","25-29 years","Women",0,0
+"2016","Ivittuut","30-34 years","Men",0,0
+"2016","Ivittuut","30-34 years","Women",0,0
+"2016","Ivittuut","35-39 years","Men",0,0
+"2016","Ivittuut","35-39 years","Women",0,0
+"2016","Ivittuut","40-44 years","Men",0,0
+"2016","Ivittuut","40-44 years","Women",0,0
+"2016","Ivittuut","45-49 years","Men",0,0
+"2016","Ivittuut","45-49 years","Women",0,0
+"2016","Ivittuut","50-54 years","Men",0,0
+"2016","Ivittuut","50-54 years","Women",0,0
+"2016","Ivittuut","55-59 years","Men",0,0
+"2016","Ivittuut","55-59 years","Women",0,0
+"2016","Ivittuut","Over 60 years","Men",0,0
+"2016","Ivittuut","Over 60 years","Women",0,0
+"2016","Paamiut","18-19 years","Men",14,2
+"2016","Paamiut","18-19 years","Women",7,4
+"2016","Paamiut","20-24 years","Men",49,7
+"2016","Paamiut","20-24 years","Women",33,9
+"2016","Paamiut","25-29 years","Men",40,6
+"2016","Paamiut","25-29 years","Women",41,7
+"2016","Paamiut","30-34 years","Men",41,6
+"2016","Paamiut","30-34 years","Women",28,5
+"2016","Paamiut","35-39 years","Men",35,5
+"2016","Paamiut","35-39 years","Women",22,5
+"2016","Paamiut","40-44 years","Men",24,3
+"2016","Paamiut","40-44 years","Women",23,3
+"2016","Paamiut","45-49 years","Men",47,5
+"2016","Paamiut","45-49 years","Women",30,2
+"2016","Paamiut","50-54 years","Men",66,7
+"2016","Paamiut","50-54 years","Women",45,3
+"2016","Paamiut","55-59 years","Men",52,8
+"2016","Paamiut","55-59 years","Women",34,4
+"2016","Paamiut","Over 60 years","Men",39,3
+"2016","Paamiut","Over 60 years","Women",20,2
+"2016","Nuuk","18-19 years","Men",93,8
+"2016","Nuuk","18-19 years","Women",77,6
+"2016","Nuuk","20-24 years","Men",433,38
+"2016","Nuuk","20-24 years","Women",367,21
+"2016","Nuuk","25-29 years","Men",577,35
+"2016","Nuuk","25-29 years","Women",486,29
+"2016","Nuuk","30-34 years","Men",570,28
+"2016","Nuuk","30-34 years","Women",571,21
+"2016","Nuuk","35-39 years","Men",573,27
+"2016","Nuuk","35-39 years","Women",506,16
+"2016","Nuuk","40-44 years","Men",486,16
+"2016","Nuuk","40-44 years","Women",400,11
+"2016","Nuuk","45-49 years","Men",572,32
+"2016","Nuuk","45-49 years","Women",509,26
+"2016","Nuuk","50-54 years","Men",727,48
+"2016","Nuuk","50-54 years","Women",642,35
+"2016","Nuuk","55-59 years","Men",596,35
+"2016","Nuuk","55-59 years","Women",463,22
+"2016","Nuuk","Over 60 years","Men",391,26
+"2016","Nuuk","Over 60 years","Women",299,12
+"2016","Maniitsoq","18-19 years","Men",29,3
+"2016","Maniitsoq","18-19 years","Women",19,3
+"2016","Maniitsoq","20-24 years","Men",90,6
+"2016","Maniitsoq","20-24 years","Women",59,8
+"2016","Maniitsoq","25-29 years","Men",98,9
+"2016","Maniitsoq","25-29 years","Women",72,6
+"2016","Maniitsoq","30-34 years","Men",89,4
+"2016","Maniitsoq","30-34 years","Women",80,6
+"2016","Maniitsoq","35-39 years","Men",86,4
+"2016","Maniitsoq","35-39 years","Women",70,6
+"2016","Maniitsoq","40-44 years","Men",78,3
+"2016","Maniitsoq","40-44 years","Women",53,3
+"2016","Maniitsoq","45-49 years","Men",99,6
+"2016","Maniitsoq","45-49 years","Women",82,4
+"2016","Maniitsoq","50-54 years","Men",127,4
+"2016","Maniitsoq","50-54 years","Women",114,5
+"2016","Maniitsoq","55-59 years","Men",115,5
+"2016","Maniitsoq","55-59 years","Women",91,4
+"2016","Maniitsoq","Over 60 years","Men",90,2
+"2016","Maniitsoq","Over 60 years","Women",44,2
+"2016","Sisimiut","18-19 years","Men",48,4
+"2016","Sisimiut","18-19 years","Women",44,5
+"2016","Sisimiut","20-24 years","Men",167,9
+"2016","Sisimiut","20-24 years","Women",146,12
+"2016","Sisimiut","25-29 years","Men",202,9
+"2016","Sisimiut","25-29 years","Women",148,13
+"2016","Sisimiut","30-34 years","Men",175,6
+"2016","Sisimiut","30-34 years","Women",130,4
+"2016","Sisimiut","35-39 years","Men",131,4
+"2016","Sisimiut","35-39 years","Women",125,7
+"2016","Sisimiut","40-44 years","Men",130,5
+"2016","Sisimiut","40-44 years","Women",134,4
+"2016","Sisimiut","45-49 years","Men",237,9
+"2016","Sisimiut","45-49 years","Women",192,10
+"2016","Sisimiut","50-54 years","Men",212,7
+"2016","Sisimiut","50-54 years","Women",196,7
+"2016","Sisimiut","55-59 years","Men",190,8
+"2016","Sisimiut","55-59 years","Women",160,4
+"2016","Sisimiut","Over 60 years","Men",131,5
+"2016","Sisimiut","Over 60 years","Women",80,3
+"2016","Kangaatsiaq","18-19 years","Men",10,2
+"2016","Kangaatsiaq","18-19 years","Women",8,3
+"2016","Kangaatsiaq","20-24 years","Men",33,6
+"2016","Kangaatsiaq","20-24 years","Women",20,7
+"2016","Kangaatsiaq","25-29 years","Men",37,6
+"2016","Kangaatsiaq","25-29 years","Women",33,5
+"2016","Kangaatsiaq","30-34 years","Men",45,5
+"2016","Kangaatsiaq","30-34 years","Women",27,5
+"2016","Kangaatsiaq","35-39 years","Men",18,1
+"2016","Kangaatsiaq","35-39 years","Women",18,2
+"2016","Kangaatsiaq","40-44 years","Men",18,1
+"2016","Kangaatsiaq","40-44 years","Women",17,1
+"2016","Kangaatsiaq","45-49 years","Men",29,2
+"2016","Kangaatsiaq","45-49 years","Women",37,4
+"2016","Kangaatsiaq","50-54 years","Men",41,2
+"2016","Kangaatsiaq","50-54 years","Women",29,3
+"2016","Kangaatsiaq","55-59 years","Men",44,4
+"2016","Kangaatsiaq","55-59 years","Women",26,2
+"2016","Kangaatsiaq","Over 60 years","Men",27,0
+"2016","Kangaatsiaq","Over 60 years","Women",9,1
+"2016","Aasiaat","18-19 years","Men",18,0
+"2016","Aasiaat","18-19 years","Women",25,2
+"2016","Aasiaat","20-24 years","Men",86,6
+"2016","Aasiaat","20-24 years","Women",61,7
+"2016","Aasiaat","25-29 years","Men",92,6
+"2016","Aasiaat","25-29 years","Women",55,8
+"2016","Aasiaat","30-34 years","Men",95,6
+"2016","Aasiaat","30-34 years","Women",60,3
+"2016","Aasiaat","35-39 years","Men",58,2
+"2016","Aasiaat","35-39 years","Women",64,4
+"2016","Aasiaat","40-44 years","Men",51,3
+"2016","Aasiaat","40-44 years","Women",43,2
+"2016","Aasiaat","45-49 years","Men",109,7
+"2016","Aasiaat","45-49 years","Women",90,4
+"2016","Aasiaat","50-54 years","Men",128,7
+"2016","Aasiaat","50-54 years","Women",91,5
+"2016","Aasiaat","55-59 years","Men",100,4
+"2016","Aasiaat","55-59 years","Women",65,2
+"2016","Aasiaat","Over 60 years","Men",55,3
+"2016","Aasiaat","Over 60 years","Women",39,0
+"2016","Qasigiannguit","18-19 years","Men",4,1
+"2016","Qasigiannguit","18-19 years","Women",9,1
+"2016","Qasigiannguit","20-24 years","Men",27,1
+"2016","Qasigiannguit","20-24 years","Women",23,3
+"2016","Qasigiannguit","25-29 years","Men",42,2
+"2016","Qasigiannguit","25-29 years","Women",29,2
+"2016","Qasigiannguit","30-34 years","Men",30,2
+"2016","Qasigiannguit","30-34 years","Women",26,1
+"2016","Qasigiannguit","35-39 years","Men",29,2
+"2016","Qasigiannguit","35-39 years","Women",20,1
+"2016","Qasigiannguit","40-44 years","Men",34,4
+"2016","Qasigiannguit","40-44 years","Women",31,1
+"2016","Qasigiannguit","45-49 years","Men",43,3
+"2016","Qasigiannguit","45-49 years","Women",28,2
+"2016","Qasigiannguit","50-54 years","Men",44,1
+"2016","Qasigiannguit","50-54 years","Women",37,1
+"2016","Qasigiannguit","55-59 years","Men",33,2
+"2016","Qasigiannguit","55-59 years","Women",26,1
+"2016","Qasigiannguit","Over 60 years","Men",27,1
+"2016","Qasigiannguit","Over 60 years","Women",24,1
+"2016","Ilulissat","18-19 years","Men",28,3
+"2016","Ilulissat","18-19 years","Women",21,4
+"2016","Ilulissat","20-24 years","Men",118,6
+"2016","Ilulissat","20-24 years","Women",103,11
+"2016","Ilulissat","25-29 years","Men",145,5
+"2016","Ilulissat","25-29 years","Women",137,9
+"2016","Ilulissat","30-34 years","Men",139,8
+"2016","Ilulissat","30-34 years","Women",138,6
+"2016","Ilulissat","35-39 years","Men",138,4
+"2016","Ilulissat","35-39 years","Women",118,8
+"2016","Ilulissat","40-44 years","Men",136,5
+"2016","Ilulissat","40-44 years","Women",98,3
+"2016","Ilulissat","45-49 years","Men",172,6
+"2016","Ilulissat","45-49 years","Women",139,5
+"2016","Ilulissat","50-54 years","Men",190,6
+"2016","Ilulissat","50-54 years","Women",163,5
+"2016","Ilulissat","55-59 years","Men",140,4
+"2016","Ilulissat","55-59 years","Women",107,3
+"2016","Ilulissat","Over 60 years","Men",88,1
+"2016","Ilulissat","Over 60 years","Women",64,2
+"2016","Qeqertarsuaq","18-19 years","Men",7,2
+"2016","Qeqertarsuaq","18-19 years","Women",5,2
+"2016","Qeqertarsuaq","20-24 years","Men",18,2
+"2016","Qeqertarsuaq","20-24 years","Women",22,4
+"2016","Qeqertarsuaq","25-29 years","Men",17,3
+"2016","Qeqertarsuaq","25-29 years","Women",11,3
+"2016","Qeqertarsuaq","30-34 years","Men",21,2
+"2016","Qeqertarsuaq","30-34 years","Women",23,2
+"2016","Qeqertarsuaq","35-39 years","Men",14,1
+"2016","Qeqertarsuaq","35-39 years","Women",15,2
+"2016","Qeqertarsuaq","40-44 years","Men",24,0
+"2016","Qeqertarsuaq","40-44 years","Women",14,0
+"2016","Qeqertarsuaq","45-49 years","Men",22,2
+"2016","Qeqertarsuaq","45-49 years","Women",22,0
+"2016","Qeqertarsuaq","50-54 years","Men",34,2
+"2016","Qeqertarsuaq","50-54 years","Women",32,1
+"2016","Qeqertarsuaq","55-59 years","Men",28,1
+"2016","Qeqertarsuaq","55-59 years","Women",28,2
+"2016","Qeqertarsuaq","Over 60 years","Men",15,0
+"2016","Qeqertarsuaq","Over 60 years","Women",13,1
+"2016","Uummannaq","18-19 years","Men",22,3
+"2016","Uummannaq","18-19 years","Women",16,3
+"2016","Uummannaq","20-24 years","Men",87,6
+"2016","Uummannaq","20-24 years","Women",61,7
+"2016","Uummannaq","25-29 years","Men",69,3
+"2016","Uummannaq","25-29 years","Women",58,6
+"2016","Uummannaq","30-34 years","Men",59,2
+"2016","Uummannaq","30-34 years","Women",50,3
+"2016","Uummannaq","35-39 years","Men",41,2
+"2016","Uummannaq","35-39 years","Women",46,2
+"2016","Uummannaq","40-44 years","Men",56,2
+"2016","Uummannaq","40-44 years","Women",41,2
+"2016","Uummannaq","45-49 years","Men",66,2
+"2016","Uummannaq","45-49 years","Women",66,4
+"2016","Uummannaq","50-54 years","Men",101,3
+"2016","Uummannaq","50-54 years","Women",75,3
+"2016","Uummannaq","55-59 years","Men",77,3
+"2016","Uummannaq","55-59 years","Women",52,2
+"2016","Uummannaq","Over 60 years","Men",53,2
+"2016","Uummannaq","Over 60 years","Women",36,1
+"2016","Upernavik","18-19 years","Men",16,1
+"2016","Upernavik","18-19 years","Women",13,3
+"2016","Upernavik","20-24 years","Men",81,7
+"2016","Upernavik","20-24 years","Women",55,13
+"2016","Upernavik","25-29 years","Men",81,3
+"2016","Upernavik","25-29 years","Women",52,8
+"2016","Upernavik","30-34 years","Men",67,4
+"2016","Upernavik","30-34 years","Women",46,5
+"2016","Upernavik","35-39 years","Men",87,3
+"2016","Upernavik","35-39 years","Women",56,6
+"2016","Upernavik","40-44 years","Men",64,3
+"2016","Upernavik","40-44 years","Women",64,5
+"2016","Upernavik","45-49 years","Men",85,3
+"2016","Upernavik","45-49 years","Women",51,3
+"2016","Upernavik","50-54 years","Men",109,3
+"2016","Upernavik","50-54 years","Women",61,3
+"2016","Upernavik","55-59 years","Men",77,2
+"2016","Upernavik","55-59 years","Women",41,1
+"2016","Upernavik","Over 60 years","Men",41,1
+"2016","Upernavik","Over 60 years","Women",17,0
+"2016","Qaanaaq","18-19 years","Men",3,1
+"2016","Qaanaaq","18-19 years","Women",3,1
+"2016","Qaanaaq","20-24 years","Men",19,4
+"2016","Qaanaaq","20-24 years","Women",15,5
+"2016","Qaanaaq","25-29 years","Men",22,3
+"2016","Qaanaaq","25-29 years","Women",15,3
+"2016","Qaanaaq","30-34 years","Men",15,4
+"2016","Qaanaaq","30-34 years","Women",18,3
+"2016","Qaanaaq","35-39 years","Men",15,4
+"2016","Qaanaaq","35-39 years","Women",10,1
+"2016","Qaanaaq","40-44 years","Men",17,3
+"2016","Qaanaaq","40-44 years","Women",7,1
+"2016","Qaanaaq","45-49 years","Men",24,5
+"2016","Qaanaaq","45-49 years","Women",18,3
+"2016","Qaanaaq","50-54 years","Men",26,4
+"2016","Qaanaaq","50-54 years","Women",26,4
+"2016","Qaanaaq","55-59 years","Men",19,2
+"2016","Qaanaaq","55-59 years","Women",20,2
+"2016","Qaanaaq","Over 60 years","Men",6,1
+"2016","Qaanaaq","Over 60 years","Women",7,1
+"2016","Tasiilaq","18-19 years","Men",25,12
+"2016","Tasiilaq","18-19 years","Women",25,11
+"2016","Tasiilaq","20-24 years","Men",70,22
+"2016","Tasiilaq","20-24 years","Women",64,21
+"2016","Tasiilaq","25-29 years","Men",80,15
+"2016","Tasiilaq","25-29 years","Women",72,27
+"2016","Tasiilaq","30-34 years","Men",81,17
+"2016","Tasiilaq","30-34 years","Women",71,21
+"2016","Tasiilaq","35-39 years","Men",64,14
+"2016","Tasiilaq","35-39 years","Women",68,20
+"2016","Tasiilaq","40-44 years","Men",70,12
+"2016","Tasiilaq","40-44 years","Women",49,7
+"2016","Tasiilaq","45-49 years","Men",83,19
+"2016","Tasiilaq","45-49 years","Women",83,17
+"2016","Tasiilaq","50-54 years","Men",83,16
+"2016","Tasiilaq","50-54 years","Women",72,20
+"2016","Tasiilaq","55-59 years","Men",69,14
+"2016","Tasiilaq","55-59 years","Women",42,10
+"2016","Tasiilaq","Over 60 years","Men",40,7
+"2016","Tasiilaq","Over 60 years","Women",31,5
+"2016","Ittoqqortoormiit","18-19 years","Men",2,0
+"2016","Ittoqqortoormiit","18-19 years","Women",2,1
+"2016","Ittoqqortoormiit","20-24 years","Men",11,3
+"2016","Ittoqqortoormiit","20-24 years","Women",5,2
+"2016","Ittoqqortoormiit","25-29 years","Men",12,1
+"2016","Ittoqqortoormiit","25-29 years","Women",11,2
+"2016","Ittoqqortoormiit","30-34 years","Men",12,1
+"2016","Ittoqqortoormiit","30-34 years","Women",12,3
+"2016","Ittoqqortoormiit","35-39 years","Men",9,1
+"2016","Ittoqqortoormiit","35-39 years","Women",12,1
+"2016","Ittoqqortoormiit","40-44 years","Men",10,1
+"2016","Ittoqqortoormiit","40-44 years","Women",7,2
+"2016","Ittoqqortoormiit","45-49 years","Men",9,2
+"2016","Ittoqqortoormiit","45-49 years","Women",3,1
+"2016","Ittoqqortoormiit","50-54 years","Men",7,1
+"2016","Ittoqqortoormiit","50-54 years","Women",13,2
+"2016","Ittoqqortoormiit","55-59 years","Men",11,1
+"2016","Ittoqqortoormiit","55-59 years","Women",5,0
+"2016","Ittoqqortoormiit","Over 60 years","Men",9,1
+"2016","Ittoqqortoormiit","Over 60 years","Women",4,1
+"2017","Nanortalik","18-19 years","Men",10,3
+"2017","Nanortalik","18-19 years","Women",10,3
+"2017","Nanortalik","20-24 years","Men",51,11
+"2017","Nanortalik","20-24 years","Women",29,8
+"2017","Nanortalik","25-29 years","Men",51,12
+"2017","Nanortalik","25-29 years","Women",27,5
+"2017","Nanortalik","30-34 years","Men",43,7
+"2017","Nanortalik","30-34 years","Women",34,6
+"2017","Nanortalik","35-39 years","Men",46,12
+"2017","Nanortalik","35-39 years","Women",31,6
+"2017","Nanortalik","40-44 years","Men",33,6
+"2017","Nanortalik","40-44 years","Women",22,3
+"2017","Nanortalik","45-49 years","Men",45,5
+"2017","Nanortalik","45-49 years","Women",28,3
+"2017","Nanortalik","50-54 years","Men",57,7
+"2017","Nanortalik","50-54 years","Women",53,7
+"2017","Nanortalik","55-59 years","Men",54,8
+"2017","Nanortalik","55-59 years","Women",41,5
+"2017","Nanortalik","Over 60 years","Men",48,4
+"2017","Nanortalik","Over 60 years","Women",25,2
+"2017","Qaqortoq","18-19 years","Men",17,3
+"2017","Qaqortoq","18-19 years","Women",32,3
+"2017","Qaqortoq","20-24 years","Men",91,15
+"2017","Qaqortoq","20-24 years","Women",71,8
+"2017","Qaqortoq","25-29 years","Men",88,12
+"2017","Qaqortoq","25-29 years","Women",83,9
+"2017","Qaqortoq","30-34 years","Men",85,8
+"2017","Qaqortoq","30-34 years","Women",89,6
+"2017","Qaqortoq","35-39 years","Men",62,4
+"2017","Qaqortoq","35-39 years","Women",59,5
+"2017","Qaqortoq","40-44 years","Men",58,5
+"2017","Qaqortoq","40-44 years","Women",55,5
+"2017","Qaqortoq","45-49 years","Men",67,5
+"2017","Qaqortoq","45-49 years","Women",71,4
+"2017","Qaqortoq","50-54 years","Men",129,16
+"2017","Qaqortoq","50-54 years","Women",102,5
+"2017","Qaqortoq","55-59 years","Men",103,13
+"2017","Qaqortoq","55-59 years","Women",89,4
+"2017","Qaqortoq","Over 60 years","Men",90,14
+"2017","Qaqortoq","Over 60 years","Women",78,5
+"2017","Narsaq","18-19 years","Men",6,2
+"2017","Narsaq","18-19 years","Women",12,4
+"2017","Narsaq","20-24 years","Men",36,6
+"2017","Narsaq","20-24 years","Women",25,5
+"2017","Narsaq","25-29 years","Men",39,8
+"2017","Narsaq","25-29 years","Women",38,6
+"2017","Narsaq","30-34 years","Men",34,5
+"2017","Narsaq","30-34 years","Women",32,6
+"2017","Narsaq","35-39 years","Men",40,5
+"2017","Narsaq","35-39 years","Women",28,2
+"2017","Narsaq","40-44 years","Men",27,3
+"2017","Narsaq","40-44 years","Women",26,2
+"2017","Narsaq","45-49 years","Men",30,7
+"2017","Narsaq","45-49 years","Women",35,1
+"2017","Narsaq","50-54 years","Men",69,10
+"2017","Narsaq","50-54 years","Women",56,6
+"2017","Narsaq","55-59 years","Men",69,7
+"2017","Narsaq","55-59 years","Women",53,1
+"2017","Narsaq","Over 60 years","Men",51,7
+"2017","Narsaq","Over 60 years","Women",33,1
+"2017","Ivittuut","18-19 years","Men",0,0
+"2017","Ivittuut","18-19 years","Women",0,0
+"2017","Ivittuut","20-24 years","Men",0,0
+"2017","Ivittuut","20-24 years","Women",0,0
+"2017","Ivittuut","25-29 years","Men",0,0
+"2017","Ivittuut","25-29 years","Women",0,0
+"2017","Ivittuut","30-34 years","Men",0,0
+"2017","Ivittuut","30-34 years","Women",0,0
+"2017","Ivittuut","35-39 years","Men",0,0
+"2017","Ivittuut","35-39 years","Women",0,0
+"2017","Ivittuut","40-44 years","Men",0,0
+"2017","Ivittuut","40-44 years","Women",0,0
+"2017","Ivittuut","45-49 years","Men",0,0
+"2017","Ivittuut","45-49 years","Women",0,0
+"2017","Ivittuut","50-54 years","Men",0,0
+"2017","Ivittuut","50-54 years","Women",0,0
+"2017","Ivittuut","55-59 years","Men",0,0
+"2017","Ivittuut","55-59 years","Women",0,0
+"2017","Ivittuut","Over 60 years","Men",0,0
+"2017","Ivittuut","Over 60 years","Women",0,0
+"2017","Paamiut","18-19 years","Men",17,3
+"2017","Paamiut","18-19 years","Women",8,2
+"2017","Paamiut","20-24 years","Men",43,7
+"2017","Paamiut","20-24 years","Women",35,10
+"2017","Paamiut","25-29 years","Men",39,7
+"2017","Paamiut","25-29 years","Women",35,7
+"2017","Paamiut","30-34 years","Men",36,6
+"2017","Paamiut","30-34 years","Women",32,6
+"2017","Paamiut","35-39 years","Men",40,6
+"2017","Paamiut","35-39 years","Women",20,3
+"2017","Paamiut","40-44 years","Men",26,4
+"2017","Paamiut","40-44 years","Women",20,4
+"2017","Paamiut","45-49 years","Men",37,2
+"2017","Paamiut","45-49 years","Women",24,2
+"2017","Paamiut","50-54 years","Men",55,5
+"2017","Paamiut","50-54 years","Women",45,2
+"2017","Paamiut","55-59 years","Men",54,6
+"2017","Paamiut","55-59 years","Women",38,3
+"2017","Paamiut","Over 60 years","Men",47,3
+"2017","Paamiut","Over 60 years","Women",20,2
+"2017","Nuuk","18-19 years","Men",90,7
+"2017","Nuuk","18-19 years","Women",78,6
+"2017","Nuuk","20-24 years","Men",439,30
+"2017","Nuuk","20-24 years","Women",369,18
+"2017","Nuuk","25-29 years","Men",562,24
+"2017","Nuuk","25-29 years","Women",510,25
+"2017","Nuuk","30-34 years","Men",608,25
+"2017","Nuuk","30-34 years","Women",584,18
+"2017","Nuuk","35-39 years","Men",583,30
+"2017","Nuuk","35-39 years","Women",554,16
+"2017","Nuuk","40-44 years","Men",511,15
+"2017","Nuuk","40-44 years","Women",406,8
+"2017","Nuuk","45-49 years","Men",540,17
+"2017","Nuuk","45-49 years","Women",481,23
+"2017","Nuuk","50-54 years","Men",723,41
+"2017","Nuuk","50-54 years","Women",645,24
+"2017","Nuuk","55-59 years","Men",628,31
+"2017","Nuuk","55-59 years","Women",488,21
+"2017","Nuuk","Over 60 years","Men",470,27
+"2017","Nuuk","Over 60 years","Women",358,13
+"2017","Maniitsoq","18-19 years","Men",30,3
+"2017","Maniitsoq","18-19 years","Women",16,2
+"2017","Maniitsoq","20-24 years","Men",95,7
+"2017","Maniitsoq","20-24 years","Women",62,8
+"2017","Maniitsoq","25-29 years","Men",97,5
+"2017","Maniitsoq","25-29 years","Women",64,4
+"2017","Maniitsoq","30-34 years","Men",76,5
+"2017","Maniitsoq","30-34 years","Women",69,4
+"2017","Maniitsoq","35-39 years","Men",95,6
+"2017","Maniitsoq","35-39 years","Women",72,6
+"2017","Maniitsoq","40-44 years","Men",79,4
+"2017","Maniitsoq","40-44 years","Women",50,3
+"2017","Maniitsoq","45-49 years","Men",89,7
+"2017","Maniitsoq","45-49 years","Women",77,3
+"2017","Maniitsoq","50-54 years","Men",122,5
+"2017","Maniitsoq","50-54 years","Women",101,5
+"2017","Maniitsoq","55-59 years","Men",114,8
+"2017","Maniitsoq","55-59 years","Women",97,4
+"2017","Maniitsoq","Over 60 years","Men",105,3
+"2017","Maniitsoq","Over 60 years","Women",63,2
+"2017","Sisimiut","18-19 years","Men",39,3
+"2017","Sisimiut","18-19 years","Women",37,3
+"2017","Sisimiut","20-24 years","Men",166,7
+"2017","Sisimiut","20-24 years","Women",144,10
+"2017","Sisimiut","25-29 years","Men",228,6
+"2017","Sisimiut","25-29 years","Women",159,13
+"2017","Sisimiut","30-34 years","Men",187,8
+"2017","Sisimiut","30-34 years","Women",141,9
+"2017","Sisimiut","35-39 years","Men",140,3
+"2017","Sisimiut","35-39 years","Women",151,6
+"2017","Sisimiut","40-44 years","Men",134,5
+"2017","Sisimiut","40-44 years","Women",124,4
+"2017","Sisimiut","45-49 years","Men",203,7
+"2017","Sisimiut","45-49 years","Women",166,6
+"2017","Sisimiut","50-54 years","Men",236,7
+"2017","Sisimiut","50-54 years","Women",210,6
+"2017","Sisimiut","55-59 years","Men",190,6
+"2017","Sisimiut","55-59 years","Women",164,3
+"2017","Sisimiut","Over 60 years","Men",162,5
+"2017","Sisimiut","Over 60 years","Women",104,4
+"2017","Kangaatsiaq","18-19 years","Men",12,1
+"2017","Kangaatsiaq","18-19 years","Women",6,1
+"2017","Kangaatsiaq","20-24 years","Men",27,4
+"2017","Kangaatsiaq","20-24 years","Women",24,7
+"2017","Kangaatsiaq","25-29 years","Men",44,5
+"2017","Kangaatsiaq","25-29 years","Women",34,6
+"2017","Kangaatsiaq","30-34 years","Men",42,5
+"2017","Kangaatsiaq","30-34 years","Women",27,2
+"2017","Kangaatsiaq","35-39 years","Men",22,3
+"2017","Kangaatsiaq","35-39 years","Women",27,7
+"2017","Kangaatsiaq","40-44 years","Men",19,1
+"2017","Kangaatsiaq","40-44 years","Women",14,1
+"2017","Kangaatsiaq","45-49 years","Men",21,2
+"2017","Kangaatsiaq","45-49 years","Women",34,4
+"2017","Kangaatsiaq","50-54 years","Men",46,3
+"2017","Kangaatsiaq","50-54 years","Women",33,3
+"2017","Kangaatsiaq","55-59 years","Men",44,4
+"2017","Kangaatsiaq","55-59 years","Women",25,1
+"2017","Kangaatsiaq","Over 60 years","Men",30,1
+"2017","Kangaatsiaq","Over 60 years","Women",14,1
+"2017","Aasiaat","18-19 years","Men",20,2
+"2017","Aasiaat","18-19 years","Women",24,1
+"2017","Aasiaat","20-24 years","Men",80,7
+"2017","Aasiaat","20-24 years","Women",69,10
+"2017","Aasiaat","25-29 years","Men",101,6
+"2017","Aasiaat","25-29 years","Women",61,5
+"2017","Aasiaat","30-34 years","Men",82,6
+"2017","Aasiaat","30-34 years","Women",63,3
+"2017","Aasiaat","35-39 years","Men",69,4
+"2017","Aasiaat","35-39 years","Women",58,4
+"2017","Aasiaat","40-44 years","Men",41,3
+"2017","Aasiaat","40-44 years","Women",53,1
+"2017","Aasiaat","45-49 years","Men",101,7
+"2017","Aasiaat","45-49 years","Women",77,4
+"2017","Aasiaat","50-54 years","Men",123,12
+"2017","Aasiaat","50-54 years","Women",94,4
+"2017","Aasiaat","55-59 years","Men",108,6
+"2017","Aasiaat","55-59 years","Women",71,3
+"2017","Aasiaat","Over 60 years","Men",61,2
+"2017","Aasiaat","Over 60 years","Women",49,1
+"2017","Qasigiannguit","18-19 years","Men",3,0
+"2017","Qasigiannguit","18-19 years","Women",5,1
+"2017","Qasigiannguit","20-24 years","Men",27,2
+"2017","Qasigiannguit","20-24 years","Women",25,3
+"2017","Qasigiannguit","25-29 years","Men",33,2
+"2017","Qasigiannguit","25-29 years","Women",29,1
+"2017","Qasigiannguit","30-34 years","Men",32,1
+"2017","Qasigiannguit","30-34 years","Women",29,1
+"2017","Qasigiannguit","35-39 years","Men",31,2
+"2017","Qasigiannguit","35-39 years","Women",22,1
+"2017","Qasigiannguit","40-44 years","Men",32,2
+"2017","Qasigiannguit","40-44 years","Women",27,1
+"2017","Qasigiannguit","45-49 years","Men",37,3
+"2017","Qasigiannguit","45-49 years","Women",28,1
+"2017","Qasigiannguit","50-54 years","Men",43,1
+"2017","Qasigiannguit","50-54 years","Women",38,1
+"2017","Qasigiannguit","55-59 years","Men",34,1
+"2017","Qasigiannguit","55-59 years","Women",28,1
+"2017","Qasigiannguit","Over 60 years","Men",25,2
+"2017","Qasigiannguit","Over 60 years","Women",24,0
+"2017","Ilulissat","18-19 years","Men",31,3
+"2017","Ilulissat","18-19 years","Women",16,1
+"2017","Ilulissat","20-24 years","Men",101,4
+"2017","Ilulissat","20-24 years","Women",88,8
+"2017","Ilulissat","25-29 years","Men",144,4
+"2017","Ilulissat","25-29 years","Women",140,5
+"2017","Ilulissat","30-34 years","Men",143,5
+"2017","Ilulissat","30-34 years","Women",136,6
+"2017","Ilulissat","35-39 years","Men",131,3
+"2017","Ilulissat","35-39 years","Women",118,4
+"2017","Ilulissat","40-44 years","Men",128,5
+"2017","Ilulissat","40-44 years","Women",104,4
+"2017","Ilulissat","45-49 years","Men",163,5
+"2017","Ilulissat","45-49 years","Women",135,4
+"2017","Ilulissat","50-54 years","Men",186,6
+"2017","Ilulissat","50-54 years","Women",156,4
+"2017","Ilulissat","55-59 years","Men",125,3
+"2017","Ilulissat","55-59 years","Women",115,3
+"2017","Ilulissat","Over 60 years","Men",114,3
+"2017","Ilulissat","Over 60 years","Women",75,2
+"2017","Qeqertarsuaq","18-19 years","Men",4,1
+"2017","Qeqertarsuaq","18-19 years","Women",4,1
+"2017","Qeqertarsuaq","20-24 years","Men",24,4
+"2017","Qeqertarsuaq","20-24 years","Women",23,3
+"2017","Qeqertarsuaq","25-29 years","Men",17,3
+"2017","Qeqertarsuaq","25-29 years","Women",24,3
+"2017","Qeqertarsuaq","30-34 years","Men",20,2
+"2017","Qeqertarsuaq","30-34 years","Women",20,3
+"2017","Qeqertarsuaq","35-39 years","Men",8,0
+"2017","Qeqertarsuaq","35-39 years","Women",17,2
+"2017","Qeqertarsuaq","40-44 years","Men",19,1
+"2017","Qeqertarsuaq","40-44 years","Women",14,0
+"2017","Qeqertarsuaq","45-49 years","Men",16,0
+"2017","Qeqertarsuaq","45-49 years","Women",25,1
+"2017","Qeqertarsuaq","50-54 years","Men",41,4
+"2017","Qeqertarsuaq","50-54 years","Women",33,1
+"2017","Qeqertarsuaq","55-59 years","Men",26,1
+"2017","Qeqertarsuaq","55-59 years","Women",29,1
+"2017","Qeqertarsuaq","Over 60 years","Men",17,0
+"2017","Qeqertarsuaq","Over 60 years","Women",16,1
+"2017","Uummannaq","18-19 years","Men",17,1
+"2017","Uummannaq","18-19 years","Women",12,2
+"2017","Uummannaq","20-24 years","Men",83,3
+"2017","Uummannaq","20-24 years","Women",59,5
+"2017","Uummannaq","25-29 years","Men",73,2
+"2017","Uummannaq","25-29 years","Women",58,4
+"2017","Uummannaq","30-34 years","Men",53,1
+"2017","Uummannaq","30-34 years","Women",52,3
+"2017","Uummannaq","35-39 years","Men",48,2
+"2017","Uummannaq","35-39 years","Women",47,2
+"2017","Uummannaq","40-44 years","Men",51,1
+"2017","Uummannaq","40-44 years","Women",39,1
+"2017","Uummannaq","45-49 years","Men",54,2
+"2017","Uummannaq","45-49 years","Women",63,3
+"2017","Uummannaq","50-54 years","Men",111,3
+"2017","Uummannaq","50-54 years","Women",71,3
+"2017","Uummannaq","55-59 years","Men",75,2
+"2017","Uummannaq","55-59 years","Women",54,1
+"2017","Uummannaq","Over 60 years","Men",64,1
+"2017","Uummannaq","Over 60 years","Women",40,1
+"2017","Upernavik","18-19 years","Men",17,2
+"2017","Upernavik","18-19 years","Women",12,4
+"2017","Upernavik","20-24 years","Men",74,5
+"2017","Upernavik","20-24 years","Women",52,11
+"2017","Upernavik","25-29 years","Men",80,4
+"2017","Upernavik","25-29 years","Women",59,9
+"2017","Upernavik","30-34 years","Men",67,2
+"2017","Upernavik","30-34 years","Women",36,3
+"2017","Upernavik","35-39 years","Men",76,1
+"2017","Upernavik","35-39 years","Women",65,4
+"2017","Upernavik","40-44 years","Men",68,1
+"2017","Upernavik","40-44 years","Women",53,3
+"2017","Upernavik","45-49 years","Men",74,2
+"2017","Upernavik","45-49 years","Women",56,3
+"2017","Upernavik","50-54 years","Men",107,3
+"2017","Upernavik","50-54 years","Women",69,5
+"2017","Upernavik","55-59 years","Men",82,2
+"2017","Upernavik","55-59 years","Women",42,2
+"2017","Upernavik","Over 60 years","Men",51,1
+"2017","Upernavik","Over 60 years","Women",22,1
+"2017","Qaanaaq","18-19 years","Men",2,0
+"2017","Qaanaaq","18-19 years","Women",3,1
+"2017","Qaanaaq","20-24 years","Men",20,2
+"2017","Qaanaaq","20-24 years","Women",12,4
+"2017","Qaanaaq","25-29 years","Men",22,3
+"2017","Qaanaaq","25-29 years","Women",16,3
+"2017","Qaanaaq","30-34 years","Men",15,3
+"2017","Qaanaaq","30-34 years","Women",17,3
+"2017","Qaanaaq","35-39 years","Men",14,3
+"2017","Qaanaaq","35-39 years","Women",10,1
+"2017","Qaanaaq","40-44 years","Men",14,2
+"2017","Qaanaaq","40-44 years","Women",8,1
+"2017","Qaanaaq","45-49 years","Men",23,4
+"2017","Qaanaaq","45-49 years","Women",15,1
+"2017","Qaanaaq","50-54 years","Men",29,3
+"2017","Qaanaaq","50-54 years","Women",27,3
+"2017","Qaanaaq","55-59 years","Men",17,1
+"2017","Qaanaaq","55-59 years","Women",24,2
+"2017","Qaanaaq","Over 60 years","Men",9,0
+"2017","Qaanaaq","Over 60 years","Women",8,1
+"2017","Tasiilaq","18-19 years","Men",14,7
+"2017","Tasiilaq","18-19 years","Women",16,7
+"2017","Tasiilaq","20-24 years","Men",81,24
+"2017","Tasiilaq","20-24 years","Women",72,27
+"2017","Tasiilaq","25-29 years","Men",81,17
+"2017","Tasiilaq","25-29 years","Women",78,23
+"2017","Tasiilaq","30-34 years","Men",79,16
+"2017","Tasiilaq","30-34 years","Women",74,18
+"2017","Tasiilaq","35-39 years","Men",71,17
+"2017","Tasiilaq","35-39 years","Women",66,20
+"2017","Tasiilaq","40-44 years","Men",63,8
+"2017","Tasiilaq","40-44 years","Women",54,10
+"2017","Tasiilaq","45-49 years","Men",82,21
+"2017","Tasiilaq","45-49 years","Women",72,17
+"2017","Tasiilaq","50-54 years","Men",78,14
+"2017","Tasiilaq","50-54 years","Women",82,25
+"2017","Tasiilaq","55-59 years","Men",79,18
+"2017","Tasiilaq","55-59 years","Women",50,16
+"2017","Tasiilaq","Over 60 years","Men",47,8
+"2017","Tasiilaq","Over 60 years","Women",36,5
+"2017","Ittoqqortoormiit","18-19 years","Men",2,0
+"2017","Ittoqqortoormiit","18-19 years","Women",0,0
+"2017","Ittoqqortoormiit","20-24 years","Men",9,1
+"2017","Ittoqqortoormiit","20-24 years","Women",5,2
+"2017","Ittoqqortoormiit","25-29 years","Men",10,1
+"2017","Ittoqqortoormiit","25-29 years","Women",8,1
+"2017","Ittoqqortoormiit","30-34 years","Men",15,1
+"2017","Ittoqqortoormiit","30-34 years","Women",10,1
+"2017","Ittoqqortoormiit","35-39 years","Men",8,0
+"2017","Ittoqqortoormiit","35-39 years","Women",13,1
+"2017","Ittoqqortoormiit","40-44 years","Men",7,1
+"2017","Ittoqqortoormiit","40-44 years","Women",9,2
+"2017","Ittoqqortoormiit","45-49 years","Men",6,1
+"2017","Ittoqqortoormiit","45-49 years","Women",4,1
+"2017","Ittoqqortoormiit","50-54 years","Men",8,2
+"2017","Ittoqqortoormiit","50-54 years","Women",11,3
+"2017","Ittoqqortoormiit","55-59 years","Men",13,0
+"2017","Ittoqqortoormiit","55-59 years","Women",7,0
+"2017","Ittoqqortoormiit","Over 60 years","Men",9,2
+"2017","Ittoqqortoormiit","Over 60 years","Women",3,1
+"2018","Nanortalik","18-19 years","Men",11,2
+"2018","Nanortalik","18-19 years","Women",3,2
+"2018","Nanortalik","20-24 years","Men",43,9
+"2018","Nanortalik","20-24 years","Women",34,10
+"2018","Nanortalik","25-29 years","Men",48,11
+"2018","Nanortalik","25-29 years","Women",24,7
+"2018","Nanortalik","30-34 years","Men",41,6
+"2018","Nanortalik","30-34 years","Women",36,7
+"2018","Nanortalik","35-39 years","Men",45,8
+"2018","Nanortalik","35-39 years","Women",34,7
+"2018","Nanortalik","40-44 years","Men",35,9
+"2018","Nanortalik","40-44 years","Women",23,4
+"2018","Nanortalik","45-49 years","Men",39,4
+"2018","Nanortalik","45-49 years","Women",29,2
+"2018","Nanortalik","50-54 years","Men",59,8
+"2018","Nanortalik","50-54 years","Women",45,4
+"2018","Nanortalik","55-59 years","Men",58,6
+"2018","Nanortalik","55-59 years","Women",38,6
+"2018","Nanortalik","Over 60 years","Men",45,5
+"2018","Nanortalik","Over 60 years","Women",25,3
+"2018","Qaqortoq","18-19 years","Men",21,3
+"2018","Qaqortoq","18-19 years","Women",24,2
+"2018","Qaqortoq","20-24 years","Men",88,12
+"2018","Qaqortoq","20-24 years","Women",73,9
+"2018","Qaqortoq","25-29 years","Men",102,10
+"2018","Qaqortoq","25-29 years","Women",76,4
+"2018","Qaqortoq","30-34 years","Men",79,9
+"2018","Qaqortoq","30-34 years","Women",97,8
+"2018","Qaqortoq","35-39 years","Men",72,6
+"2018","Qaqortoq","35-39 years","Women",66,3
+"2018","Qaqortoq","40-44 years","Men",56,3
+"2018","Qaqortoq","40-44 years","Women",58,3
+"2018","Qaqortoq","45-49 years","Men",52,4
+"2018","Qaqortoq","45-49 years","Women",57,4
+"2018","Qaqortoq","50-54 years","Men",130,10
+"2018","Qaqortoq","50-54 years","Women",93,6
+"2018","Qaqortoq","55-59 years","Men",108,13
+"2018","Qaqortoq","55-59 years","Women",87,3
+"2018","Qaqortoq","Over 60 years","Men",87,9
+"2018","Qaqortoq","Over 60 years","Women",86,6
+"2018","Narsaq","18-19 years","Men",8,2
+"2018","Narsaq","18-19 years","Women",8,3
+"2018","Narsaq","20-24 years","Men",40,5
+"2018","Narsaq","20-24 years","Women",23,4
+"2018","Narsaq","25-29 years","Men",46,9
+"2018","Narsaq","25-29 years","Women",32,5
+"2018","Narsaq","30-34 years","Men",37,4
+"2018","Narsaq","30-34 years","Women",31,3
+"2018","Narsaq","35-39 years","Men",37,4
+"2018","Narsaq","35-39 years","Women",34,2
+"2018","Narsaq","40-44 years","Men",21,3
+"2018","Narsaq","40-44 years","Women",34,3
+"2018","Narsaq","45-49 years","Men",28,4
+"2018","Narsaq","45-49 years","Women",30,2
+"2018","Narsaq","50-54 years","Men",68,10
+"2018","Narsaq","50-54 years","Women",49,7
+"2018","Narsaq","55-59 years","Men",58,4
+"2018","Narsaq","55-59 years","Women",54,1
+"2018","Narsaq","Over 60 years","Men",55,5
+"2018","Narsaq","Over 60 years","Women",44,2
+"2018","Ivittuut","18-19 years","Men",0,0
+"2018","Ivittuut","18-19 years","Women",0,0
+"2018","Ivittuut","20-24 years","Men",0,0
+"2018","Ivittuut","20-24 years","Women",0,0
+"2018","Ivittuut","25-29 years","Men",0,0
+"2018","Ivittuut","25-29 years","Women",0,0
+"2018","Ivittuut","30-34 years","Men",0,0
+"2018","Ivittuut","30-34 years","Women",0,0
+"2018","Ivittuut","35-39 years","Men",0,0
+"2018","Ivittuut","35-39 years","Women",0,0
+"2018","Ivittuut","40-44 years","Men",0,0
+"2018","Ivittuut","40-44 years","Women",0,0
+"2018","Ivittuut","45-49 years","Men",0,0
+"2018","Ivittuut","45-49 years","Women",0,0
+"2018","Ivittuut","50-54 years","Men",1,0
+"2018","Ivittuut","50-54 years","Women",0,0
+"2018","Ivittuut","55-59 years","Men",1,0
+"2018","Ivittuut","55-59 years","Women",0,0
+"2018","Ivittuut","Over 60 years","Men",1,0
+"2018","Ivittuut","Over 60 years","Women",0,0
+"2018","Paamiut","18-19 years","Men",14,0
+"2018","Paamiut","18-19 years","Women",7,1
+"2018","Paamiut","20-24 years","Men",37,5
+"2018","Paamiut","20-24 years","Women",33,9
+"2018","Paamiut","25-29 years","Men",42,6
+"2018","Paamiut","25-29 years","Women",34,3
+"2018","Paamiut","30-34 years","Men",29,3
+"2018","Paamiut","30-34 years","Women",39,6
+"2018","Paamiut","35-39 years","Men",42,7
+"2018","Paamiut","35-39 years","Women",23,3
+"2018","Paamiut","40-44 years","Men",31,3
+"2018","Paamiut","40-44 years","Women",18,3
+"2018","Paamiut","45-49 years","Men",27,1
+"2018","Paamiut","45-49 years","Women",19,0
+"2018","Paamiut","50-54 years","Men",63,2
+"2018","Paamiut","50-54 years","Women",44,2
+"2018","Paamiut","55-59 years","Men",52,6
+"2018","Paamiut","55-59 years","Women",37,4
+"2018","Paamiut","Over 60 years","Men",44,4
+"2018","Paamiut","Over 60 years","Women",24,1
+"2018","Nuuk","18-19 years","Men",89,3
+"2018","Nuuk","18-19 years","Women",83,3
+"2018","Nuuk","20-24 years","Men",445,18
+"2018","Nuuk","20-24 years","Women",372,17
+"2018","Nuuk","25-29 years","Men",614,17
+"2018","Nuuk","25-29 years","Women",545,20
+"2018","Nuuk","30-34 years","Men",636,18
+"2018","Nuuk","30-34 years","Women",601,11
+"2018","Nuuk","35-39 years","Men",590,20
+"2018","Nuuk","35-39 years","Women",542,10
+"2018","Nuuk","40-44 years","Men",513,17
+"2018","Nuuk","40-44 years","Women",437,12
+"2018","Nuuk","45-49 years","Men",503,12
+"2018","Nuuk","45-49 years","Women",409,15
+"2018","Nuuk","50-54 years","Men",688,31
+"2018","Nuuk","50-54 years","Women",608,16
+"2018","Nuuk","55-59 years","Men",606,24
+"2018","Nuuk","55-59 years","Women",504,18
+"2018","Nuuk","Over 60 years","Men",484,28
+"2018","Nuuk","Over 60 years","Women",383,9
+"2018","Maniitsoq","18-19 years","Men",29,2
+"2018","Maniitsoq","18-19 years","Women",25,2
+"2018","Maniitsoq","20-24 years","Men",84,8
+"2018","Maniitsoq","20-24 years","Women",68,10
+"2018","Maniitsoq","25-29 years","Men",110,6
+"2018","Maniitsoq","25-29 years","Women",66,5
+"2018","Maniitsoq","30-34 years","Men",79,4
+"2018","Maniitsoq","30-34 years","Women",79,4
+"2018","Maniitsoq","35-39 years","Men",109,7
+"2018","Maniitsoq","35-39 years","Women",81,7
+"2018","Maniitsoq","40-44 years","Men",76,5
+"2018","Maniitsoq","40-44 years","Women",49,1
+"2018","Maniitsoq","45-49 years","Men",76,7
+"2018","Maniitsoq","45-49 years","Women",62,3
+"2018","Maniitsoq","50-54 years","Men",117,6
+"2018","Maniitsoq","50-54 years","Women",114,7
+"2018","Maniitsoq","55-59 years","Men",102,5
+"2018","Maniitsoq","55-59 years","Women",112,7
+"2018","Maniitsoq","Over 60 years","Men",108,7
+"2018","Maniitsoq","Over 60 years","Women",67,3
+"2018","Sisimiut","18-19 years","Men",41,2
+"2018","Sisimiut","18-19 years","Women",38,4
+"2018","Sisimiut","20-24 years","Men",162,9
+"2018","Sisimiut","20-24 years","Women",128,10
+"2018","Sisimiut","25-29 years","Men",223,6
+"2018","Sisimiut","25-29 years","Women",148,9
+"2018","Sisimiut","30-34 years","Men",199,5
+"2018","Sisimiut","30-34 years","Women",160,8
+"2018","Sisimiut","35-39 years","Men",140,4
+"2018","Sisimiut","35-39 years","Women",149,3
+"2018","Sisimiut","40-44 years","Men",139,4
+"2018","Sisimiut","40-44 years","Women",117,3
+"2018","Sisimiut","45-49 years","Men",158,7
+"2018","Sisimiut","45-49 years","Women",162,6
+"2018","Sisimiut","50-54 years","Men",240,6
+"2018","Sisimiut","50-54 years","Women",208,5
+"2018","Sisimiut","55-59 years","Men",206,6
+"2018","Sisimiut","55-59 years","Women",162,3
+"2018","Sisimiut","Over 60 years","Men",167,9
+"2018","Sisimiut","Over 60 years","Women",111,2
+"2018","Kangaatsiaq","18-19 years","Men",9,2
+"2018","Kangaatsiaq","18-19 years","Women",9,3
+"2018","Kangaatsiaq","20-24 years","Men",30,7
+"2018","Kangaatsiaq","20-24 years","Women",18,7
+"2018","Kangaatsiaq","25-29 years","Men",43,5
+"2018","Kangaatsiaq","25-29 years","Women",39,6
+"2018","Kangaatsiaq","30-34 years","Men",34,6
+"2018","Kangaatsiaq","30-34 years","Women",27,2
+"2018","Kangaatsiaq","35-39 years","Men",26,4
+"2018","Kangaatsiaq","35-39 years","Women",29,5
+"2018","Kangaatsiaq","40-44 years","Men",22,2
+"2018","Kangaatsiaq","40-44 years","Women",13,1
+"2018","Kangaatsiaq","45-49 years","Men",18,2
+"2018","Kangaatsiaq","45-49 years","Women",25,2
+"2018","Kangaatsiaq","50-54 years","Men",42,4
+"2018","Kangaatsiaq","50-54 years","Women",36,4
+"2018","Kangaatsiaq","55-59 years","Men",33,3
+"2018","Kangaatsiaq","55-59 years","Women",32,2
+"2018","Kangaatsiaq","Over 60 years","Men",37,4
+"2018","Kangaatsiaq","Over 60 years","Women",14,2
+"2018","Aasiaat","18-19 years","Men",21,1
+"2018","Aasiaat","18-19 years","Women",24,2
+"2018","Aasiaat","20-24 years","Men",73,4
+"2018","Aasiaat","20-24 years","Women",65,7
+"2018","Aasiaat","25-29 years","Men",100,4
+"2018","Aasiaat","25-29 years","Women",71,5
+"2018","Aasiaat","30-34 years","Men",90,6
+"2018","Aasiaat","30-34 years","Women",73,3
+"2018","Aasiaat","35-39 years","Men",71,2
+"2018","Aasiaat","35-39 years","Women",64,5
+"2018","Aasiaat","40-44 years","Men",50,5
+"2018","Aasiaat","40-44 years","Women",58,1
+"2018","Aasiaat","45-49 years","Men",90,6
+"2018","Aasiaat","45-49 years","Women",62,3
+"2018","Aasiaat","50-54 years","Men",123,11
+"2018","Aasiaat","50-54 years","Women",103,3
+"2018","Aasiaat","55-59 years","Men",104,5
+"2018","Aasiaat","55-59 years","Women",70,4
+"2018","Aasiaat","Over 60 years","Men",89,7
+"2018","Aasiaat","Over 60 years","Women",53,1
+"2018","Qasigiannguit","18-19 years","Men",8,1
+"2018","Qasigiannguit","18-19 years","Women",6,1
+"2018","Qasigiannguit","20-24 years","Men",23,2
+"2018","Qasigiannguit","20-24 years","Women",30,3
+"2018","Qasigiannguit","25-29 years","Men",39,3
+"2018","Qasigiannguit","25-29 years","Women",26,1
+"2018","Qasigiannguit","30-34 years","Men",31,2
+"2018","Qasigiannguit","30-34 years","Women",31,1
+"2018","Qasigiannguit","35-39 years","Men",30,2
+"2018","Qasigiannguit","35-39 years","Women",24,1
+"2018","Qasigiannguit","40-44 years","Men",30,1
+"2018","Qasigiannguit","40-44 years","Women",23,1
+"2018","Qasigiannguit","45-49 years","Men",31,2
+"2018","Qasigiannguit","45-49 years","Women",32,1
+"2018","Qasigiannguit","50-54 years","Men",45,1
+"2018","Qasigiannguit","50-54 years","Women",42,1
+"2018","Qasigiannguit","55-59 years","Men",33,2
+"2018","Qasigiannguit","55-59 years","Women",27,0
+"2018","Qasigiannguit","Over 60 years","Men",23,2
+"2018","Qasigiannguit","Over 60 years","Women",30,0
+"2018","Ilulissat","18-19 years","Men",26,2
+"2018","Ilulissat","18-19 years","Women",21,1
+"2018","Ilulissat","20-24 years","Men",90,5
+"2018","Ilulissat","20-24 years","Women",77,8
+"2018","Ilulissat","25-29 years","Men",133,4
+"2018","Ilulissat","25-29 years","Women",127,4
+"2018","Ilulissat","30-34 years","Men",151,5
+"2018","Ilulissat","30-34 years","Women",137,4
+"2018","Ilulissat","35-39 years","Men",127,3
+"2018","Ilulissat","35-39 years","Women",133,3
+"2018","Ilulissat","40-44 years","Men",115,2
+"2018","Ilulissat","40-44 years","Women",107,2
+"2018","Ilulissat","45-49 years","Men",153,4
+"2018","Ilulissat","45-49 years","Women",108,2
+"2018","Ilulissat","50-54 years","Men",181,4
+"2018","Ilulissat","50-54 years","Women",165,5
+"2018","Ilulissat","55-59 years","Men",139,3
+"2018","Ilulissat","55-59 years","Women",124,2
+"2018","Ilulissat","Over 60 years","Men",113,3
+"2018","Ilulissat","Over 60 years","Women",79,1
+"2018","Qeqertarsuaq","18-19 years","Men",1,0
+"2018","Qeqertarsuaq","18-19 years","Women",5,0
+"2018","Qeqertarsuaq","20-24 years","Men",16,2
+"2018","Qeqertarsuaq","20-24 years","Women",19,2
+"2018","Qeqertarsuaq","25-29 years","Men",20,3
+"2018","Qeqertarsuaq","25-29 years","Women",20,1
+"2018","Qeqertarsuaq","30-34 years","Men",26,1
+"2018","Qeqertarsuaq","30-34 years","Women",16,1
+"2018","Qeqertarsuaq","35-39 years","Men",10,1
+"2018","Qeqertarsuaq","35-39 years","Women",24,1
+"2018","Qeqertarsuaq","40-44 years","Men",18,0
+"2018","Qeqertarsuaq","40-44 years","Women",14,0
+"2018","Qeqertarsuaq","45-49 years","Men",18,1
+"2018","Qeqertarsuaq","45-49 years","Women",22,0
+"2018","Qeqertarsuaq","50-54 years","Men",40,2
+"2018","Qeqertarsuaq","50-54 years","Women",31,1
+"2018","Qeqertarsuaq","55-59 years","Men",24,1
+"2018","Qeqertarsuaq","55-59 years","Women",29,0
+"2018","Qeqertarsuaq","Over 60 years","Men",20,0
+"2018","Qeqertarsuaq","Over 60 years","Women",17,0
+"2018","Uummannaq","18-19 years","Men",10,0
+"2018","Uummannaq","18-19 years","Women",9,1
+"2018","Uummannaq","20-24 years","Men",78,2
+"2018","Uummannaq","20-24 years","Women",61,3
+"2018","Uummannaq","25-29 years","Men",77,2
+"2018","Uummannaq","25-29 years","Women",58,4
+"2018","Uummannaq","30-34 years","Men",57,1
+"2018","Uummannaq","30-34 years","Women",54,2
+"2018","Uummannaq","35-39 years","Men",52,1
+"2018","Uummannaq","35-39 years","Women",43,2
+"2018","Uummannaq","40-44 years","Men",52,1
+"2018","Uummannaq","40-44 years","Women",41,2
+"2018","Uummannaq","45-49 years","Men",46,1
+"2018","Uummannaq","45-49 years","Women",49,1
+"2018","Uummannaq","50-54 years","Men",113,3
+"2018","Uummannaq","50-54 years","Women",73,3
+"2018","Uummannaq","55-59 years","Men",66,2
+"2018","Uummannaq","55-59 years","Women",56,1
+"2018","Uummannaq","Over 60 years","Men",69,2
+"2018","Uummannaq","Over 60 years","Women",38,0
+"2018","Upernavik","18-19 years","Men",13,0
+"2018","Upernavik","18-19 years","Women",11,1
+"2018","Upernavik","20-24 years","Men",60,2
+"2018","Upernavik","20-24 years","Women",46,5
+"2018","Upernavik","25-29 years","Men",80,2
+"2018","Upernavik","25-29 years","Women",64,4
+"2018","Upernavik","30-34 years","Men",72,1
+"2018","Upernavik","30-34 years","Women",46,3
+"2018","Upernavik","35-39 years","Men",76,1
+"2018","Upernavik","35-39 years","Women",59,3
+"2018","Upernavik","40-44 years","Men",71,1
+"2018","Upernavik","40-44 years","Women",52,2
+"2018","Upernavik","45-49 years","Men",68,1
+"2018","Upernavik","45-49 years","Women",62,1
+"2018","Upernavik","50-54 years","Men",96,1
+"2018","Upernavik","50-54 years","Women",61,3
+"2018","Upernavik","55-59 years","Men",92,1
+"2018","Upernavik","55-59 years","Women",52,2
+"2018","Upernavik","Over 60 years","Men",57,1
+"2018","Upernavik","Over 60 years","Women",28,0
+"2018","Qaanaaq","18-19 years","Men",3,0
+"2018","Qaanaaq","18-19 years","Women",3,1
+"2018","Qaanaaq","20-24 years","Men",17,1
+"2018","Qaanaaq","20-24 years","Women",14,3
+"2018","Qaanaaq","25-29 years","Men",21,2
+"2018","Qaanaaq","25-29 years","Women",16,3
+"2018","Qaanaaq","30-34 years","Men",13,1
+"2018","Qaanaaq","30-34 years","Women",12,2
+"2018","Qaanaaq","35-39 years","Men",17,2
+"2018","Qaanaaq","35-39 years","Women",14,1
+"2018","Qaanaaq","40-44 years","Men",10,1
+"2018","Qaanaaq","40-44 years","Women",10,1
+"2018","Qaanaaq","45-49 years","Men",24,3
+"2018","Qaanaaq","45-49 years","Women",12,1
+"2018","Qaanaaq","50-54 years","Men",31,2
+"2018","Qaanaaq","50-54 years","Women",23,2
+"2018","Qaanaaq","55-59 years","Men",20,0
+"2018","Qaanaaq","55-59 years","Women",25,1
+"2018","Qaanaaq","Over 60 years","Men",10,1
+"2018","Qaanaaq","Over 60 years","Women",12,1
+"2018","Tasiilaq","18-19 years","Men",16,5
+"2018","Tasiilaq","18-19 years","Women",24,8
+"2018","Tasiilaq","20-24 years","Men",84,17
+"2018","Tasiilaq","20-24 years","Women",68,21
+"2018","Tasiilaq","25-29 years","Men",81,12
+"2018","Tasiilaq","25-29 years","Women",72,18
+"2018","Tasiilaq","30-34 years","Men",75,12
+"2018","Tasiilaq","30-34 years","Women",82,22
+"2018","Tasiilaq","35-39 years","Men",74,12
+"2018","Tasiilaq","35-39 years","Women",72,19
+"2018","Tasiilaq","40-44 years","Men",58,7
+"2018","Tasiilaq","40-44 years","Women",44,7
+"2018","Tasiilaq","45-49 years","Men",74,13
+"2018","Tasiilaq","45-49 years","Women",59,11
+"2018","Tasiilaq","50-54 years","Men",72,11
+"2018","Tasiilaq","50-54 years","Women",88,27
+"2018","Tasiilaq","55-59 years","Men",77,13
+"2018","Tasiilaq","55-59 years","Women",49,16
+"2018","Tasiilaq","Over 60 years","Men",55,10
+"2018","Tasiilaq","Over 60 years","Women",35,6
+"2018","Ittoqqortoormiit","18-19 years","Men",1,0
+"2018","Ittoqqortoormiit","18-19 years","Women",1,0
+"2018","Ittoqqortoormiit","20-24 years","Men",12,1
+"2018","Ittoqqortoormiit","20-24 years","Women",6,1
+"2018","Ittoqqortoormiit","25-29 years","Men",9,2
+"2018","Ittoqqortoormiit","25-29 years","Women",7,0
+"2018","Ittoqqortoormiit","30-34 years","Men",13,1
+"2018","Ittoqqortoormiit","30-34 years","Women",10,1
+"2018","Ittoqqortoormiit","35-39 years","Men",5,0
+"2018","Ittoqqortoormiit","35-39 years","Women",12,0
+"2018","Ittoqqortoormiit","40-44 years","Men",10,1
+"2018","Ittoqqortoormiit","40-44 years","Women",8,2
+"2018","Ittoqqortoormiit","45-49 years","Men",5,0
+"2018","Ittoqqortoormiit","45-49 years","Women",2,1
+"2018","Ittoqqortoormiit","50-54 years","Men",10,2
+"2018","Ittoqqortoormiit","50-54 years","Women",8,2
+"2018","Ittoqqortoormiit","55-59 years","Men",11,1
+"2018","Ittoqqortoormiit","55-59 years","Women",9,0
+"2018","Ittoqqortoormiit","Over 60 years","Men",6,0
+"2018","Ittoqqortoormiit","Over 60 years","Women",3,1
+"2019","Nanortalik","18-19 years","Men",7,1
+"2019","Nanortalik","18-19 years","Women",7,2
+"2019","Nanortalik","20-24 years","Men",46,9
+"2019","Nanortalik","20-24 years","Women",31,7
+"2019","Nanortalik","25-29 years","Men",45,5
+"2019","Nanortalik","25-29 years","Women",25,4
+"2019","Nanortalik","30-34 years","Men",44,5
+"2019","Nanortalik","30-34 years","Women",31,6
+"2019","Nanortalik","35-39 years","Men",40,5
+"2019","Nanortalik","35-39 years","Women",35,4
+"2019","Nanortalik","40-44 years","Men",33,7
+"2019","Nanortalik","40-44 years","Women",27,5
+"2019","Nanortalik","45-49 years","Men",46,5
+"2019","Nanortalik","45-49 years","Women",23,1
+"2019","Nanortalik","50-54 years","Men",51,7
+"2019","Nanortalik","50-54 years","Women",44,3
+"2019","Nanortalik","55-59 years","Men",48,5
+"2019","Nanortalik","55-59 years","Women",40,4
+"2019","Nanortalik","Over 60 years","Men",45,6
+"2019","Nanortalik","Over 60 years","Women",23,4
+"2019","Qaqortoq","18-19 years","Men",20,1
+"2019","Qaqortoq","18-19 years","Women",23,1
+"2019","Qaqortoq","20-24 years","Men",82,10
+"2019","Qaqortoq","20-24 years","Women",70,7
+"2019","Qaqortoq","25-29 years","Men",82,11
+"2019","Qaqortoq","25-29 years","Women",79,5
+"2019","Qaqortoq","30-34 years","Men",92,7
+"2019","Qaqortoq","30-34 years","Women",88,7
+"2019","Qaqortoq","35-39 years","Men",76,7
+"2019","Qaqortoq","35-39 years","Women",79,4
+"2019","Qaqortoq","40-44 years","Men",58,4
+"2019","Qaqortoq","40-44 years","Women",62,3
+"2019","Qaqortoq","45-49 years","Men",45,3
+"2019","Qaqortoq","45-49 years","Women",60,5
+"2019","Qaqortoq","50-54 years","Men",113,9
+"2019","Qaqortoq","50-54 years","Women",83,4
+"2019","Qaqortoq","55-59 years","Men",104,10
+"2019","Qaqortoq","55-59 years","Women",92,5
+"2019","Qaqortoq","Over 60 years","Men",93,7
+"2019","Qaqortoq","Over 60 years","Women",90,4
+"2019","Narsaq","18-19 years","Men",10,1
+"2019","Narsaq","18-19 years","Women",6,1
+"2019","Narsaq","20-24 years","Men",39,4
+"2019","Narsaq","20-24 years","Women",22,3
+"2019","Narsaq","25-29 years","Men",37,6
+"2019","Narsaq","25-29 years","Women",29,4
+"2019","Narsaq","30-34 years","Men",38,5
+"2019","Narsaq","30-34 years","Women",40,5
+"2019","Narsaq","35-39 years","Men",40,4
+"2019","Narsaq","35-39 years","Women",35,4
+"2019","Narsaq","40-44 years","Men",27,2
+"2019","Narsaq","40-44 years","Women",30,3
+"2019","Narsaq","45-49 years","Men",21,4
+"2019","Narsaq","45-49 years","Women",22,0
+"2019","Narsaq","50-54 years","Men",60,10
+"2019","Narsaq","50-54 years","Women",51,6
+"2019","Narsaq","55-59 years","Men",61,5
+"2019","Narsaq","55-59 years","Women",49,2
+"2019","Narsaq","Over 60 years","Men",58,4
+"2019","Narsaq","Over 60 years","Women",47,1
+"2019","Ivittuut","18-19 years","Men",0,0
+"2019","Ivittuut","18-19 years","Women",0,0
+"2019","Ivittuut","20-24 years","Men",0,0
+"2019","Ivittuut","20-24 years","Women",0,0
+"2019","Ivittuut","25-29 years","Men",0,0
+"2019","Ivittuut","25-29 years","Women",0,0
+"2019","Ivittuut","30-34 years","Men",0,0
+"2019","Ivittuut","30-34 years","Women",0,0
+"2019","Ivittuut","35-39 years","Men",0,0
+"2019","Ivittuut","35-39 years","Women",0,0
+"2019","Ivittuut","40-44 years","Men",0,0
+"2019","Ivittuut","40-44 years","Women",0,0
+"2019","Ivittuut","45-49 years","Men",0,0
+"2019","Ivittuut","45-49 years","Women",0,0
+"2019","Ivittuut","50-54 years","Men",0,0
+"2019","Ivittuut","50-54 years","Women",0,0
+"2019","Ivittuut","55-59 years","Men",0,0
+"2019","Ivittuut","55-59 years","Women",0,0
+"2019","Ivittuut","Over 60 years","Men",0,0
+"2019","Ivittuut","Over 60 years","Women",0,0
+"2019","Paamiut","18-19 years","Men",9,0
+"2019","Paamiut","18-19 years","Women",7,1
+"2019","Paamiut","20-24 years","Men",41,3
+"2019","Paamiut","20-24 years","Women",24,3
+"2019","Paamiut","25-29 years","Men",42,5
+"2019","Paamiut","25-29 years","Women",36,3
+"2019","Paamiut","30-34 years","Men",30,3
+"2019","Paamiut","30-34 years","Women",37,4
+"2019","Paamiut","35-39 years","Men",45,9
+"2019","Paamiut","35-39 years","Women",22,2
+"2019","Paamiut","40-44 years","Men",26,3
+"2019","Paamiut","40-44 years","Women",20,3
+"2019","Paamiut","45-49 years","Men",21,2
+"2019","Paamiut","45-49 years","Women",13,0
+"2019","Paamiut","50-54 years","Men",50,2
+"2019","Paamiut","50-54 years","Women",36,2
+"2019","Paamiut","55-59 years","Men",50,5
+"2019","Paamiut","55-59 years","Women",38,3
+"2019","Paamiut","Over 60 years","Men",39,2
+"2019","Paamiut","Over 60 years","Women",32,2
+"2019","Nuuk","18-19 years","Men",99,3
+"2019","Nuuk","18-19 years","Women",87,1
+"2019","Nuuk","20-24 years","Men",419,13
+"2019","Nuuk","20-24 years","Women",348,16
+"2019","Nuuk","25-29 years","Men",624,17
+"2019","Nuuk","25-29 years","Women",538,11
+"2019","Nuuk","30-34 years","Men",645,14
+"2019","Nuuk","30-34 years","Women",636,11
+"2019","Nuuk","35-39 years","Men",601,16
+"2019","Nuuk","35-39 years","Women",554,11
+"2019","Nuuk","40-44 years","Men",536,15
+"2019","Nuuk","40-44 years","Women",443,5
+"2019","Nuuk","45-49 years","Men",469,11
+"2019","Nuuk","45-49 years","Women",393,11
+"2019","Nuuk","50-54 years","Men",652,28
+"2019","Nuuk","50-54 years","Women",599,16
+"2019","Nuuk","55-59 years","Men",625,21
+"2019","Nuuk","55-59 years","Women",534,13
+"2019","Nuuk","Over 60 years","Men",524,25
+"2019","Nuuk","Over 60 years","Women",397,7
+"2019","Maniitsoq","18-19 years","Men",22,2
+"2019","Maniitsoq","18-19 years","Women",25,4
+"2019","Maniitsoq","20-24 years","Men",92,7
+"2019","Maniitsoq","20-24 years","Women",59,8
+"2019","Maniitsoq","25-29 years","Men",82,6
+"2019","Maniitsoq","25-29 years","Women",64,4
+"2019","Maniitsoq","30-34 years","Men",93,7
+"2019","Maniitsoq","30-34 years","Women",78,3
+"2019","Maniitsoq","35-39 years","Men",82,4
+"2019","Maniitsoq","35-39 years","Women",82,4
+"2019","Maniitsoq","40-44 years","Men",67,5
+"2019","Maniitsoq","40-44 years","Women",51,3
+"2019","Maniitsoq","45-49 years","Men",59,5
+"2019","Maniitsoq","45-49 years","Women",52,3
+"2019","Maniitsoq","50-54 years","Men",117,6
+"2019","Maniitsoq","50-54 years","Women",104,4
+"2019","Maniitsoq","55-59 years","Men",107,6
+"2019","Maniitsoq","55-59 years","Women",126,6
+"2019","Maniitsoq","Over 60 years","Men",105,7
+"2019","Maniitsoq","Over 60 years","Women",62,4
+"2019","Sisimiut","18-19 years","Men",47,2
+"2019","Sisimiut","18-19 years","Women",40,3
+"2019","Sisimiut","20-24 years","Men",143,11
+"2019","Sisimiut","20-24 years","Women",135,11
+"2019","Sisimiut","25-29 years","Men",232,7
+"2019","Sisimiut","25-29 years","Women",153,11
+"2019","Sisimiut","30-34 years","Men",195,4
+"2019","Sisimiut","30-34 years","Women",171,13
+"2019","Sisimiut","35-39 years","Men",155,5
+"2019","Sisimiut","35-39 years","Women",144,6
+"2019","Sisimiut","40-44 years","Men",152,9
+"2019","Sisimiut","40-44 years","Women",131,3
+"2019","Sisimiut","45-49 years","Men",143,8
+"2019","Sisimiut","45-49 years","Women",158,11
+"2019","Sisimiut","50-54 years","Men",239,7
+"2019","Sisimiut","50-54 years","Women",184,6
+"2019","Sisimiut","55-59 years","Men",207,8
+"2019","Sisimiut","55-59 years","Women",184,5
+"2019","Sisimiut","Over 60 years","Men",187,12
+"2019","Sisimiut","Over 60 years","Women",124,7
+"2019","Kangaatsiaq","18-19 years","Men",5,0
+"2019","Kangaatsiaq","18-19 years","Women",6,1
+"2019","Kangaatsiaq","20-24 years","Men",28,7
+"2019","Kangaatsiaq","20-24 years","Women",25,8
+"2019","Kangaatsiaq","25-29 years","Men",33,6
+"2019","Kangaatsiaq","25-29 years","Women",29,5
+"2019","Kangaatsiaq","30-34 years","Men",29,2
+"2019","Kangaatsiaq","30-34 years","Women",37,4
+"2019","Kangaatsiaq","35-39 years","Men",27,6
+"2019","Kangaatsiaq","35-39 years","Women",27,3
+"2019","Kangaatsiaq","40-44 years","Men",16,1
+"2019","Kangaatsiaq","40-44 years","Women",13,2
+"2019","Kangaatsiaq","45-49 years","Men",22,3
+"2019","Kangaatsiaq","45-49 years","Women",18,1
+"2019","Kangaatsiaq","50-54 years","Men",31,3
+"2019","Kangaatsiaq","50-54 years","Women",31,4
+"2019","Kangaatsiaq","55-59 years","Men",36,2
+"2019","Kangaatsiaq","55-59 years","Women",30,1
+"2019","Kangaatsiaq","Over 60 years","Men",35,5
+"2019","Kangaatsiaq","Over 60 years","Women",17,1
+"2019","Aasiaat","18-19 years","Men",18,1
+"2019","Aasiaat","18-19 years","Women",19,1
+"2019","Aasiaat","20-24 years","Men",66,3
+"2019","Aasiaat","20-24 years","Women",50,4
+"2019","Aasiaat","25-29 years","Men",84,4
+"2019","Aasiaat","25-29 years","Women",72,4
+"2019","Aasiaat","30-34 years","Men",91,5
+"2019","Aasiaat","30-34 years","Women",67,2
+"2019","Aasiaat","35-39 years","Men",76,2
+"2019","Aasiaat","35-39 years","Women",67,3
+"2019","Aasiaat","40-44 years","Men",39,2
+"2019","Aasiaat","40-44 years","Women",56,1
+"2019","Aasiaat","45-49 years","Men",77,4
+"2019","Aasiaat","45-49 years","Women",64,4
+"2019","Aasiaat","50-54 years","Men",118,7
+"2019","Aasiaat","50-54 years","Women",91,2
+"2019","Aasiaat","55-59 years","Men",113,4
+"2019","Aasiaat","55-59 years","Women",82,4
+"2019","Aasiaat","Over 60 years","Men",86,5
+"2019","Aasiaat","Over 60 years","Women",55,0
+"2019","Qasigiannguit","18-19 years","Men",7,0
+"2019","Qasigiannguit","18-19 years","Women",3,0
+"2019","Qasigiannguit","20-24 years","Men",20,1
+"2019","Qasigiannguit","20-24 years","Women",33,2
+"2019","Qasigiannguit","25-29 years","Men",46,1
+"2019","Qasigiannguit","25-29 years","Women",37,2
+"2019","Qasigiannguit","30-34 years","Men",37,1
+"2019","Qasigiannguit","30-34 years","Women",27,1
+"2019","Qasigiannguit","35-39 years","Men",29,1
+"2019","Qasigiannguit","35-39 years","Women",22,1
+"2019","Qasigiannguit","40-44 years","Men",26,1
+"2019","Qasigiannguit","40-44 years","Women",25,1
+"2019","Qasigiannguit","45-49 years","Men",31,2
+"2019","Qasigiannguit","45-49 years","Women",31,0
+"2019","Qasigiannguit","50-54 years","Men",45,1
+"2019","Qasigiannguit","50-54 years","Women",41,2
+"2019","Qasigiannguit","55-59 years","Men",37,2
+"2019","Qasigiannguit","55-59 years","Women",28,1
+"2019","Qasigiannguit","Over 60 years","Men",21,2
+"2019","Qasigiannguit","Over 60 years","Women",31,1
+"2019","Ilulissat","18-19 years","Men",24,1
+"2019","Ilulissat","18-19 years","Women",20,0
+"2019","Ilulissat","20-24 years","Men",93,3
+"2019","Ilulissat","20-24 years","Women",93,5
+"2019","Ilulissat","25-29 years","Men",146,4
+"2019","Ilulissat","25-29 years","Women",131,6
+"2019","Ilulissat","30-34 years","Men",177,5
+"2019","Ilulissat","30-34 years","Women",151,3
+"2019","Ilulissat","35-39 years","Men",130,2
+"2019","Ilulissat","35-39 years","Women",140,3
+"2019","Ilulissat","40-44 years","Men",119,2
+"2019","Ilulissat","40-44 years","Women",119,3
+"2019","Ilulissat","45-49 years","Men",145,4
+"2019","Ilulissat","45-49 years","Women",92,2
+"2019","Ilulissat","50-54 years","Men",185,4
+"2019","Ilulissat","50-54 years","Women",164,4
+"2019","Ilulissat","55-59 years","Men",150,4
+"2019","Ilulissat","55-59 years","Women",121,2
+"2019","Ilulissat","Over 60 years","Men",112,1
+"2019","Ilulissat","Over 60 years","Women",91,2
+"2019","Qeqertarsuaq","18-19 years","Men",5,1
+"2019","Qeqertarsuaq","18-19 years","Women",3,0
+"2019","Qeqertarsuaq","20-24 years","Men",16,2
+"2019","Qeqertarsuaq","20-24 years","Women",19,1
+"2019","Qeqertarsuaq","25-29 years","Men",16,1
+"2019","Qeqertarsuaq","25-29 years","Women",19,1
+"2019","Qeqertarsuaq","30-34 years","Men",26,2
+"2019","Qeqertarsuaq","30-34 years","Women",20,2
+"2019","Qeqertarsuaq","35-39 years","Men",17,1
+"2019","Qeqertarsuaq","35-39 years","Women",21,1
+"2019","Qeqertarsuaq","40-44 years","Men",18,1
+"2019","Qeqertarsuaq","40-44 years","Women",20,0
+"2019","Qeqertarsuaq","45-49 years","Men",20,0
+"2019","Qeqertarsuaq","45-49 years","Women",13,0
+"2019","Qeqertarsuaq","50-54 years","Men",28,1
+"2019","Qeqertarsuaq","50-54 years","Women",34,1
+"2019","Qeqertarsuaq","55-59 years","Men",27,1
+"2019","Qeqertarsuaq","55-59 years","Women",27,1
+"2019","Qeqertarsuaq","Over 60 years","Men",20,1
+"2019","Qeqertarsuaq","Over 60 years","Women",17,0
+"2019","Uummannaq","18-19 years","Men",13,0
+"2019","Uummannaq","18-19 years","Women",14,0
+"2019","Uummannaq","20-24 years","Men",76,2
+"2019","Uummannaq","20-24 years","Women",55,3
+"2019","Uummannaq","25-29 years","Men",68,1
+"2019","Uummannaq","25-29 years","Women",63,1
+"2019","Uummannaq","30-34 years","Men",54,1
+"2019","Uummannaq","30-34 years","Women",56,0
+"2019","Uummannaq","35-39 years","Men",54,1
+"2019","Uummannaq","35-39 years","Women",41,1
+"2019","Uummannaq","40-44 years","Men",50,1
+"2019","Uummannaq","40-44 years","Women",45,0
+"2019","Uummannaq","45-49 years","Men",49,1
+"2019","Uummannaq","45-49 years","Women",40,0
+"2019","Uummannaq","50-54 years","Men",93,2
+"2019","Uummannaq","50-54 years","Women",68,2
+"2019","Uummannaq","55-59 years","Men",88,2
+"2019","Uummannaq","55-59 years","Women",72,1
+"2019","Uummannaq","Over 60 years","Men",66,1
+"2019","Uummannaq","Over 60 years","Women",43,0
+"2019","Upernavik","18-19 years","Men",16,0
+"2019","Upernavik","18-19 years","Women",8,1
+"2019","Upernavik","20-24 years","Men",78,2
+"2019","Upernavik","20-24 years","Women",50,3
+"2019","Upernavik","25-29 years","Men",85,1
+"2019","Upernavik","25-29 years","Women",54,3
+"2019","Upernavik","30-34 years","Men",68,0
+"2019","Upernavik","30-34 years","Women",53,2
+"2019","Upernavik","35-39 years","Men",83,2
+"2019","Upernavik","35-39 years","Women",54,1
+"2019","Upernavik","40-44 years","Men",72,1
+"2019","Upernavik","40-44 years","Women",50,1
+"2019","Upernavik","45-49 years","Men",71,1
+"2019","Upernavik","45-49 years","Women",62,1
+"2019","Upernavik","50-54 years","Men",95,1
+"2019","Upernavik","50-54 years","Women",65,2
+"2019","Upernavik","55-59 years","Men",94,0
+"2019","Upernavik","55-59 years","Women",55,2
+"2019","Upernavik","Over 60 years","Men",65,1
+"2019","Upernavik","Over 60 years","Women",31,0
+"2019","Qaanaaq","18-19 years","Men",3,0
+"2019","Qaanaaq","18-19 years","Women",2,0
+"2019","Qaanaaq","20-24 years","Men",14,2
+"2019","Qaanaaq","20-24 years","Women",13,2
+"2019","Qaanaaq","25-29 years","Men",22,1
+"2019","Qaanaaq","25-29 years","Women",15,1
+"2019","Qaanaaq","30-34 years","Men",16,3
+"2019","Qaanaaq","30-34 years","Women",15,1
+"2019","Qaanaaq","35-39 years","Men",15,2
+"2019","Qaanaaq","35-39 years","Women",13,1
+"2019","Qaanaaq","40-44 years","Men",11,1
+"2019","Qaanaaq","40-44 years","Women",10,0
+"2019","Qaanaaq","45-49 years","Men",21,1
+"2019","Qaanaaq","45-49 years","Women",6,1
+"2019","Qaanaaq","50-54 years","Men",20,1
+"2019","Qaanaaq","50-54 years","Women",22,1
+"2019","Qaanaaq","55-59 years","Men",22,1
+"2019","Qaanaaq","55-59 years","Women",26,1
+"2019","Qaanaaq","Over 60 years","Men",16,1
+"2019","Qaanaaq","Over 60 years","Women",13,0
+"2019","Tasiilaq","18-19 years","Men",20,4
+"2019","Tasiilaq","18-19 years","Women",22,8
+"2019","Tasiilaq","20-24 years","Men",68,12
+"2019","Tasiilaq","20-24 years","Women",61,15
+"2019","Tasiilaq","25-29 years","Men",82,11
+"2019","Tasiilaq","25-29 years","Women",85,22
+"2019","Tasiilaq","30-34 years","Men",83,14
+"2019","Tasiilaq","30-34 years","Women",75,18
+"2019","Tasiilaq","35-39 years","Men",66,10
+"2019","Tasiilaq","35-39 years","Women",64,13
+"2019","Tasiilaq","40-44 years","Men",57,9
+"2019","Tasiilaq","40-44 years","Women",51,14
+"2019","Tasiilaq","45-49 years","Men",60,10
+"2019","Tasiilaq","45-49 years","Women",52,8
+"2019","Tasiilaq","50-54 years","Men",80,14
+"2019","Tasiilaq","50-54 years","Women",76,18
+"2019","Tasiilaq","55-59 years","Men",68,10
+"2019","Tasiilaq","55-59 years","Women",56,17
+"2019","Tasiilaq","Over 60 years","Men",52,9
+"2019","Tasiilaq","Over 60 years","Women",34,5
+"2019","Ittoqqortoormiit","18-19 years","Men",1,0
+"2019","Ittoqqortoormiit","18-19 years","Women",1,0
+"2019","Ittoqqortoormiit","20-24 years","Men",12,0
+"2019","Ittoqqortoormiit","20-24 years","Women",8,1
+"2019","Ittoqqortoormiit","25-29 years","Men",10,1
+"2019","Ittoqqortoormiit","25-29 years","Women",6,0
+"2019","Ittoqqortoormiit","30-34 years","Men",12,0
+"2019","Ittoqqortoormiit","30-34 years","Women",6,0
+"2019","Ittoqqortoormiit","35-39 years","Men",6,0
+"2019","Ittoqqortoormiit","35-39 years","Women",10,1
+"2019","Ittoqqortoormiit","40-44 years","Men",11,1
+"2019","Ittoqqortoormiit","40-44 years","Women",9,0
+"2019","Ittoqqortoormiit","45-49 years","Men",8,1
+"2019","Ittoqqortoormiit","45-49 years","Women",2,0
+"2019","Ittoqqortoormiit","50-54 years","Men",6,0
+"2019","Ittoqqortoormiit","50-54 years","Women",4,0
+"2019","Ittoqqortoormiit","55-59 years","Men",4,0
+"2019","Ittoqqortoormiit","55-59 years","Women",6,0
+"2019","Ittoqqortoormiit","Over 60 years","Men",8,0
+"2019","Ittoqqortoormiit","Over 60 years","Women",1,0
