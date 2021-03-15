@@ -1,5 +1,4 @@
-"The labour force among permanent residents aged 18-65 years by time, quarter, district, place of residence, age and gender <em>[ARESTK1]</em> "
-
+#"The labour force among permanent residents aged 18-65 years by time, quarter, district, place of residence, age and gender <em>[ARESTK1]</em> "
 "time","district","age","gender","Labour force in average per month","Unemployment in average per month"
 "2010","Nanortalik","18-19 years","Men",14,5
 "2010","Nanortalik","18-19 years","Women",16,5
