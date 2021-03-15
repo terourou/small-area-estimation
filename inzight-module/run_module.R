@@ -11,6 +11,8 @@
 # devtools::load_all("~/iNZight/iNZight")
 library(iNZight)
 
+library(demlife)
+library(magrittr)
 
 ## Income example
 
