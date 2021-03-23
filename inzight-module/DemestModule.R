@@ -95,12 +95,13 @@ DemestModule <- setRefClass(
             model_file <<- tempfile()
 
             install_dependencies(
-                c("tidyr", "ggplot2", "tidybayes")
+                c("tidyr", "ggplot2", "tidybayes", "dembase", "demest", "demlife")
                 # github = c(
                 #     "StatisticsNZ/dembase",
                 #     "StatisticsNZ/demest"
                 # )
             )
+            require("magrittr")
 
             GUI$plotToolbar$update(NULL, refresh = "updatePlot")
 
