@@ -17,5 +17,3 @@ raw <- read_csv("data/ARXSTK1_20210313-211050.csv",
 
 saveRDS(raw,
         file = "out/raw.rds")
-
-

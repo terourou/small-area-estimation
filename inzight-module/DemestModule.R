@@ -95,12 +95,13 @@ DemestModule <- setRefClass(
             model_file <<- tempfile()
 
             install_dependencies(
-                c("tidyr", "ggplot2", "tidybayes")
+                c("tidyr", "ggplot2", "tidybayes", "dembase", "demest", "demlife")
                 # github = c(
                 #     "StatisticsNZ/dembase",
                 #     "StatisticsNZ/demest"
                 # )
             )
+            require("magrittr")
 
             GUI$plotToolbar$update(NULL, refresh = "updatePlot")
 
@@ -932,8 +933,10 @@ DemestModule <- setRefClass(
                 f2 <- if (length(svars) > 1L)
                     ggplot2::vars(.data[[svars[2]]])
                     else NULL
-                p <- p +
-                    ggplot2::facet_grid(f1, f2)
+                fl <-
+                    if (length(svars) == 1L) ggplot2::facet_wrap(f1)
+                    else ggplot2::facet_grid(f1, f2)
+                p <- p + fl
             }
 
             print(p)
