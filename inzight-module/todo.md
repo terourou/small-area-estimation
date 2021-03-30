@@ -4,3 +4,7 @@
 - [x] add some type-specific results
     - [x] life expectancy
     - [x] (inverse) transformations
+- [ ] add model complexity
+    - [ ] for numeric (time-related) variables, `trend` and `damp` parameters
+    - [ ] for age term with an 'infant' age group, `Covariates(infant = TRUE)`
+- [ ] forecasting
