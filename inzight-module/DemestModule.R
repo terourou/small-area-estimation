@@ -48,7 +48,7 @@ DemestModule <- setRefClass(
             fit_nchain = "integer", fit_nchain_spec = "ANY",
             fit_ncore = "integer", fit_ncore_spec = "ANY",
             model_object = "ANY",
-            model_file = "character",
+            model_file = "character", forecast_file = "character",
             fit_model_btn = "ANY",
             model_exists = "logical",
             model_params = "list", model_param_tree = "ANY",
@@ -98,6 +98,7 @@ DemestModule <- setRefClass(
             varnames <<- names(data)
             vartypes <<- sapply(data, iNZightTools::vartype)
             model_file <<- tempfile()
+            forecast_file <<- tempfile()
 
             install_dependencies(
                 c("tidyr", "ggplot2", "tidybayes", "dembase", "demest", "demlife")
@@ -521,9 +522,10 @@ DemestModule <- setRefClass(
                 }
             )
             forecast_options <<- list(
-                Deaths = "Life expectancy"
+                Deaths = "Life expectancy",
+                All = c("Forecast")
             )
-            lbl <- glabel("Forecast type :")
+            lbl <- glabel("Method :")
             tbl_pred[ii, 1L, anchor = c(1, 0), expand = TRUE] <- lbl
             tbl_pred[ii, 2:3, expand = TRUE] <- forecast_methods
             ii <- ii + 1L
@@ -576,8 +578,9 @@ DemestModule <- setRefClass(
                     unblockHandlers(model_fw_box)
                     model_fw_box$invoke_change_handler()
 
-                    if (model %in% names(forecast_options)) {
-                        forecast_methods$set_items(c(" - None - ", forecast_options[[model]]))
+                    fopts <- do.call(c, forecast_options[c(model, "All")])
+                    if (length(fopts)) {
+                        forecast_methods$set_items(c(" - None - ", fopts))
                     }
                 }
 
@@ -1072,7 +1075,7 @@ DemestModule <- setRefClass(
 
             # vars with numeric-variable require a DLM prior..
             vs <- row.names(fmat)
-            numvars <- sapply(data[vs], iNZightTools::is_num)
+            numvars <- var_table$Variable[var_table$Scale %in% c("Intervals", "Points")]
             needs_prior <- colSums(fmat[numvars,,drop=FALSE])
             prior_vars <- names(needs_prior)[needs_prior > 0]
 
@@ -1082,9 +1085,32 @@ DemestModule <- setRefClass(
             ii <- 1L
             for (v in prior_vars) {
                 tbl_priors[ii, 1L, anchor = c(1, 0), expand = TRUE] <<- glabel(v)
-                tbl_priors[ii, 2L, expand = TRUE] <<- gcombobox(c("DLM"))
+                tbl_priors[ii, 2L, expand = TRUE] <<- gcombobox(c("", "DLM"))
                 tbl_priors[ii, 3L] <<- gcheckbox("Trend")
                 tbl_priors[ii, 4L] <<- gcheckbox("Damp")
+                addHandlerChanged(tbl_priors[ii, 2L],
+                    function(h, ...) {
+                        # there must be a better way of doing this ...
+                        row_i <- which(
+                            sapply(tbl_priors$children,
+                                function(x) identical(x, h$obj)
+                            )
+                        )
+                        if (!length(row_i)) return()
+                        row_i <- tbl_priors$child_positions[[row_i]]$x
+                        switch(svalue(h$obj),
+                            "DLM" = {
+                                visible(tbl_priors[row_i, 3L]) <<- TRUE
+                                visible(tbl_priors[row_i, 4L]) <<- TRUE
+                            },
+                            {
+                                visible(tbl_priors[row_i, 3L]) <<- FALSE
+                                visible(tbl_priors[row_i, 4L]) <<- FALSE
+                            }
+                        )
+                    }
+                )
+                tbl_priors[ii, 2L]$invoke_change_handler()
                 ii <- ii + 1L
             }
         },
@@ -1102,7 +1128,7 @@ DemestModule <- setRefClass(
                             if (!svalue(tbl_priors[i, 4L]))
                                 args <- c(args, "damp = NULL")
                             args <- paste(args, collapse = ", ")
-                            glue::glue("{vi} = demest::DLM({args})")
+                            glue::glue("{vi} ~ demest::DLM({args})")
                         }
                     )
                 )
@@ -1196,6 +1222,53 @@ DemestModule <- setRefClass(
                         ggplot2::xlab("Year") +
                         ggplot2::ylab("Life expectancy at birth (years)")
                     print(p)
+                },
+                "Forecast" = {
+                    demest::predictModel(
+                        filenameEst = model_file,
+                        filenamePred = forecast_file,
+                        n = 4L
+                    )
+
+                    par <- switch(model_fw,
+                        "Poisson" = "rate",
+                        "Binomial" = "prob",
+                        "Normal" = "mean"
+                    )
+                    forecast_data <<- demest::fetchBoth(
+                        filenameEst = model_file,
+                        filenamePred = forecast_file,
+                        where = c("model", "likelihood", par)
+                        ) %>%
+                        # multiply_by(1000) %>%
+                        dembase::collapseIterations(prob = c(0.025, 0.25, 0.5, 0.75, 0.975)) %>%
+                        as.data.frame(midpoints = "age") ## parameterise
+
+                    forecast_data %>%
+                        tidyr::pivot_wider(names_from = quantile, values_from = value) %>%
+                        ggplot2::ggplot(ggplot2::aes_string(x = "age")) +
+                        ggplot2::facet_grid(ggplot2::vars(area), ggplot2::vars(time)) +
+                        ggplot2::geom_ribbon(
+                            ggplot2::aes(ymin = `2.5%`, ymax = `97.5%`),
+                            fill = "lightskyblue1"
+                        ) +
+                        ggplot2::geom_ribbon(
+                            ggplot2::aes(ymin = `25%`, ymax = `75%`),
+                            fill = "lightskyblue3"
+                        ) +
+                        ggplot2::geom_line(
+                            ggplot2::aes(y = `50%`),
+                            col = "white",
+                            size = 0.2
+                        ) +
+                        # ggplot2::geom_line(
+                        #     ggplot2::aes(x = age, y = value),
+                        #     data = agespecific_direct,
+                        #     size = 0.2,
+                        #     col = "red"
+                        # ) +
+                        ggplot2::xlab("Age") +
+                        ggplot2::ylab("Rate")
                 }
             )
         },
