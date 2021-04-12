@@ -22,11 +22,3 @@ estimateModel(model = model,
               nChain = 4,
               nThin = 5)
 fetchSummary(filename)
-
-
-
-                                  
-                    
-
-
-
