@@ -8,7 +8,7 @@ DemestModule <- setRefClass(
     properties(
         fields = list(
             GUI = "ANY", data = "data.frame",
-            g_response = "ANY", g_vars = "ANY", g_model = "ANY",
+            g_response = "ANY", g_vars = "ANY", g_model = "ANY", g_priors = "ANY",
             g_fit = "ANY", g_res = "ANY", g_plot = "ANY", g_pred = "ANY",
             varnames = "character", vartypes = "character",
             model_types = "list",
@@ -38,6 +38,9 @@ DemestModule <- setRefClass(
             weights_chk = "ANY", weights_var = "character",
             weights_lbl = "ANY", weights_var_box = "ANY",
             model_confirmed = "logical", model_confirmed_btn = "ANY",
+            # -- prior info
+            tbl_priors = "ANY", priors_confirmed = "logical",
+            priors_confirmed_btn = "ANY", model_priors = "character",
             # -- fit specs
             fit_niter = "integer", fit_niter_spec = "ANY",
             fit_nburn = "integer", fit_nburn_spec = "ANY",
@@ -45,7 +48,7 @@ DemestModule <- setRefClass(
             fit_nchain = "integer", fit_nchain_spec = "ANY",
             fit_ncore = "integer", fit_ncore_spec = "ANY",
             model_object = "ANY",
-            model_file = "character",
+            model_file = "character", forecast_file = "character",
             fit_model_btn = "ANY",
             model_exists = "logical",
             model_params = "list", model_param_tree = "ANY",
@@ -76,6 +79,8 @@ DemestModule <- setRefClass(
             variables_confirmed = FALSE,
             weights_var = NA_character_,
             model_confirmed = FALSE,
+            priors_confirmed = FALSE,
+            model_priors = "",
             fit_niter = 1e2L, fit_nburn = 1e2L,
             fit_nthin = 2L, fit_nchain = 4L, fit_ncore = 1L,
             model_exists = FALSE,
@@ -93,6 +98,8 @@ DemestModule <- setRefClass(
             varnames <<- names(data)
             vartypes <<- sapply(data, iNZightTools::vartype)
             model_file <<- tempfile()
+            forecast_file <<- tempfile()
+            forecast_data <<- NULL
 
             install_dependencies(
                 c("tidyr", "ggplot2", "tidybayes", "dembase", "demest", "demlife")
@@ -357,6 +364,37 @@ DemestModule <- setRefClass(
             ii <- ii + 1L
 
 
+            ### -------------------------------------- Model priors
+            g_priors <<- gexpandgroup("Prior specification",
+                container = mainGrp,
+                horizontal = FALSE
+            )
+            visible(g_priors) <<- FALSE
+            font(g_priors) <<- list(weight = "bold")
+            g_priors$set_borderwidth(5)
+
+            tbl_priors <<- glayout(container = g_priors, expand = TRUE)
+            # tbl_priors[1L, 1L, expand = TRUE, anchor = c(1, 0)] <<- glabel("Nothing")
+            # tbl_priors[1L, 2L, expand = TRUE] <<- gcombobox(c(""))
+
+            addSpace(g_priors, 5)
+            g_prior_btns <- ggroup(container = g_priors)
+            addSpring(g_prior_btns)
+            priors_confirmed_btn <<- gbutton("Save",
+                container = g_prior_btns,
+                handler = function(h, ...) {
+                    priors_confirmed <<- !priors_confirmed
+                    blockHandlers(priors_confirmed_btn)
+                    svalue(priors_confirmed_btn) <<- ifelse(
+                        priors_confirmed,
+                        "Modify",
+                        "Save"
+                    )
+                    unblockHandlers(priors_confirmed_btn)
+                }
+            )
+
+
             ### -------------------------------------- Fit specifications
             g_fit <<- gexpandgroup("Simulation parameters",
                 container = mainGrp
@@ -485,9 +523,10 @@ DemestModule <- setRefClass(
                 }
             )
             forecast_options <<- list(
-                Deaths = "Life expectancy"
+                Deaths = "Life expectancy",
+                All = c("Forecast")
             )
-            lbl <- glabel("Forecast type :")
+            lbl <- glabel("Method :")
             tbl_pred[ii, 1L, anchor = c(1, 0), expand = TRUE] <- lbl
             tbl_pred[ii, 2:3, expand = TRUE] <- forecast_methods
             ii <- ii + 1L
@@ -540,8 +579,9 @@ DemestModule <- setRefClass(
                     unblockHandlers(model_fw_box)
                     model_fw_box$invoke_change_handler()
 
-                    if (model %in% names(forecast_options)) {
-                        forecast_methods$set_items(c(" - None - ", forecast_options[[model]]))
+                    fopts <- do.call(c, forecast_options[c(model, "All")])
+                    if (length(fopts)) {
+                        forecast_methods$set_items(c(" - None - ", fopts))
                     }
                 }
 
@@ -632,9 +672,6 @@ DemestModule <- setRefClass(
                 visible(g_vars) <<- !variables_confirmed
                 visible(g_model) <<- variables_confirmed
 
-
-
-
                 if (variables_confirmed)
                     make_arrays()
             })
@@ -645,10 +682,20 @@ DemestModule <- setRefClass(
                 enabled(weights_chk) <<- !model_confirmed
                 enabled(weights_var_box) <<- !model_confirmed
                 visible(g_model) <<- !model_confirmed
-                visible(g_fit) <<- model_confirmed
+                visible(g_priors) <<- model_confirmed
 
-                if (model_confirmed)
+                if (model_confirmed) {
                     save_model()
+                    set_priors()
+                }
+                visible(g_priors) <<- model_confirmed
+            })
+
+            addPriorsConfirmedObserver(function() {
+                if (model_confirmed && priors_confirmed) parse_priors()
+
+                visible(g_priors) <<- !priors_confirmed
+                visible(g_fit) <<- priors_confirmed
             })
 
             addModelParamsObserver(function() {
@@ -1010,9 +1057,11 @@ DemestModule <- setRefClass(
                     args <- glue::glue("{args}, sd = {m_sd}")
                 }
             }
+            pcomma <- ifelse(model_priors == "", "", ",")
             model_expr <- glue::glue(
                 "demest::Model(
-                    y ~ demest::{model_fw}(mean ~ {model_fmla}{args})
+                    y ~ demest::{model_fw}(mean ~ {model_fmla}{args}){pcomma}
+                    {model_priors}
                 )"
             )
             cat(" * Model formula: ")
@@ -1021,10 +1070,80 @@ DemestModule <- setRefClass(
             model_object <<- eval(parse(text = model_expr))
             print(model_object)
         },
+        set_priors = function() {
+            var_terms <- terms(model_object@formulaMu)
+            fmat <- attr(var_terms, "factors")[-1, ]
+
+            # vars with numeric-variable require a DLM prior..
+            vs <- row.names(fmat)
+            numvars <- var_table$Variable[var_table$Scale %in% c("Intervals", "Points")]
+            needs_prior <- colSums(fmat[numvars,,drop=FALSE])
+            prior_vars <- names(needs_prior)[needs_prior > 0]
+
+            # delete children
+            invisible(lapply(tbl_priors$children, tbl_priors$remove_child))
+
+            ii <- 1L
+            for (v in prior_vars) {
+                tbl_priors[ii, 1L, anchor = c(1, 0), expand = TRUE] <<- glabel(v)
+                tbl_priors[ii, 2L, expand = TRUE] <<- gcombobox(c("", "DLM"))
+                tbl_priors[ii, 3L] <<- gcheckbox("Trend")
+                tbl_priors[ii, 4L] <<- gcheckbox("Damp")
+                addHandlerChanged(tbl_priors[ii, 2L],
+                    function(h, ...) {
+                        # there must be a better way of doing this ...
+                        row_i <- which(
+                            sapply(tbl_priors$children,
+                                function(x) identical(x, h$obj)
+                            )
+                        )
+                        if (!length(row_i)) return()
+                        row_i <- tbl_priors$child_positions[[row_i]]$x
+                        switch(svalue(h$obj),
+                            "DLM" = {
+                                visible(tbl_priors[row_i, 3L]) <<- TRUE
+                                visible(tbl_priors[row_i, 4L]) <<- TRUE
+                            },
+                            {
+                                visible(tbl_priors[row_i, 3L]) <<- FALSE
+                                visible(tbl_priors[row_i, 4L]) <<- FALSE
+                            }
+                        )
+                    }
+                )
+                tbl_priors[ii, 2L]$invoke_change_handler()
+                ii <- ii + 1L
+            }
+        },
+        parse_priors = function() {
+            priors <- character()
+
+            for (i in seq_len(dim(tbl_priors)[1])) {
+                vi <- svalue(tbl_priors[i, 1L])
+                priors <- c(priors,
+                    switch(svalue(tbl_priors[i, 2L]),
+                        "DLM" = {
+                            args <- character()
+                            if (!svalue(tbl_priors[i, 3L]))
+                                args <- c(args, "trend = NULL")
+                            if (!svalue(tbl_priors[i, 4L]))
+                                args <- c(args, "damp = NULL")
+                            args <- paste(args, collapse = ", ")
+                            glue::glue("{vi} ~ demest::DLM({args})")
+                        }
+                    )
+                )
+            }
+
+            model_priors <<- paste(priors, collapse = ",\n")
+
+            save_model()
+        },
         fit_model = function() {
             blockHandlers(fit_model_btn)
             enabled(fit_model_btn) <<- FALSE
             svalue(fit_model_btn) <<- "Running simulations ..."
+            forecast_data <<- NULL
 
             exp_expr <- ifelse(is.na(secondaryvar), "",
                 "exposure = altarray,"
@@ -1080,6 +1199,7 @@ DemestModule <- setRefClass(
             updatePlot()
         },
         forecast = function(type) {
+            print("Start forecast")
             switch(type,
                 "Life expectancy" = {
                     forecast_data <<- demest::fetch(model_file, where = c("model", "likelihood", "rate")) %>%
@@ -1104,6 +1224,76 @@ DemestModule <- setRefClass(
                         ggplot2::geom_line(ggplot2::aes(y = `50%`), col = "darkblue") +
                         ggplot2::xlab("Year") +
                         ggplot2::ylab("Life expectancy at birth (years)")
+                    print(p)
+                },
+                "Forecast" = {
+                    par <- switch(model_fw,
+                            "Poisson" = "rate",
+                            "Binomial" = "prob",
+                            "Normal" = "mean"
+                        )
+
+                    if (is.null(forecast_data)) {
+                        demest::predictModel(
+                            filenameEst = model_file,
+                            filenamePred = forecast_file,
+                            n = 4L
+                        )
+
+                        forecast_data <<- demest::fetchBoth(
+                            filenameEst = model_file,
+                            filenamePred = forecast_file,
+                            where = c("model", "likelihood", par)
+                            ) %>%
+                            dembase::collapseIterations(prob = c(0.025, 0.25, 0.5, 0.75, 0.975)) %>%
+                            as.data.frame(midpoints = "age") %>%
+                            mutate(age = factor(age, labels = levels(data$age)))
+                    }
+
+                    d <- forecast_data %>%
+                        dplyr::mutate(
+                            quantile = paste0("Q",
+                                gsub("%", "",
+                                    gsub(".", "_", quantile, fixed = TRUE),
+                                    fixed = TRUE
+                                )
+                            )
+                        ) %>%
+                        tidyr::pivot_wider(names_from = quantile, values_from = value)
+
+                    cnames <- names(forecast_data)
+                    cnames <- cnames[cnames %notin% c("quantile", "value")]
+
+                    num_vars <- cnames[sapply(d[cnames], iNZightTools::is_num)]
+                    if ("time" %in% num_vars) num_vars <- c("time", num_vars[num_vars != "time"])
+                    cat_vars <- cnames[sapply(d[cnames], iNZightTools::is_cat)]
+                    xvar <- num_vars[1]
+                    cvar <- cat_vars[1]
+                    fvar <- c(cat_vars, num_vars[-1])[2]
+
+                    p <- ggplot2::ggplot(d, ggplot2::aes_string(x = xvar[1], colour = cvar[1])) +
+                        ggplot2::geom_vline(xintercept = max(data[[xvar]]),
+                            colour = "#333333", lty = 2
+                        ) +
+                        ggplot2::geom_ribbon(
+                            ggplot2::aes_string(ymin = "Q2_5", ymax = "Q97_5", fill = cvar[1]),
+                            alpha = 0.2,
+                            size = 0.2
+                        ) +
+                        ggplot2::geom_ribbon(
+                            ggplot2::aes_string(ymin = "Q25", ymax = "Q75", fill = cvar[1]),
+                            alpha = 0.5,
+                            size = 0.2
+                        ) +
+                        ggplot2::geom_line(
+                            ggplot2::aes_string(y = "Q50", colour = cvar[1]),
+                            size = 0.5
+                        ) +
+                        ggplot2::xlab(xvar) +
+                        ggplot2::ylab(par)
+
+                    if (!is.na(fvar))
+                        p <- p + ggplot2::facet_wrap(ggplot2::vars(.data[[fvar]]))
                     print(p)
                 }
             )
@@ -1137,6 +1327,9 @@ DemestModule <- setRefClass(
         },
         addModelConfirmedObserver = function(FUN, ...) {
             .self$model_confirmedChanged$connect(FUN, ...)
+        },
+        addPriorsConfirmedObserver = function(FUN, ...) {
+            .self$priors_confirmedChanged$connect(FUN, ...)
         },
         addModelParamsObserver = function(FUN, ...) {
             .self$model_paramsChanged$connect(FUN, ...)
