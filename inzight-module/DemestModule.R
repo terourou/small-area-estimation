@@ -99,6 +99,7 @@ DemestModule <- setRefClass(
             vartypes <<- sapply(data, iNZightTools::vartype)
             model_file <<- tempfile()
             forecast_file <<- tempfile()
+            forecast_data <<- NULL
 
             install_dependencies(
                 c("tidyr", "ggplot2", "tidybayes", "dembase", "demest", "demlife")
@@ -1142,6 +1143,7 @@ DemestModule <- setRefClass(
             blockHandlers(fit_model_btn)
             enabled(fit_model_btn) <<- FALSE
             svalue(fit_model_btn) <<- "Running simulations ..."
+            forecast_data <<- NULL
 
             exp_expr <- ifelse(is.na(secondaryvar), "",
                 "exposure = altarray,"
@@ -1197,6 +1199,7 @@ DemestModule <- setRefClass(
             updatePlot()
         },
         forecast = function(type) {
+            print("Start forecast")
             switch(type,
                 "Life expectancy" = {
                     forecast_data <<- demest::fetch(model_file, where = c("model", "likelihood", "rate")) %>%
@@ -1224,51 +1227,74 @@ DemestModule <- setRefClass(
                     print(p)
                 },
                 "Forecast" = {
-                    demest::predictModel(
-                        filenameEst = model_file,
-                        filenamePred = forecast_file,
-                        n = 4L
-                    )
-
                     par <- switch(model_fw,
-                        "Poisson" = "rate",
-                        "Binomial" = "prob",
-                        "Normal" = "mean"
-                    )
-                    forecast_data <<- demest::fetchBoth(
-                        filenameEst = model_file,
-                        filenamePred = forecast_file,
-                        where = c("model", "likelihood", par)
-                        ) %>%
-                        # multiply_by(1000) %>%
-                        dembase::collapseIterations(prob = c(0.025, 0.25, 0.5, 0.75, 0.975)) %>%
-                        as.data.frame(midpoints = "age") ## parameterise
+                            "Poisson" = "rate",
+                            "Binomial" = "prob",
+                            "Normal" = "mean"
+                        )
 
-                    forecast_data %>%
-                        tidyr::pivot_wider(names_from = quantile, values_from = value) %>%
-                        ggplot2::ggplot(ggplot2::aes_string(x = "age")) +
-                        ggplot2::facet_grid(ggplot2::vars(area), ggplot2::vars(time)) +
-                        ggplot2::geom_ribbon(
-                            ggplot2::aes(ymin = `2.5%`, ymax = `97.5%`),
-                            fill = "lightskyblue1"
+                    if (is.null(forecast_data)) {
+                        demest::predictModel(
+                            filenameEst = model_file,
+                            filenamePred = forecast_file,
+                            n = 4L
+                        )
+
+                        forecast_data <<- demest::fetchBoth(
+                            filenameEst = model_file,
+                            filenamePred = forecast_file,
+                            where = c("model", "likelihood", par)
+                            ) %>%
+                            dembase::collapseIterations(prob = c(0.025, 0.25, 0.5, 0.75, 0.975)) %>%
+                            as.data.frame(midpoints = "age") %>%
+                            mutate(age = factor(age, labels = levels(data$age)))
+                    }
+
+                    d <- forecast_data %>%
+                        dplyr::mutate(
+                            quantile = paste0("Q",
+                                gsub("%", "",
+                                    gsub(".", "_", quantile, fixed = TRUE),
+                                    fixed = TRUE
+                                )
+                            )
+                        ) %>%
+                        tidyr::pivot_wider(names_from = quantile, values_from = value)
+
+                    cnames <- names(forecast_data)
+                    cnames <- cnames[cnames %notin% c("quantile", "value")]
+
+                    num_vars <- cnames[sapply(d[cnames], iNZightTools::is_num)]
+                    if ("time" %in% num_vars) num_vars <- c("time", num_vars[num_vars != "time"])
+                    cat_vars <- cnames[sapply(d[cnames], iNZightTools::is_cat)]
+                    xvar <- num_vars[1]
+                    cvar <- cat_vars[1]
+                    fvar <- c(cat_vars, num_vars[-1])[2]
+
+                    p <- ggplot2::ggplot(d, ggplot2::aes_string(x = xvar[1], colour = cvar[1])) +
+                        ggplot2::geom_vline(xintercept = max(data[[xvar]]),
+                            colour = "#333333", lty = 2
                         ) +
                         ggplot2::geom_ribbon(
-                            ggplot2::aes(ymin = `25%`, ymax = `75%`),
-                            fill = "lightskyblue3"
-                        ) +
-                        ggplot2::geom_line(
-                            ggplot2::aes(y = `50%`),
-                            col = "white",
+                            ggplot2::aes_string(ymin = "Q2_5", ymax = "Q97_5", fill = cvar[1]),
+                            alpha = 0.2,
                             size = 0.2
                         ) +
-                        # ggplot2::geom_line(
-                        #     ggplot2::aes(x = age, y = value),
-                        #     data = agespecific_direct,
-                        #     size = 0.2,
-                        #     col = "red"
-                        # ) +
-                        ggplot2::xlab("Age") +
-                        ggplot2::ylab("Rate")
+                        ggplot2::geom_ribbon(
+                            ggplot2::aes_string(ymin = "Q25", ymax = "Q75", fill = cvar[1]),
+                            alpha = 0.5,
+                            size = 0.2
+                        ) +
+                        ggplot2::geom_line(
+                            ggplot2::aes_string(y = "Q50", colour = cvar[1]),
+                            size = 0.5
+                        ) +
+                        ggplot2::xlab(xvar) +
+                        ggplot2::ylab(par)
+
+                    if (!is.na(fvar))
+                        p <- p + ggplot2::facet_wrap(ggplot2::vars(.data[[fvar]]))
+                    print(p)
                 }
             )
         },
