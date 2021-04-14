@@ -1247,7 +1247,7 @@ DemestModule <- setRefClass(
                             ) %>%
                             dembase::collapseIterations(prob = c(0.025, 0.25, 0.5, 0.75, 0.975)) %>%
                             as.data.frame(midpoints = "age") %>%
-                            mutate(age = factor(age, labels = levels(data$age)))
+                            dplyr::mutate(age = factor(age, labels = levels(data$age)))
                     }
 
                     d <- forecast_data %>%
