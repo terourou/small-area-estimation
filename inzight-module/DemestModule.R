@@ -1189,7 +1189,7 @@ DemestModule <- setRefClass(
 
             del <- capture.output(
                 model_params <<-
-                    demest::listContents(GUI$activeModule$model_file)$model
+                    demest::listContents(model_file)$model
             )
             rm(del)
 
