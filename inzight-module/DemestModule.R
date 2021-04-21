@@ -1202,6 +1202,7 @@ DemestModule <- setRefClass(
             print("Start forecast")
             switch(type,
                 "Life expectancy" = {
+                    require(dembase) ## currently this is needed otherwise demlife fails, because it uses Depends instead of Imports ...
                     forecast_data <<- demest::fetch(model_file, where = c("model", "likelihood", "rate")) %>%
                         demlife::LifeTable() %>%
                         demlife::lifeExpectancy() %>%
