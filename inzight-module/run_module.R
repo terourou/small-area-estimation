@@ -90,3 +90,13 @@ ui$initializeGui(addonDir = wd)
 
 # 11. choose deaths, then merge population
 # 12. open module
+
+### Diabetes examples
+diabetes <- readRDS("vignettes/diabetes/out/diabetes.rds") |> as.data.frame()
+population <- readRDS("vignettes/diabetes/out/population.rds") |> as.data.frame()
+
+colnames(diabetes)[ncol(diabetes)] <- "diabetes"
+colnames(population)[ncol(population)] <- "population"
+
+dplyr::left_join(diabetes, population, by = c("age", "ethnicity", "time")) |>
+    saveRDS(file = "inzight-module/diabetes.rds")
